@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (selectedYear) {
             try {
                 // URL dasar hosting file JSON Anda (PASTIKAN INI BERAKHIR DENGAN GARIS MIRING '/')
-                const BASE_JSON_URL = 'https://nasrulngegithub.github.io/kode-js-cs/media/datan/'; 
+                const BASE_JSON_URL = 'https://schoolsmaya.github.io/manajemen-js-css/resources/page/json/daftar-nilai/'; 
                 
                 const response = await fetch(`${BASE_JSON_URL}students_${selectedYear}.json`);
                 
