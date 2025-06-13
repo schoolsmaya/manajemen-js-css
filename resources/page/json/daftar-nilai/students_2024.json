@@ -105,19 +105,19 @@
             },	
             "nus": {
                 "Pendidkan Agama dan Budi Pekerti": 90,
-                "Pendidikan Pancasila dan Kewarganegaraan": 85,27,
-                "Bahasa Indonesia": 94,5,
+                "Pendidikan Pancasila dan Kewarganegaraan": 85.27,
+                "Bahasa Indonesia": 94.5,
                 "Matematika (W)": 87,
                 "Sejarah Indonesia": 92,
-                "Bahasa Inggris": 86,35,
+                "Bahasa Inggris": 86.35,
                 "Seni Budaya": 88,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92,5,
-                "Prakarya dan Kewirausahaan": 87,43,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92.5,
+                "Prakarya dan Kewirausahaan": 87.43,
                 "Matematika": 87,
-                "Biologi": 86,33,
-                "Fisika": 87,67,
-                "Kimia": 88,67,
-                "Bahasa dan Sastra Inggris": 87,5
+                "Biologi": 86.33,
+                "Fisika": 87.67,
+                "Kimia": 88.67,
+                "Bahasa dan Sastra Inggris": 87.5
             }
         }
     },
@@ -229,19 +229,19 @@
             },	
             "nus": {
                 "Pendidkan Agama dan Budi Pekerti": 93,
-                "Pendidikan Pancasila dan Kewarganegaraan": 89,57,
+                "Pendidikan Pancasila dan Kewarganegaraan": 89.57,
                 "Bahasa Indonesia": 93,
-                "Matematika (W)": 87,33,
-                "Sejarah Indonesia": 89,71,
-                "Bahasa Inggris": 87,52,
-                "Seni Budaya": 88,43,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92,14,
+                "Matematika (W)": 87.33,
+                "Sejarah Indonesia": 89.71,
+                "Bahasa Inggris": 87.52,
+                "Seni Budaya": 88.43,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92.14,
                 "Prakarya dan Kewirausahaan": 88,
-                "Matematika": 87,33,
-                "Biologi": 87,29,
-                "Fisika": 87,33,
-                "Kimia": 86,57,
-                "Bahasa dan Sastra Inggris": 89,5
+                "Matematika": 87.33,
+                "Biologi": 87.29,
+                "Fisika": 87.33,
+                "Kimia": 86.57,
+                "Bahasa dan Sastra Inggris": 89.5
             }
         }
     },
@@ -352,20 +352,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 91 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 93,57,
+                "Pendidkan Agama dan Budi Pekerti": 93.57,
                 "Pendidikan Pancasila dan Kewarganegaraan": 92,
-                "Bahasa Indonesia": 94,91,
-                "Matematika (W)": 88,41,
-                "Sejarah Indonesia": 91,43,
-                "Bahasa Inggris": 87,5,
-                "Seni Budaya": 92,43,
+                "Bahasa Indonesia": 94.91,
+                "Matematika (W)": 88.41,
+                "Sejarah Indonesia": 91.43,
+                "Bahasa Inggris": 87.5,
+                "Seni Budaya": 92.43,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 90,33,
-                "Matematika": 88,41,
-                "Biologi": 89,43,
-                "Fisika": 87,57,
+                "Prakarya dan Kewirausahaan": 90.33,
+                "Matematika": 88.41,
+                "Biologi": 89.43,
+                "Fisika": 87.57,
                 "Kimia": 90,
-                "Bahasa dan Sastra Inggris": 89,67
+                "Bahasa dan Sastra Inggris": 89.67
             }
         }
     },
@@ -477,19 +477,19 @@
             },	
             "nus": {
                 "Pendidkan Agama dan Budi Pekerti": 94,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,57,
-                "Bahasa Indonesia": 93,91,
-                "Matematika (W)": 90,5,
-                "Sejarah Indonesia": 92,57,
-                "Bahasa Inggris": 87,35,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.57,
+                "Bahasa Indonesia": 93.91,
+                "Matematika (W)": 90.5,
+                "Sejarah Indonesia": 92.57,
+                "Bahasa Inggris": 87.35,
                 "Seni Budaya": 95,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,35,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.35,
                 "Prakarya dan Kewirausahaan": 92,
-                "Matematika": 90,5,
-                "Biologi": 92,67,
-                "Fisika": 88,5,
-                "Kimia": 87,73,
-                "Bahasa dan Sastra Inggris": 92,29
+                "Matematika": 90.5,
+                "Biologi": 92.67,
+                "Fisika": 88.5,
+                "Kimia": 87.73,
+                "Bahasa dan Sastra Inggris": 92.29
             }
         }
     },
@@ -600,19 +600,19 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 87 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 90,43,
-                "Pendidikan Pancasila dan Kewarganegaraan": 89,33,
-                "Bahasa Indonesia": 93,27,
-                "Matematika (W)": 87,5,
-                "Sejarah Indonesia": 86,29,
-                "Bahasa Inggris": 86,87,
-                "Seni Budaya": 87,14,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 89,57,
-                "Prakarya dan Kewirausahaan": 87,14,
-                "Matematika": 87,5,
-                "Biologi": 86,33,
-                "Fisika": 87,33,
-                "Kimia": 86,57,
+                "Pendidkan Agama dan Budi Pekerti": 90.43,
+                "Pendidikan Pancasila dan Kewarganegaraan": 89.33,
+                "Bahasa Indonesia": 93.27,
+                "Matematika (W)": 87.5,
+                "Sejarah Indonesia": 86.29,
+                "Bahasa Inggris": 86.87,
+                "Seni Budaya": 87.14,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 89.57,
+                "Prakarya dan Kewirausahaan": 87.14,
+                "Matematika": 87.5,
+                "Biologi": 86.33,
+                "Fisika": 87.33,
+                "Kimia": 86.57,
                 "Bahasa dan Sastra Inggris": 87
             }
         }
@@ -724,19 +724,19 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 92 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 93,71,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,88,
-                "Bahasa Indonesia": 93,87,
+                "Pendidkan Agama dan Budi Pekerti": 93.71,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.88,
+                "Bahasa Indonesia": 93.87,
                 "Matematika (W)": 92,
-                "Sejarah Indonesia": 87,48,
-                "Bahasa Inggris": 89,33,
-                "Seni Budaya": 90,37,
+                "Sejarah Indonesia": 87.48,
+                "Bahasa Inggris": 89.33,
+                "Seni Budaya": 90.37,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 92,5,
+                "Prakarya dan Kewirausahaan": 92.5,
                 "Matematika": 92,
-                "Biologi": 90,88,
-                "Fisika": 89,71,
-                "Kimia": 90,33,
+                "Biologi": 90.88,
+                "Fisika": 89.71,
+                "Kimia": 90.33,
                 "Bahasa dan Sastra Inggris": 92
             }
         }
@@ -849,19 +849,19 @@
             },	
             "nus": {
                 "Pendidkan Agama dan Budi Pekerti": 95,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,87,
-                "Bahasa Indonesia": 94,5,
-                "Matematika (W)": 90,73,
-                "Sejarah Indonesia": 90,71,
-                "Bahasa Inggris": 89,71,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.87,
+                "Bahasa Indonesia": 94.5,
+                "Matematika (W)": 90.73,
+                "Sejarah Indonesia": 90.71,
+                "Bahasa Inggris": 89.71,
                 "Seni Budaya": 94,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 93,88,
-                "Matematika": 90,73,
+                "Prakarya dan Kewirausahaan": 93.88,
+                "Matematika": 90.73,
                 "Biologi": 92,
                 "Fisika": 93,
-                "Kimia": 90,33,
-                "Bahasa dan Sastra Inggris": 91,5
+                "Kimia": 90.33,
+                "Bahasa dan Sastra Inggris": 91.5
             }
         }
     },
@@ -972,20 +972,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 89 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 90,33,
-                "Pendidikan Pancasila dan Kewarganegaraan": 89,29,
+                "Pendidkan Agama dan Budi Pekerti": 90.33,
+                "Pendidikan Pancasila dan Kewarganegaraan": 89.29,
                 "Bahasa Indonesia": 93,
-                "Matematika (W)": 87,35,
-                "Sejarah Indonesia": 89,71,
-                "Bahasa Inggris": 87,57,
-                "Seni Budaya": 88,14,
+                "Matematika (W)": 87.35,
+                "Sejarah Indonesia": 89.71,
+                "Bahasa Inggris": 87.57,
+                "Seni Budaya": 88.14,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,
-                "Prakarya dan Kewirausahaan": 92,5,
-                "Matematika": 87,35,
-                "Biologi": 87,33,
-                "Fisika": 87,29,
-                "Kimia": 88,14,
-                "Bahasa dan Sastra Inggris": 87,5
+                "Prakarya dan Kewirausahaan": 92.5,
+                "Matematika": 87.35,
+                "Biologi": 87.33,
+                "Fisika": 87.29,
+                "Kimia": 88.14,
+                "Bahasa dan Sastra Inggris": 87.5
             }
         }
     },
@@ -1096,20 +1096,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 93 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 95,57,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,33,
-                "Bahasa Indonesia": 94,71,
-                "Matematika (W)": 89,73,
-                "Sejarah Indonesia": 90,57,
-                "Bahasa Inggris": 88,5,
-                "Seni Budaya": 90,71,
+                "Pendidkan Agama dan Budi Pekerti": 95.57,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.33,
+                "Bahasa Indonesia": 94.71,
+                "Matematika (W)": 89.73,
+                "Sejarah Indonesia": 90.57,
+                "Bahasa Inggris": 88.5,
+                "Seni Budaya": 90.71,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 92,88,
-                "Matematika": 89,71,
-                "Biologi": 89,5,
-                "Fisika": 89,71,
-                "Kimia": 90,14,
-                "Bahasa dan Sastra Inggris": 92,33
+                "Prakarya dan Kewirausahaan": 92.88,
+                "Matematika": 89.71,
+                "Biologi": 89.5,
+                "Fisika": 89.71,
+                "Kimia": 90.14,
+                "Bahasa dan Sastra Inggris": 92.33
             }
         }
     },
@@ -1221,19 +1221,19 @@
             },	
             "nus": {
                 "Pendidkan Agama dan Budi Pekerti": 95,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,87,
-                "Bahasa Indonesia": 94,71,
-                "Matematika (W)": 90,14,
-                "Sejarah Indonesia": 93,33,
-                "Bahasa Inggris": 89,29,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.87,
+                "Bahasa Indonesia": 94.71,
+                "Matematika (W)": 90.14,
+                "Sejarah Indonesia": 93.33,
+                "Bahasa Inggris": 89.29,
                 "Seni Budaya": 95,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 96,
-                "Prakarya dan Kewirausahaan": 90,88,
-                "Matematika": 90,14,
-                "Biologi": 89,88,
-                "Fisika": 90,5,
-                "Kimia": 89,33,
-                "Bahasa dan Sastra Inggris": 90,71
+                "Prakarya dan Kewirausahaan": 90.88,
+                "Matematika": 90.14,
+                "Biologi": 89.88,
+                "Fisika": 90.5,
+                "Kimia": 89.33,
+                "Bahasa dan Sastra Inggris": 90.71
             }
         }
     },
@@ -1344,20 +1344,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 93 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,33,
-                "Pendidikan Pancasila dan Kewarganegaraan": 88,14,
+                "Pendidkan Agama dan Budi Pekerti": 92.33,
+                "Pendidikan Pancasila dan Kewarganegaraan": 88.14,
                 "Bahasa Indonesia": 95,
-                "Matematika (W)": 87,71,
-                "Sejarah Indonesia": 90,33,
-                "Bahasa Inggris": 87,35,
-                "Seni Budaya": 89,5,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92,71,
-                "Prakarya dan Kewirausahaan": 90,14,
-                "Matematika": 88,29,
-                "Biologi": 89,29,
-                "Fisika": 88,33,
-                "Kimia": 87,71,
-                "Bahasa dan Sastra Inggris": 90,29
+                "Matematika (W)": 87.71,
+                "Sejarah Indonesia": 90.33,
+                "Bahasa Inggris": 87.35,
+                "Seni Budaya": 89.5,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92.71,
+                "Prakarya dan Kewirausahaan": 90.14,
+                "Matematika": 88.29,
+                "Biologi": 89.29,
+                "Fisika": 88.33,
+                "Kimia": 87.71,
+                "Bahasa dan Sastra Inggris": 90.29
             }
         }
     },
@@ -1468,20 +1468,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 89,88,
-                "Pendidikan Pancasila dan Kewarganegaraan": 87,71,
-                "Bahasa Indonesia": 92,88,
-                "Matematika (W)": 86,33,
-                "Sejarah Indonesia": 87,33,
-                "Bahasa Inggris": 86,29,
-                "Seni Budaya": 87,5,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 90,71,
-                "Prakarya dan Kewirausahaan": 88,71,
-                "Matematika": 86,33,
-                "Biologi": 87,5,
-                "Fisika": 88,33,
-                "Kimia": 87,35,
-                "Bahasa dan Sastra Inggris": 86,29
+                "Pendidkan Agama dan Budi Pekerti": 89.88,
+                "Pendidikan Pancasila dan Kewarganegaraan": 87.71,
+                "Bahasa Indonesia": 92.88,
+                "Matematika (W)": 86.33,
+                "Sejarah Indonesia": 87.33,
+                "Bahasa Inggris": 86.29,
+                "Seni Budaya": 87.5,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 90.71,
+                "Prakarya dan Kewirausahaan": 88.71,
+                "Matematika": 86.33,
+                "Biologi": 87.5,
+                "Fisika": 88.33,
+                "Kimia": 87.35,
+                "Bahasa dan Sastra Inggris": 86.29
             }
         }
     },
@@ -1592,20 +1592,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,88,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,14,
-                "Bahasa Indonesia": 93,71,
-                "Matematika (W)": 87,33,
-                "Sejarah Indonesia": 88,71,
-                "Bahasa Inggris": 87,5,
-                "Seni Budaya": 89,29,
+                "Pendidkan Agama dan Budi Pekerti": 92.88,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.14,
+                "Bahasa Indonesia": 93.71,
+                "Matematika (W)": 87.33,
+                "Sejarah Indonesia": 88.71,
+                "Bahasa Inggris": 87.5,
+                "Seni Budaya": 89.29,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,
-                "Prakarya dan Kewirausahaan": 90,71,
-                "Matematika": 87,33,
-                "Biologi": 87,5,
-                "Fisika": 87,35,
-                "Kimia": 87,5,
-                "Bahasa dan Sastra Inggris": 88,14
+                "Prakarya dan Kewirausahaan": 90.71,
+                "Matematika": 87.33,
+                "Biologi": 87.5,
+                "Fisika": 87.35,
+                "Kimia": 87.5,
+                "Bahasa dan Sastra Inggris": 88.14
             }
         }
     },
@@ -1716,20 +1716,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 93,29,
-                "Pendidikan Pancasila dan Kewarganegaraan": 89,71,
-                "Bahasa Indonesia": 93,5,
-                "Matematika (W)": 88,14,
-                "Sejarah Indonesia": 87,71,
-                "Bahasa Inggris": 87,33,
-                "Seni Budaya": 89,5,
+                "Pendidkan Agama dan Budi Pekerti": 93.29,
+                "Pendidikan Pancasila dan Kewarganegaraan": 89.71,
+                "Bahasa Indonesia": 93.5,
+                "Matematika (W)": 88.14,
+                "Sejarah Indonesia": 87.71,
+                "Bahasa Inggris": 87.33,
+                "Seni Budaya": 89.5,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 92,33,
-                "Matematika": 88,14,
-                "Biologi": 87,33,
-                "Fisika": 87,29,
-                "Kimia": 88,35,
-                "Bahasa dan Sastra Inggris": 89,33
+                "Prakarya dan Kewirausahaan": 92.33,
+                "Matematika": 88.14,
+                "Biologi": 87.33,
+                "Fisika": 87.29,
+                "Kimia": 88.35,
+                "Bahasa dan Sastra Inggris": 89.33
             }
         }
     },
@@ -1840,20 +1840,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 90,71,
-                "Pendidikan Pancasila dan Kewarganegaraan": 89,88,
-                "Bahasa Indonesia": 92,71,
-                "Matematika (W)": 86,33,
-                "Sejarah Indonesia": 87,5,
-                "Bahasa Inggris": 86,71,
-                "Seni Budaya": 87,29,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 90,29,
-                "Prakarya dan Kewirausahaan": 86,88,
-                "Matematika": 86,33,
-                "Biologi": 87,29,
-                "Fisika": 86,33,
-                "Kimia": 87,5,
-                "Bahasa dan Sastra Inggris": 88,71
+                "Pendidkan Agama dan Budi Pekerti": 90.71,
+                "Pendidikan Pancasila dan Kewarganegaraan": 89.88,
+                "Bahasa Indonesia": 92.71,
+                "Matematika (W)": 86.33,
+                "Sejarah Indonesia": 87.5,
+                "Bahasa Inggris": 86.71,
+                "Seni Budaya": 87.29,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 90.29,
+                "Prakarya dan Kewirausahaan": 86.88,
+                "Matematika": 86.33,
+                "Biologi": 87.29,
+                "Fisika": 86.33,
+                "Kimia": 87.5,
+                "Bahasa dan Sastra Inggris": 88.71
             }
         }
     },
@@ -1965,19 +1965,19 @@
             },	
             "nus": {
                 "Pendidkan Agama dan Budi Pekerti": 95,
-                "Pendidikan Pancasila dan Kewarganegaraan": 93,29,
-                "Bahasa Indonesia": 94,71,
-                "Matematika (W)": 89,14,
-                "Sejarah Indonesia": 90,33,
-                "Bahasa Inggris": 88,5,
-                "Seni Budaya": 92,88,
+                "Pendidikan Pancasila dan Kewarganegaraan": 93.29,
+                "Bahasa Indonesia": 94.71,
+                "Matematika (W)": 89.14,
+                "Sejarah Indonesia": 90.33,
+                "Bahasa Inggris": 88.5,
+                "Seni Budaya": 92.88,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 93,33,
-                "Matematika": 89,14,
-                "Biologi": 90,71,
-                "Fisika": 89,88,
-                "Kimia": 88,5,
-                "Bahasa dan Sastra Inggris": 90,71
+                "Prakarya dan Kewirausahaan": 93.33,
+                "Matematika": 89.14,
+                "Biologi": 90.71,
+                "Fisika": 89.88,
+                "Kimia": 88.5,
+                "Bahasa dan Sastra Inggris": 90.71
             }
         }
     },
@@ -2088,20 +2088,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 93, "psik": 92 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 90,88,
-                "Pendidikan Pancasila dan Kewarganegaraan": 89,79,
-                "Bahasa Indonesia": 93,88,
-                "Matematika (W)": 87,71,
-                "Sejarah Indonesia": 90,5,
-                "Bahasa Inggris": 87,33,
-                "Seni Budaya": 88,35,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92,35,
-                "Prakarya dan Kewirausahaan": 92,14,
-                "Matematika": 87,72,
-                "Biologi": 87,88,
-                "Fisika": 88,5,
-                "Kimia": 89,33,
-                "Bahasa dan Sastra Inggris": 92,29
+                "Pendidkan Agama dan Budi Pekerti": 90.88,
+                "Pendidikan Pancasila dan Kewarganegaraan": 89.79,
+                "Bahasa Indonesia": 93.88,
+                "Matematika (W)": 87.71,
+                "Sejarah Indonesia": 90.5,
+                "Bahasa Inggris": 87.33,
+                "Seni Budaya": 88.35,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92.35,
+                "Prakarya dan Kewirausahaan": 92.14,
+                "Matematika": 87.72,
+                "Biologi": 87.88,
+                "Fisika": 88.5,
+                "Kimia": 89.33,
+                "Bahasa dan Sastra Inggris": 92.29
             }
         }
     },
@@ -2212,20 +2212,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 89 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,33,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,88,
-                "Bahasa Indonesia": 93,71,
-                "Matematika (W)": 87,33,
-                "Sejarah Indonesia": 90,35,
-                "Bahasa Inggris": 87,33,
-                "Seni Budaya": 88,29,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,14,
-                "Prakarya dan Kewirausahaan": 89,35,
-                "Matematika": 87,33,
-                "Biologi": 87,71,
-                "Fisika": 88,29,
-                "Kimia": 89,14,
-                "Bahasa dan Sastra Inggris": 88,5
+                "Pendidkan Agama dan Budi Pekerti": 92.33,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.88,
+                "Bahasa Indonesia": 93.71,
+                "Matematika (W)": 87.33,
+                "Sejarah Indonesia": 90.35,
+                "Bahasa Inggris": 87.33,
+                "Seni Budaya": 88.29,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.14,
+                "Prakarya dan Kewirausahaan": 89.35,
+                "Matematika": 87.33,
+                "Biologi": 87.71,
+                "Fisika": 88.29,
+                "Kimia": 89.14,
+                "Bahasa dan Sastra Inggris": 88.5
             }
         }
     },
@@ -2336,20 +2336,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 93 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,35,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,29,
-                "Bahasa Indonesia": 93,88,
-                "Matematika (W)": 87,5,
-                "Sejarah Indonesia": 90,71,
-                "Bahasa Inggris": 87,35,
-                "Seni Budaya": 90,33,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,29,
-                "Prakarya dan Kewirausahaan": 90,14,
-                "Matematika": 87,5,
-                "Biologi": 87,35,
-                "Fisika": 87,5,
-                "Kimia": 88,37,
-                "Bahasa dan Sastra Inggris": 90,29
+                "Pendidkan Agama dan Budi Pekerti": 92.35,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.29,
+                "Bahasa Indonesia": 93.88,
+                "Matematika (W)": 87.5,
+                "Sejarah Indonesia": 90.71,
+                "Bahasa Inggris": 87.35,
+                "Seni Budaya": 90.33,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.29,
+                "Prakarya dan Kewirausahaan": 90.14,
+                "Matematika": 87.5,
+                "Biologi": 87.35,
+                "Fisika": 87.5,
+                "Kimia": 88.37,
+                "Bahasa dan Sastra Inggris": 90.29
             }
         }
     },
@@ -2460,20 +2460,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 90,33,
-                "Pendidikan Pancasila dan Kewarganegaraan": 88,35,
-                "Bahasa Indonesia": 93,14,
-                "Matematika (W)": 87,29,
-                "Sejarah Indonesia": 88,33,
-                "Bahasa Inggris": 87,29,
-                "Seni Budaya": 87,35,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92,29,
-                "Prakarya dan Kewirausahaan": 88,5,
-                "Matematika": 87,29,
-                "Biologi": 87,33,
-                "Fisika": 87,5,
-                "Kimia": 88,14,
-                "Bahasa dan Sastra Inggris": 90,33
+                "Pendidkan Agama dan Budi Pekerti": 90.33,
+                "Pendidikan Pancasila dan Kewarganegaraan": 88.35,
+                "Bahasa Indonesia": 93.14,
+                "Matematika (W)": 87.29,
+                "Sejarah Indonesia": 88.33,
+                "Bahasa Inggris": 87.29,
+                "Seni Budaya": 87.35,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92.29,
+                "Prakarya dan Kewirausahaan": 88.5,
+                "Matematika": 87.29,
+                "Biologi": 87.33,
+                "Fisika": 87.5,
+                "Kimia": 88.14,
+                "Bahasa dan Sastra Inggris": 90.33
             }
         }
     },
@@ -2584,20 +2584,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 92 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,88,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,33,
-                "Bahasa Indonesia": 94,71,
-                "Matematika (W)": 87,35,
-                "Sejarah Indonesia": 87,33,
-                "Bahasa Inggris": 87,5,
-                "Seni Budaya": 89,45,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,33,
-                "Prakarya dan Kewirausahaan": 88,14,
-                "Matematika": 87,35,
-                "Biologi": 87,71,
-                "Fisika": 88,35,
-                "Kimia": 87,5,
-                "Bahasa dan Sastra Inggris": 90,29
+                "Pendidkan Agama dan Budi Pekerti": 92.88,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.33,
+                "Bahasa Indonesia": 94.71,
+                "Matematika (W)": 87.35,
+                "Sejarah Indonesia": 87.33,
+                "Bahasa Inggris": 87.5,
+                "Seni Budaya": 89.45,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.33,
+                "Prakarya dan Kewirausahaan": 88.14,
+                "Matematika": 87.35,
+                "Biologi": 87.71,
+                "Fisika": 88.35,
+                "Kimia": 87.5,
+                "Bahasa dan Sastra Inggris": 90.29
             }
         }
     },
@@ -2708,20 +2708,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 91 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 90,71,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,35,
-                "Bahasa Indonesia": 94,14,
-                "Matematika (W)": 87,35,
-                "Sejarah Indonesia": 90,29,
-                "Bahasa Inggris": 87,71,
-                "Seni Budaya": 89,35,
+                "Pendidkan Agama dan Budi Pekerti": 90.71,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.35,
+                "Bahasa Indonesia": 94.14,
+                "Matematika (W)": 87.35,
+                "Sejarah Indonesia": 90.29,
+                "Bahasa Inggris": 87.71,
+                "Seni Budaya": 89.35,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 91,14,
-                "Matematika": 87,35,
-                "Biologi": 87,5,
-                "Fisika": 89,14,
-                "Kimia": 87,33,
-                "Bahasa dan Sastra Inggris": 90,29
+                "Prakarya dan Kewirausahaan": 91.14,
+                "Matematika": 87.35,
+                "Biologi": 87.5,
+                "Fisika": 89.14,
+                "Kimia": 87.33,
+                "Bahasa dan Sastra Inggris": 90.29
             }
         }
     },
@@ -2832,20 +2832,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,71,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,33,
-                "Bahasa Indonesia": 94,88,
-                "Matematika (W)": 87,5,
-                "Sejarah Indonesia": 92,35,
-                "Bahasa Inggris": 87,71,
-                "Seni Budaya": 89,35,
+                "Pendidkan Agama dan Budi Pekerti": 92.71,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.33,
+                "Bahasa Indonesia": 94.88,
+                "Matematika (W)": 87.5,
+                "Sejarah Indonesia": 92.35,
+                "Bahasa Inggris": 87.71,
+                "Seni Budaya": 89.35,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 87,88,
-                "Matematika": 87,5,
-                "Biologi": 87,45,
-                "Fisika": 87,5,
-                "Kimia": 88,33,
-                "Bahasa dan Sastra Inggris": 92,35
+                "Prakarya dan Kewirausahaan": 87.88,
+                "Matematika": 87.5,
+                "Biologi": 87.45,
+                "Fisika": 87.5,
+                "Kimia": 88.33,
+                "Bahasa dan Sastra Inggris": 92.35
             }
         }
     },
@@ -2956,20 +2956,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 94, "psik": 93 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 95,33,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,88,
-                "Bahasa Indonesia": 94,71,
-                "Matematika (W)": 92,5,
-                "Sejarah Indonesia": 92,35,
-                "Bahasa Inggris": 89,30,
-                "Seni Budaya": 90,71,
+                "Pendidkan Agama dan Budi Pekerti": 95.33,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.88,
+                "Bahasa Indonesia": 94.71,
+                "Matematika (W)": 92.5,
+                "Sejarah Indonesia": 92.35,
+                "Bahasa Inggris": 89.30,
+                "Seni Budaya": 90.71,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 92,29,
-                "Matematika": 92,5,
-                "Biologi": 89,88,
-                "Fisika": 90,71,
-                "Kimia": 92,29,
-                "Bahasa dan Sastra Inggris": 93,33
+                "Prakarya dan Kewirausahaan": 92.29,
+                "Matematika": 92.5,
+                "Biologi": 89.88,
+                "Fisika": 90.71,
+                "Kimia": 92.29,
+                "Bahasa dan Sastra Inggris": 93.33
             }
         }
     },
@@ -3080,20 +3080,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 90 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 93,35,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,33,
-                "Bahasa Indonesia": 94,71,
-                "Matematika (W)": 89,35,
-                "Sejarah Indonesia": 87,71,
-                "Bahasa Inggris": 88,5,
-                "Seni Budaya": 90,88,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,35,
-                "Prakarya dan Kewirausahaan": 92,45,
-                "Matematika": 89,35,
-                "Biologi": 87,5,
-                "Fisika": 89,88,
-                "Kimia": 90,33,
-                "Bahasa dan Sastra Inggris": 92,29
+                "Pendidkan Agama dan Budi Pekerti": 93.35,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.33,
+                "Bahasa Indonesia": 94.71,
+                "Matematika (W)": 89.35,
+                "Sejarah Indonesia": 87.71,
+                "Bahasa Inggris": 88.5,
+                "Seni Budaya": 90.88,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95.35,
+                "Prakarya dan Kewirausahaan": 92.45,
+                "Matematika": 89.35,
+                "Biologi": 87.5,
+                "Fisika": 89.88,
+                "Kimia": 90.33,
+                "Bahasa dan Sastra Inggris": 92.29
             }
         }
     },
@@ -3204,20 +3204,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 91 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,35,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,33,
-                "Bahasa Indonesia": 93,88,
-                "Matematika (W)": 87,33,
-                "Sejarah Indonesia": 89,5,
-                "Bahasa Inggris": 87,35,
-                "Seni Budaya": 88,29,
+                "Pendidkan Agama dan Budi Pekerti": 92.35,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.33,
+                "Bahasa Indonesia": 93.88,
+                "Matematika (W)": 87.33,
+                "Sejarah Indonesia": 89.5,
+                "Bahasa Inggris": 87.35,
+                "Seni Budaya": 88.29,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,
-                "Prakarya dan Kewirausahaan": 92,29,
-                "Matematika": 87,33,
-                "Biologi": 87,29,
-                "Fisika": 87,33,
-                "Kimia": 88,5,
-                "Bahasa dan Sastra Inggris": 90,14
+                "Prakarya dan Kewirausahaan": 92.29,
+                "Matematika": 87.33,
+                "Biologi": 87.29,
+                "Fisika": 87.33,
+                "Kimia": 88.5,
+                "Bahasa dan Sastra Inggris": 90.14
             }
         }
     },
@@ -3328,20 +3328,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 92 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,35,
-                "Pendidikan Pancasila dan Kewarganegaraan": 89,71,
-                "Bahasa Indonesia": 93,88,
-                "Matematika (W)": 87,29,
-                "Sejarah Indonesia": 90,71,
-                "Bahasa Inggris": 87,5,
-                "Seni Budaya": 90,88,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,33,
-                "Prakarya dan Kewirausahaan": 87,35,
-                "Matematika": 87,29,
-                "Biologi": 87,71,
-                "Fisika": 89,33,
-                "Kimia": 88,35,
-                "Bahasa dan Sastra Inggris": 90,71
+                "Pendidkan Agama dan Budi Pekerti": 92.35,
+                "Pendidikan Pancasila dan Kewarganegaraan": 89.71,
+                "Bahasa Indonesia": 93.88,
+                "Matematika (W)": 87.29,
+                "Sejarah Indonesia": 90.71,
+                "Bahasa Inggris": 87.5,
+                "Seni Budaya": 90.88,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.33,
+                "Prakarya dan Kewirausahaan": 87.35,
+                "Matematika": 87.29,
+                "Biologi": 87.71,
+                "Fisika": 89.33,
+                "Kimia": 88.35,
+                "Bahasa dan Sastra Inggris": 90.71
             }
         }
     },
@@ -3452,20 +3452,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 91, "psik": 92 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,33,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,29,
-                "Bahasa Indonesia": 93,5,
-                "Matematika (W)": 87,33,
-                "Sejarah Indonesia": 90,33,
-                "Bahasa Inggris": 87,35,
-                "Seni Budaya": 89,71,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,14,
-                "Prakarya dan Kewirausahaan": 89,29,
-                "Matematika": 87,33,
-                "Biologi": 87,5,
-                "Fisika": 87,33,
-                "Kimia": 88,14,
-                "Bahasa dan Sastra Inggris": 90,5
+                "Pendidkan Agama dan Budi Pekerti": 92.33,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.29,
+                "Bahasa Indonesia": 93.5,
+                "Matematika (W)": 87.33,
+                "Sejarah Indonesia": 90.33,
+                "Bahasa Inggris": 87.35,
+                "Seni Budaya": 89.71,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.14,
+                "Prakarya dan Kewirausahaan": 89.29,
+                "Matematika": 87.33,
+                "Biologi": 87.5,
+                "Fisika": 87.33,
+                "Kimia": 88.14,
+                "Bahasa dan Sastra Inggris": 90.5
             }
         }
     },
@@ -3576,20 +3576,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 90 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 90,87,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,88,
-                "Bahasa Indonesia": 93,5,
-                "Matematika (W)": 87,33,
-                "Sejarah Indonesia": 88,35,
-                "Bahasa Inggris": 87,14,
-                "Seni Budaya": 89,29,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92,29,
-                "Prakarya dan Kewirausahaan": 88,33,
-                "Matematika": 87,33,
-                "Biologi": 87,33,
-                "Fisika": 87,35,
-                "Kimia": 87,35,
-                "Bahasa dan Sastra Inggris": 88,14
+                "Pendidkan Agama dan Budi Pekerti": 90.87,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.88,
+                "Bahasa Indonesia": 93.5,
+                "Matematika (W)": 87.33,
+                "Sejarah Indonesia": 88.35,
+                "Bahasa Inggris": 87.14,
+                "Seni Budaya": 89.29,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92.29,
+                "Prakarya dan Kewirausahaan": 88.33,
+                "Matematika": 87.33,
+                "Biologi": 87.33,
+                "Fisika": 87.35,
+                "Kimia": 87.35,
+                "Bahasa dan Sastra Inggris": 88.14
             }
         }
     },
@@ -3700,19 +3700,19 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 90 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 90,29,
-                "Pendidikan Pancasila dan Kewarganegaraan": 89,33,
-                "Bahasa Indonesia": 93,88,
-                "Matematika (W)": 87,29,
-                "Sejarah Indonesia": 88,35,
-                "Bahasa Inggris": 87,33,
-                "Seni Budaya": 88,14,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,14,
-                "Prakarya dan Kewirausahaan": 89,29,
-                "Matematika": 87,29,
-                "Biologi": 87,33,
-                "Fisika": 88,35,
-                "Kimia": 87,33,
+                "Pendidkan Agama dan Budi Pekerti": 90.29,
+                "Pendidikan Pancasila dan Kewarganegaraan": 89.33,
+                "Bahasa Indonesia": 93.88,
+                "Matematika (W)": 87.29,
+                "Sejarah Indonesia": 88.35,
+                "Bahasa Inggris": 87.33,
+                "Seni Budaya": 88.14,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.14,
+                "Prakarya dan Kewirausahaan": 89.29,
+                "Matematika": 87.29,
+                "Biologi": 87.33,
+                "Fisika": 88.35,
+                "Kimia": 87.33,
                 "Bahasa dan Sastra Inggris": 88
             }
         }
@@ -3824,20 +3824,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 90 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 89,88,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,14,
-                "Bahasa Indonesia": 90,87,
-                "Matematika (W)": 87,14,
-                "Sejarah Indonesia": 87,33,
-                "Bahasa Inggris": 86,88,
-                "Seni Budaya": 88,33,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 89,35,
-                "Prakarya dan Kewirausahaan": 87,71,
-                "Matematika": 87,14,
-                "Biologi": 87,33,
-                "Fisika": 87,35,
-                "Kimia": 87,45,
-                "Bahasa dan Sastra Inggris": 88,33
+                "Pendidkan Agama dan Budi Pekerti": 89.88,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.14,
+                "Bahasa Indonesia": 90.87,
+                "Matematika (W)": 87.14,
+                "Sejarah Indonesia": 87.33,
+                "Bahasa Inggris": 86.88,
+                "Seni Budaya": 88.33,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 89.35,
+                "Prakarya dan Kewirausahaan": 87.71,
+                "Matematika": 87.14,
+                "Biologi": 87.33,
+                "Fisika": 87.35,
+                "Kimia": 87.45,
+                "Bahasa dan Sastra Inggris": 88.33
             }
         }
     },
@@ -3948,20 +3948,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,87,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,33,
-                "Bahasa Indonesia": 93,88,
-                "Matematika (W)": 87,35,
-                "Sejarah Indonesia": 88,14,
-                "Bahasa Inggris": 87,33,
-                "Seni Budaya": 88,71,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92,45,
+                "Pendidkan Agama dan Budi Pekerti": 92.87,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.33,
+                "Bahasa Indonesia": 93.88,
+                "Matematika (W)": 87.35,
+                "Sejarah Indonesia": 88.14,
+                "Bahasa Inggris": 87.33,
+                "Seni Budaya": 88.71,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 92.45,
                 "Prakarya dan Kewirausahaan": 93,
-                "Matematika": 87,35,
-                "Biologi": 87,14,
-                "Fisika": 86,33,
-                "Kimia": 87,29,
-                "Bahasa dan Sastra Inggris": 89,5
+                "Matematika": 87.35,
+                "Biologi": 87.14,
+                "Fisika": 86.33,
+                "Kimia": 87.29,
+                "Bahasa dan Sastra Inggris": 89.5
             }
         }
     },
@@ -4072,20 +4072,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 91 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 93,71,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,88,
-                "Bahasa Indonesia": 94,35,
-                "Matematika (W)": 87,33,
-                "Sejarah Indonesia": 92,29,
-                "Bahasa Inggris": 87,14,
-                "Seni Budaya": 90,5,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,29,
-                "Prakarya dan Kewirausahaan": 89,71,
-                "Matematika": 87,33,
-                "Biologi": 87,71,
-                "Fisika": 90,35,
-                "Kimia": 89,88,
-                "Bahasa dan Sastra Inggris": 90,33
+                "Pendidkan Agama dan Budi Pekerti": 93.71,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.88,
+                "Bahasa Indonesia": 94.35,
+                "Matematika (W)": 87.33,
+                "Sejarah Indonesia": 92.29,
+                "Bahasa Inggris": 87.14,
+                "Seni Budaya": 90.5,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.29,
+                "Prakarya dan Kewirausahaan": 89.71,
+                "Matematika": 87.33,
+                "Biologi": 87.71,
+                "Fisika": 90.35,
+                "Kimia": 89.88,
+                "Bahasa dan Sastra Inggris": 90.33
             }
         }
     },
@@ -4196,20 +4196,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 93, "psik": 92 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 94,71,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,71,
+                "Pendidkan Agama dan Budi Pekerti": 94.71,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.71,
                 "Bahasa Indonesia": 95,
-                "Matematika (W)": 88,33,
-                "Sejarah Indonesia": 90,88,
-                "Bahasa Inggris": 87,71,
-                "Seni Budaya": 92,88,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,35,
-                "Prakarya dan Kewirausahaan": 95,33,
-                "Matematika": 88,33,
-                "Biologi": 89,14,
-                "Fisika": 92,29,
-                "Kimia": 90,14,
-                "Bahasa dan Sastra Inggris": 92,5
+                "Matematika (W)": 88.33,
+                "Sejarah Indonesia": 90.88,
+                "Bahasa Inggris": 87.71,
+                "Seni Budaya": 92.88,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.35,
+                "Prakarya dan Kewirausahaan": 95.33,
+                "Matematika": 88.33,
+                "Biologi": 89.14,
+                "Fisika": 92.29,
+                "Kimia": 90.14,
+                "Bahasa dan Sastra Inggris": 92.5
             }
         }
     },
@@ -4320,20 +4320,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 93 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 93,88,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,71,
-                "Bahasa Indonesia": 94,5,
-                "Matematika (W)": 88,33,
-                "Sejarah Indonesia": 89,88,
-                "Bahasa Inggris": 87,5,
-                "Seni Budaya": 93,5,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,35,
-                "Prakarya dan Kewirausahaan": 95,33,
-                "Matematika": 88,33,
-                "Biologi": 89,29,
-                "Fisika": 88,71,
-                "Kimia": 89,35,
-                "Bahasa dan Sastra Inggris": 92,88
+                "Pendidkan Agama dan Budi Pekerti": 93.88,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.71,
+                "Bahasa Indonesia": 94.5,
+                "Matematika (W)": 88.33,
+                "Sejarah Indonesia": 89.88,
+                "Bahasa Inggris": 87.5,
+                "Seni Budaya": 93.5,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.35,
+                "Prakarya dan Kewirausahaan": 95.33,
+                "Matematika": 88.33,
+                "Biologi": 89.29,
+                "Fisika": 88.71,
+                "Kimia": 89.35,
+                "Bahasa dan Sastra Inggris": 92.88
             }
         }
     },
@@ -4444,20 +4444,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 93 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 92,29,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,33,
-                "Bahasa Indonesia": 93,88,
-                "Matematika (W)": 87,14,
-                "Sejarah Indonesia": 89,71,
-                "Bahasa Inggris": 87,33,
-                "Seni Budaya": 89,29,
+                "Pendidkan Agama dan Budi Pekerti": 92.29,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.33,
+                "Bahasa Indonesia": 93.88,
+                "Matematika (W)": 87.14,
+                "Sejarah Indonesia": 89.71,
+                "Bahasa Inggris": 87.33,
+                "Seni Budaya": 89.29,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 95,
-                "Prakarya dan Kewirausahaan": 87,71,
-                "Matematika": 87,14,
-                "Biologi": 87,33,
-                "Fisika": 89,71,
-                "Kimia": 88,35,
-                "Bahasa dan Sastra Inggris": 89,35
+                "Prakarya dan Kewirausahaan": 87.71,
+                "Matematika": 87.14,
+                "Biologi": 87.33,
+                "Fisika": 89.71,
+                "Kimia": 88.35,
+                "Bahasa dan Sastra Inggris": 89.35
             }
         }
     },
@@ -4568,20 +4568,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 93 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 94,14,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,71,
+                "Pendidkan Agama dan Budi Pekerti": 94.14,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.71,
                 "Bahasa Indonesia": 95,
-                "Matematika (W)": 88,33,
-                "Sejarah Indonesia": 90,88,
-                "Bahasa Inggris": 87,71,
-                "Seni Budaya": 90,5,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,88,
-                "Prakarya dan Kewirausahaan": 90,45,
-                "Matematika": 88,33,
-                "Biologi": 90,71,
-                "Fisika": 92,88,
-                "Kimia": 92,33,
-                "Bahasa dan Sastra Inggris": 90,71
+                "Matematika (W)": 88.33,
+                "Sejarah Indonesia": 90.88,
+                "Bahasa Inggris": 87.71,
+                "Seni Budaya": 90.5,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.88,
+                "Prakarya dan Kewirausahaan": 90.45,
+                "Matematika": 88.33,
+                "Biologi": 90.71,
+                "Fisika": 92.88,
+                "Kimia": 92.33,
+                "Bahasa dan Sastra Inggris": 90.71
             }
         }
     },
@@ -4692,20 +4692,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 93 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 93,35,
-                "Pendidikan Pancasila dan Kewarganegaraan": 90,88,
-                "Bahasa Indonesia": 94,33,
-                "Matematika (W)": 87,35,
-                "Sejarah Indonesia": 90,88,
-                "Bahasa Inggris": 87,35,
-                "Seni Budaya": 92,29,
-                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93,29,
-                "Prakarya dan Kewirausahaan": 92,45,
-                "Matematika": 87,35,
-                "Biologi": 89,33,
-                "Fisika": 92,29,
-                "Kimia": 90,71,
-                "Bahasa dan Sastra Inggris": 88,14
+                "Pendidkan Agama dan Budi Pekerti": 93.35,
+                "Pendidikan Pancasila dan Kewarganegaraan": 90.88,
+                "Bahasa Indonesia": 94.33,
+                "Matematika (W)": 87.35,
+                "Sejarah Indonesia": 90.88,
+                "Bahasa Inggris": 87.35,
+                "Seni Budaya": 92.29,
+                "Pendidikan Jasmani, Olah Raga dan Kesehatan": 93.29,
+                "Prakarya dan Kewirausahaan": 92.45,
+                "Matematika": 87.35,
+                "Biologi": 89.33,
+                "Fisika": 92.29,
+                "Kimia": 90.71,
+                "Bahasa dan Sastra Inggris": 88.14
             }
         }
     },
@@ -4816,20 +4816,20 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 92 }
             },	
             "nus": {
-                "Pendidkan Agama dan Budi Pekerti": 93,88,
-                "Pendidikan Pancasila dan Kewarganegaraan": 92,29,
-                "Bahasa Indonesia": 95,14,
-                "Matematika (W)": 87,33,
-                "Sejarah Indonesia": 90,88,
-                "Bahasa Inggris": 87,33,
-                "Seni Budaya": 90,71,
+                "Pendidkan Agama dan Budi Pekerti": 93.88,
+                "Pendidikan Pancasila dan Kewarganegaraan": 92.29,
+                "Bahasa Indonesia": 95.14,
+                "Matematika (W)": 87.33,
+                "Sejarah Indonesia": 90.88,
+                "Bahasa Inggris": 87.33,
+                "Seni Budaya": 90.71,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 99,
-                "Prakarya dan Kewirausahaan": 90,14,
-                "Matematika": 97,33,
-                "Biologi": 87,14,
-                "Fisika": 90,35,
-                "Kimia": 89,71,
-                "Bahasa dan Sastra Inggris": 90,14
+                "Prakarya dan Kewirausahaan": 90.14,
+                "Matematika": 97.33,
+                "Biologi": 87.14,
+                "Fisika": 90.35,
+                "Kimia": 89.71,
+                "Bahasa dan Sastra Inggris": 90.14
             }
         }
     }
