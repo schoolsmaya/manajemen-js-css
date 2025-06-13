@@ -243,11 +243,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const nilaiSekolahOverall = calculateNilaiSekolahOverall(avgKogOverall, nusOverall, year);
 
         let tableRows = '';
-        // Sesuaikan loop semester agar hanya menampilkan hingga maxSemester dari konfigurasi
-        for (let i = 1; i <= config.maxSemester; i++) { // Loop hingga maxSemester dari config
+        // Loop ini akan selalu menampilkan semua semester (1 sampai 6)
+        for (let i = 1; i <= 6; i++) { // SELALU loop hingga semester 6
             const semesterKey = `s${i}`;
             const subjectGrades = grades[semesterKey] && grades[semesterKey][subjectName] ? grades[semesterKey][subjectName] : null;
 
+            // Jika nilai tidak ditemukan untuk semester tersebut, tampilkan 'N/A'
             const kogDisplay = subjectGrades ? parseFloat(subjectGrades.kog).toFixed(2).replace('.', ',') : 'N/A';
             const psikDisplay = subjectGrades ? parseFloat(subjectGrades.psik).toFixed(2).replace('.', ',') : 'N/A';
 
