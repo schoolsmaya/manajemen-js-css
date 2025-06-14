@@ -10,14 +10,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
 
-    // --- DAFTAR ANGGOTA DAN SANDI MEREKA (GANTI DENGAN DAFTAR ANDA!) ---
-    // Format: 'NomorAnggota': 'SandiUntukAnggotaIni'
-    const MEMBER_CREDENTIALS = {
-        '101': 'sandi_siswa_a', // Contoh: Nomor Anggota '101' dengan sandi 'sandi_siswa_a'
-        '102': 'sandi_siswa_b',
-        '103': 'sandi_siswa_c',
-        'admin': '4dm1n', // untuk akun admin
-    };
+// ... di dalam DOMContentLoaded, sebelum logika login ...
+const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; // Ganti dengan URL Anda
+
+let MEMBER_CREDENTIALS = {}; // Akan diisi dari JSON
+
+// Ambil kredensial saat halaman dimuat
+fetch(credentialsUrl)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Gagal memuat kredensial: ${response.statusText}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        MEMBER_CREDENTIALS = data;
+        // Sekarang, lanjutkan dengan logika login
+        // ... (Kode untuk submitAccessCodeBtn.addEventListener() ada di sini) ...
+    })
+    .catch(error => {
+        console.error("Error loading credentials:", error);
+        loginErrorP.textContent = "Gagal memuat data kredensial. Silakan coba lagi nanti.";
+        loginErrorP.style.display = 'block';
+        submitAccessCodeBtn.disabled = true; // Nonaktifkan tombol login
+    });
+
+// ... sisanya kode login akan masuk ke dalam .then() atau di handle setelah MEMBER_CREDENTIALS terisi ...
 
     // --- FUNGSI UNTUK MENAMPILKAN APLIKASI UTAMA SETELAH LOGIN ---
     function initializeApp() {
