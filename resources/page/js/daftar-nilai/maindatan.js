@@ -4,14 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 1. AMBIL ELEMEN HTML YANG DIBUTUHKAN UNTUK LOGIN ---
     const loginFormDiv = document.getElementById('login-form');
-    const memberIdInput = document.getElementById('member-id-input');     // Input baru untuk Nomor Anggota
-    const accessCodeInput = document.getElementById('access-code-input'); // Input untuk Kode Akses/Sandi
+    const memberIdInput = document.getElementById('member-id-input');
+    const accessCodeInput = document.getElementById('access-code-input');
     const submitAccessCodeBtn = document.getElementById('submit-access-code');
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
-
-// ... di dalam DOMContentLoaded, sebelum logika login ...
-const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; // Ganti dengan URL Anda
+    const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; 
 
 let MEMBER_CREDENTIALS = {}; // Akan diisi dari JSON
 
@@ -35,11 +33,9 @@ fetch(credentialsUrl)
         submitAccessCodeBtn.disabled = true; // Nonaktifkan tombol login
     });
 
-// ... sisanya kode login akan masuk ke dalam .then() atau di handle setelah MEMBER_CREDENTIALS terisi ...
-
     // --- FUNGSI UNTUK MENAMPILKAN APLIKASI UTAMA SETELAH LOGIN ---
     function initializeApp() {
-        // --- OBJEK KONFIGURASI TAHUNAN (tetap sama) ---
+        // --- OBJEK KONFIGURASI TAHUNAN ---
         const yearConfigurations = {
             '2024': {
                 maxSemester: 6,
@@ -64,7 +60,7 @@ fetch(credentialsUrl)
             nusWeight: 0.40
         };
 
-        // --- VARIABLE GLOBAL APLIKASI (tetap sama) ---
+        // --- VARIABLE GLOBAL APLIKASI ---
         const yearSelect = document.getElementById('year-select');
         const studentSelectionDiv = document.getElementById('student-selection');
         const studentSelect = document.getElementById('student-select');
@@ -75,7 +71,7 @@ fetch(credentialsUrl)
         let currentStudentsData = [];
         let currentSelectedStudent = null;
 
-        // --- FUNGSI PERHITUNGAN (Sudah benar, tidak perlu diubah) ---
+        // --- FUNGSI PERHITUNGAN ---
         function calculateKogAvgBySubject(studentGrades, subjectName, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             let totalKog = 0;
@@ -260,7 +256,7 @@ fetch(credentialsUrl)
             }
         });
 
-        // --- FUNGSI TAMPILAN DETAIL (tetap sama) ---
+        // --- FUNGSI TAMPILAN DETAIL ---
         function displayStudentSubjectGrades(student, subjectName, year) {
             const grades = student.grades;
 
