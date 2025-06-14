@@ -3,19 +3,23 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- 1. AMBIL ELEMEN HTML YANG DIBUTUHKAN UNTUK LOGIN ---
-    const loginFormDiv = document.getElementById('login-form');             // Kotak formulir login
-    const accessCodeInput = document.getElementById('access-code-input');   // Input untuk kode akses
-    const submitAccessCodeBtn = document.getElementById('submit-access-code'); // Tombol 'Masuk'
-    const loginErrorP = document.getElementById('login-error');             // Paragraf untuk pesan error
-    const appContentMain = document.getElementById('app-content');          // Bagian utama aplikasi nilai Anda (yang akan disembunyikan/ditampilkan)
+    const loginFormDiv = document.getElementById('login-form');
+    const memberIdInput = document.getElementById('member-id-input');     // Input baru untuk Nomor Anggota
+    const accessCodeInput = document.getElementById('access-code-input'); // Input untuk Kode Akses/Sandi
+    const submitAccessCodeBtn = document.getElementById('submit-access-code');
+    const loginErrorP = document.getElementById('login-error');
+    const appContentMain = document.getElementById('app-content');
 
-    // --- KODE AKSES RAHASIA ANDA (GANTI INI!) ---
-    // Ini adalah kode yang harus dimasukkan pengguna agar bisa masuk.
-    // Ingat, ini TIDAK AMAN untuk data super rahasia karena bisa dilihat di kode sumber.
-    const CORRECT_ACCESS_CODE = "akusiswa2024"; // <<<< GANTI DENGAN KODE YANG SULIT DITEBAK OLEH ANDA <<<<
+    // --- DAFTAR ANGGOTA DAN SANDI MEREKA (GANTI DENGAN DAFTAR ANDA!) ---
+    // Format: 'NomorAnggota': 'SandiUntukAnggotaIni'
+    const MEMBER_CREDENTIALS = {
+        '101': 'sandi_siswa_a', // Contoh: Nomor Anggota '101' dengan sandi 'sandi_siswa_a'
+        '102': 'sandi_siswa_b',
+        '103': 'sandi_siswa_c',
+        'admin': 'sandi_admin_hebat', // untuk akun admin
+    };
 
     // --- FUNGSI UNTUK MENAMPILKAN APLIKASI UTAMA SETELAH LOGIN ---
-    // Semua kode aplikasi nilai Anda sebelumnya akan kita masukkan ke dalam fungsi ini.
     function initializeApp() {
         // --- OBJEK KONFIGURASI TAHUNAN (tetap sama) ---
         const yearConfigurations = {
@@ -29,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 kogWeight: 0.70,
                 nusWeight: 0.30
             },
-            // Tambahkan konfigurasi untuk tahun 2026 dan seterusnya di sini
             '2026': {
                 maxSemester: 6,
                 kogWeight: 0.60,
@@ -55,9 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
         let currentSelectedStudent = null;
 
         // --- FUNGSI PERHITUNGAN (Sudah benar, tidak perlu diubah) ---
-        // (Salin semua fungsi calculateKogAvgBySubject, getNusBySubject, calculateNilaiSekolahBySubject,
-        // calculateKogAvgOverall, calculateNusOverall, calculateNilaiSekolahOverall di sini)
-
         function calculateKogAvgBySubject(studentGrades, subjectName, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             let totalKog = 0;
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return nilaiSekolah.toFixed(2);
         }
 
-        // --- EVENT LISTENERS APLIKASI (PERHATIKAN PERUBAHAN DI yearSelect) ---
+        // --- EVENT LISTENERS APLIKASI ---
 
         yearSelect.addEventListener('change', async (event) => {
             const selectedYear = event.target.value;
@@ -155,9 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (selectedYear) {
                 try {
-                    // Ini adalah URL tempat file JSON Anda berada (PASTIKAN AKHIRNYA ADA GARIS MIRING '/')
                     const BASE_JSON_URL = 'https://nasrulngegithub.github.io/kode-js-cs/media/datan/';
-
                     const response = await fetch(`${BASE_JSON_URL}students_${selectedYear}.json`);
 
                     if (!response.ok) {
@@ -259,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const nilaiSekolahOverall = calculateNilaiSekolahOverall(avgKogOverall, nusOverall, year);
 
             let tableRows = '';
-            for (let i = 1; i <= 6; i++) { // SELALU loop hingga semester 6 untuk tampilan
+            for (let i = 1; i <= 6; i++) {
                 const semesterKey = `s${i}`;
                 const subjectGrades = grades[semesterKey] && grades[semesterKey][subjectName] ? grades[semesterKey][subjectName] : null;
 
@@ -353,16 +351,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Tambahkan event listener untuk tombol 'Masuk'
     submitAccessCodeBtn.addEventListener('click', () => {
-        const enteredCode = accessCodeInput.value; // Ambil nilai dari input
-        if (enteredCode === CORRECT_ACCESS_CODE) {
-            // Jika kode benar:
+        const enteredMemberId = memberIdInput.value.trim(); // Ambil nomor anggota dan hapus spasi
+        const enteredAccessCode = accessCodeInput.value.trim(); // Ambil sandi dan hapus spasi
+
+        // Cek apakah nomor anggota dan sandi cocok dengan yang ada di daftar
+        if (MEMBER_CREDENTIALS[enteredMemberId] === enteredAccessCode) {
+            // Jika cocok:
             loginFormDiv.style.display = 'none'; // Sembunyikan formulir login
             appContentMain.style.display = 'block'; // Tampilkan aplikasi utama
             loginErrorP.style.display = 'none'; // Sembunyikan pesan error
             initializeApp(); // Panggil fungsi untuk menjalankan aplikasi
         } else {
-            // Jika kode salah:
-            loginErrorP.textContent = "Kode akses salah. Silakan coba lagi."; // Atur teks error
+            // Jika tidak cocok:
+            loginErrorP.textContent = "Nomor anggota atau kode akses salah. Silakan coba lagi.";
             loginErrorP.style.display = 'block'; // Tampilkan pesan error
         }
     });
