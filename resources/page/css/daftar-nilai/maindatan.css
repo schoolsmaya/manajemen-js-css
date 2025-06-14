@@ -460,10 +460,6 @@ hr {
     }
 }
 
-        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
-        .container { max-width: 900px; margin: 0 auto; background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); }
-        /* Pastikan CSS untuk tabel, identity-item, summary-grades, calculation-info juga ada di sini */
-
         /* CSS TAMBAHAN UNTUK FORM LOGIN */
         #login-form {
             background-color: #fff;
