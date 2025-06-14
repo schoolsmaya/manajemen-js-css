@@ -1,0 +1,204 @@
+/* CSS Umum untuk Aplikasi Kuis */
+#quiz-app {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    color: #333;
+}
+
+h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Form Identitas */
+#identitas-form .form-group {
+    margin-bottom: 15px;
+}
+
+#identitas-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Tombol Umum */
+.btns {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.05em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block; /* Agar tombol mengisi lebar kontainer */
+    width: 100%; /* Agar tombol mengisi lebar kontainer */
+    margin-top: 20px; /* Jarak antar tombol */
+    text-align: center;
+}
+
+.btns-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btns-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btns-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btns-secondary:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+.btns-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btns-success:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.btns-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btns-info:hover {
+    background-color: #138496;
+    transform: translateY(-2px);
+}
+
+/* Soal Container */
+#soal-container {
+    margin-top: 20px;
+}
+
+.question-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#nomor-soal {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#teks-soal {
+    font-size: 1.15em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.options-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.option-item {
+    display: flex; /* Untuk sejajarkan radio button dan teks */
+    align-items: center;
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.option-item:hover {
+    background-color: #e9ecef;
+    border-color: #007bff;
+}
+
+.option-item input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Memperbesar radio button */
+}
+
+.option-item label {
+    font-size: 1em;
+    flex-grow: 1; /* Agar label mengisi sisa ruang */
+    cursor: pointer;
+    margin-bottom: 0; /* Hilangkan margin default label */
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.navigation-buttons button {
+    flex-grow: 1;
+    width: auto; /* Override width: 100% dari .btns */
+}
+
+/* Hasil Container */
+#hasil-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-summary p {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.result-summary strong {
+    color: #0056b3;
+}
+
+.result-summary span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsif sederhana */
+@media (max-width: 600px) {
+    #quiz-app {
+        padding: 15px;
+        margin: 10px;
+    }
+    .btns {
+        font-size: 0.95em;
+        padding: 10px 20px;
+    }
+    .navigation-buttons {
+        flex-direction: column;
+    }
+}
