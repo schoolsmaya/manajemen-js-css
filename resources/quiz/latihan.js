@@ -1,8 +1,3 @@
-    // --- Variabel Global ---
-    let currentQuestionIndex = 0;
-    const userAnswers = new Array(questions.length).fill(null);
-    const KUNCI_AKSES_BENAR = "latihan2025"; // Ganti dengan kunci akses Anda!
-
     // --- Elemen DOM ---
     const identitasForm = document.getElementById('identitas-form');
     const soalContainer = document.getElementById('soal-container');
