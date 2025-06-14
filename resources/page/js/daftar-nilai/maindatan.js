@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '101': 'sandi_siswa_a', // Contoh: Nomor Anggota '101' dengan sandi 'sandi_siswa_a'
         '102': 'sandi_siswa_b',
         '103': 'sandi_siswa_c',
-        'admin': 'sandi_admin_hebat', // untuk akun admin
+        'admin': '4dm1n', // untuk akun admin
     };
 
     // --- FUNGSI UNTUK MENAMPILKAN APLIKASI UTAMA SETELAH LOGIN ---
