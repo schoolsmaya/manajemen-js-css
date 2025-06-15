@@ -1,6 +1,15 @@
 // app.js
+import { KUNCI_AKSES_BENAR } from './config.js';
+import { 
+    identitasForm, soalContainer, hasilContainer,
+    namaInput, jabatanSelect, kunciAksesInput, accessErrorMsg,
+    nomorSoalEl, teksSoalEl, opsiJawabanEl,
+    prevbtns, nextbtns, submitbtns, masukSoalbtns, ulangKuisbtns
+} from './domElements.js';
+
+// --- Variabel Global dalam Scope Module ---
 let currentQuestionIndex = 0;
-const userAnswers = new Array(questions.length).fill(null); 
+let userAnswers; 
 
     // --- Fungsi Kuis ---
 
