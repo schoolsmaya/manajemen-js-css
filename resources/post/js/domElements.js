@@ -1,21 +1,21 @@
 // domElements.js
-const identitasForm = document.getElementById('identitas-form');
-const soalContainer = document.getElementById('soal-container');
-const hasilContainer = document.getElementById('hasil-container');
+export const identitasForm = document.getElementById('identitas-form');
+export const soalContainer = document.getElementById('soal-container');
+export const hasilContainer = document.getElementById('hasil-container');
 
-const namaInput = document.getElementById('nama');
-const jabatanSelect = document.getElementById('jabatan');
-const kunciAksesInput = document.getElementById('kunciAkses');
-const accessErrorMsg = document.getElementById('accessError');
+export const namaInput = document.getElementById('nama');
+export const jabatanSelect = document.getElementById('jabatan');
+export const kunciAksesInput = document.getElementById('kunciAkses');
+export const accessErrorMsg = document.getElementById('accessError');
 
-const nomorSoalEl = document.getElementById('nomor-soal');
-const teksSoalEl = document.getElementById('teks-soal');
-const opsiJawabanEl = document.getElementById('opsi-jawaban');
+export const nomorSoalEl = document.getElementById('nomor-soal');
+export const teksSoalEl = document.getElementById('teks-soal');
+export const opsiJawabanEl = document.getElementById('opsi-jawaban');
 
-const prevbtns = document.getElementById('prevbtns');
-const nextbtns = document.getElementById('nextbtns');
-const submitbtns = document.getElementById('submitbtns');
-const masukSoalbtns = document.getElementById('masukSoal');
-const ulangKuisbtns = document.getElementById('ulangKuis');
+export const prevbtns = document.getElementById('prevbtns');
+export const nextbtns = document.getElementById('nextbtns');
+export const submitbtns = document.getElementById('submitbtns');
+export const masukSoalbtns = document.getElementById('masukSoal');
+export const ulangKuisbtns = document.getElementById('ulangKuis');
 
 // export { identitasForm, soalContainer, hasilContainer, /* ... dan seterusnya */ };
