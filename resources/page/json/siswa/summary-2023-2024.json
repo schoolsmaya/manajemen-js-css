@@ -1,5 +1,10 @@
 [
   {
+    "namaRombel": "-",
+    "jumlahSiswa": 18,
+    "waliKelas": "-"
+  },
+  {
     "namaRombel": "SMAN 23 MAKASSAR",
     "jumlahSiswa": 1,
     "waliKelas": "XI IIS"
@@ -37,21 +42,21 @@
   {
     "namaRombel": "X MIA",
     "jumlahSiswa": 37,
-    "waliKelas": "N/A"
+    "waliKelas": "-"
   },
   {
     "namaRombel": "XI IIS",
     "jumlahSiswa": 41,
-    "waliKelas": "N/A"
+    "waliKelas": "-"
   },
   {
     "namaRombel": "XI MIA 1",
     "jumlahSiswa": 26,
-    "waliKelas": "N/A"
+    "waliKelas": "-"
   },
   {
     "namaRombel": "XI MIA 2",
     "jumlahSiswa": 21,
-    "waliKelas": "N/A"
+    "waliKelas": "-"
   }
 ]
