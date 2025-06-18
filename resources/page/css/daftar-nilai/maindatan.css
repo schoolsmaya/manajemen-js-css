@@ -468,14 +468,14 @@ hr {
             background-color: #fff;
             padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(255, 231, 231, 0.1);
             max-width: 400px;
             margin: 50px auto;
             text-align: center;
         }
         #login-form h2 {
             margin-bottom: 20px;
-            color: #0056b3;
+            color: #da0015;
         }
         #login-form input[type="text"], /* Tambahkan ini untuk Nomor Anggota */
         #login-form input[type="password"] {
@@ -487,7 +487,7 @@ hr {
             font-size: 16px;
         }
         #login-form button {
-            background-color: #007bff;
+            background-color: #da0015;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -497,7 +497,7 @@ hr {
             transition: background-color 0.3s ease;
         }
         #login-form button:hover {
-            background-color: #0056b3;
+            background-color: #c82333;
         }
         #login-error {
             margin-top: 10px;
