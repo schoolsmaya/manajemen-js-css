@@ -99,7 +99,7 @@ hr {
     text-align: center;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #e3f2fd;
+    background-color: #da0015;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
@@ -107,7 +107,7 @@ hr {
 .controls label, .student-selection label { /* Gabungkan label untuk styling yang konsisten */
     font-weight: bold;
     margin-right: 10px;
-    color: #1a237e;
+    color: #fbfe28;
 }
 
 #year-select, #student-select, #subject-select { /* Terapkan gaya ke semua dropdown */
@@ -139,7 +139,7 @@ hr {
 .student-selection label, .subject-selection label {
     font-weight: bold;
     margin-right: 10px;
-    color: #1a237e;
+    color: #fbfe28;
 }
 
 .student-details h4 { /* Gaya baru untuk judul mata pelajaran */
