@@ -1,57 +1,22 @@
 [
   {
+    "namaRombel": "Reyhan Al Farel",
+    "jumlahSiswa": 1,
+    "waliKelas": "1961122093"
+  },
+  {
     "namaRombel": "SMAN 23 MAKASSAR",
     "jumlahSiswa": 1,
     "waliKelas": "XI IIS"
   },
   {
-    "namaRombel": "SMP BATARA GOWA",
-    "jumlahSiswa": 1,
-    "waliKelas": "X MIA"
-  },
-  {
-    "namaRombel": "SMP IT WAHDAH ISLAMIYAH GOWA",
-    "jumlahSiswa": 1,
-    "waliKelas": "XI MIA 2"
-  },
-  {
-    "namaRombel": "SMP NEGERI 1 PALLANGGA",
-    "jumlahSiswa": 1,
-    "waliKelas": "XI MIA 2"
-  },
-  {
-    "namaRombel": "SMP NEGERI 10 PALOPO",
-    "jumlahSiswa": 1,
-    "waliKelas": "XI MIA 2"
-  },
-  {
-    "namaRombel": "SMP NEGERI 2 SUNGGUMINASA",
-    "jumlahSiswa": 1,
-    "waliKelas": "XI MIA 2"
-  },
-  {
-    "namaRombel": "UPT SMAN 1 GOWA",
-    "jumlahSiswa": 1,
-    "waliKelas": "X MIA"
-  },
-  {
     "namaRombel": "X MIA",
-    "jumlahSiswa": 37,
+    "jumlahSiswa": 5,
     "waliKelas": "N/A"
   },
   {
     "namaRombel": "XI IIS",
-    "jumlahSiswa": 41,
-    "waliKelas": "N/A"
-  },
-  {
-    "namaRombel": "XI MIA 1",
-    "jumlahSiswa": 26,
-    "waliKelas": "N/A"
-  },
-  {
-    "namaRombel": "XI MIA 2",
-    "jumlahSiswa": 20,
+    "jumlahSiswa": 31,
     "waliKelas": "N/A"
   }
 ]
