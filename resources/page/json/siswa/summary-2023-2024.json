@@ -1,22 +1,22 @@
 [
   {
-    "namaRombel": "Reyhan Al Farel",
-    "jumlahSiswa": 1,
-    "waliKelas": "1961122093"
-  },
-  {
-    "namaRombel": "SMAN 23 MAKASSAR",
-    "jumlahSiswa": 1,
-    "waliKelas": "XI IIS"
-  },
-  {
     "namaRombel": "X MIA",
-    "jumlahSiswa": 5,
+    "jumlahSiswa": 39,
     "waliKelas": "N/A"
   },
   {
     "namaRombel": "XI IIS",
-    "jumlahSiswa": 31,
+    "jumlahSiswa": 42,
+    "waliKelas": "N/A"
+  },
+  {
+    "namaRombel": "XI MIA 1",
+    "jumlahSiswa": 26,
+    "waliKelas": "N/A"
+  },
+  {
+    "namaRombel": "XI MIA 2",
+    "jumlahSiswa": 25,
     "waliKelas": "N/A"
   }
 ]

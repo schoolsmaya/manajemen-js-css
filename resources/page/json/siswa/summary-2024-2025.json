@@ -1,27 +1,32 @@
 [
   {
-    "namaRombel": "Khaidir",
-    "jumlahSiswa": 1,
-    "waliKelas": "1961124002"
-  },
-  {
-    "namaRombel": "Makassar",
-    "jumlahSiswa": 1,
-    "waliKelas": "38482"
-  },
-  {
     "namaRombel": "X",
-    "jumlahSiswa": 1,
+    "jumlahSiswa": 18,
     "waliKelas": "Nursari, S.Pd.,Gr"
   },
   {
+    "namaRombel": "XI MIA 1",
+    "jumlahSiswa": 18,
+    "waliKelas": "Mustainah Karim, S.Pd"
+  },
+  {
     "namaRombel": "XI MIA 2",
-    "jumlahSiswa": 5,
+    "jumlahSiswa": 21,
     "waliKelas": "Sariama, S.Pd.I.,Gr"
   },
   {
     "namaRombel": "XII IIS",
-    "jumlahSiswa": 31,
+    "jumlahSiswa": 42,
     "waliKelas": "Agung Azwar, S.Pd"
+  },
+  {
+    "namaRombel": "XII MIA 1",
+    "jumlahSiswa": 26,
+    "waliKelas": "Kasim K., S.Pd"
+  },
+  {
+    "namaRombel": "XII MIA 2",
+    "jumlahSiswa": 25,
+    "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
   }
 ]
