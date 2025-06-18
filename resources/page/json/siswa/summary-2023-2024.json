@@ -1,15 +1,5 @@
 [
   {
-    "namaRombel": "-",
-    "jumlahSiswa": 19,
-    "waliKelas": "-"
-  },
-  {
-    "namaRombel": "SMAN 1 GOWA",
-    "jumlahSiswa": 1,
-    "waliKelas": "XI MIA 1"
-  },
-  {
     "namaRombel": "SMAN 23 MAKASSAR",
     "jumlahSiswa": 1,
     "waliKelas": "XI IIS"
@@ -20,29 +10,14 @@
     "waliKelas": "X MIA"
   },
   {
-    "namaRombel": "SMP HANDAYANI SUNGGUMINASA",
-    "jumlahSiswa": 2,
-    "waliKelas": "XI IIS"
-  },
-  {
     "namaRombel": "SMP IT WAHDAH ISLAMIYAH GOWA",
     "jumlahSiswa": 1,
     "waliKelas": "XI MIA 2"
   },
   {
-    "namaRombel": "SMP NEGERI 1 BONTOMARANNU",
-    "jumlahSiswa": 4,
-    "waliKelas": "XI IIS"
-  },
-  {
     "namaRombel": "SMP NEGERI 1 PALLANGGA",
     "jumlahSiswa": 1,
     "waliKelas": "XI MIA 2"
-  },
-  {
-    "namaRombel": "SMP NEGERI 1 SUNGGUMINASA",
-    "jumlahSiswa": 5,
-    "waliKelas": "XI IIS"
   },
   {
     "namaRombel": "SMP NEGERI 10 PALOPO",
@@ -55,43 +30,28 @@
     "waliKelas": "XI MIA 2"
   },
   {
-    "namaRombel": "SMP NEGERI 3 PALLANGGA",
+    "namaRombel": "UPT SMAN 1 GOWA",
     "jumlahSiswa": 1,
     "waliKelas": "X MIA"
   },
   {
-    "namaRombel": "SMP YAPIP MAKASSAR SUNGGUMINASA",
-    "jumlahSiswa": 3,
-    "waliKelas": "XI IIS"
-  },
-  {
-    "namaRombel": "SMPN 1 PALLANGGA",
-    "jumlahSiswa": 1,
-    "waliKelas": "XI MIA 2"
-  },
-  {
-    "namaRombel": "UPT SPF SMP NEGERI 49 MAKASSAR",
-    "jumlahSiswa": 1,
-    "waliKelas": "XI IIS"
-  },
-  {
     "namaRombel": "X MIA",
-    "jumlahSiswa": 30,
-    "waliKelas": "-"
+    "jumlahSiswa": 37,
+    "waliKelas": "N/A"
   },
   {
     "namaRombel": "XI IIS",
-    "jumlahSiswa": 34,
-    "waliKelas": "-"
+    "jumlahSiswa": 41,
+    "waliKelas": "N/A"
   },
   {
     "namaRombel": "XI MIA 1",
-    "jumlahSiswa": 22,
-    "waliKelas": "-"
+    "jumlahSiswa": 26,
+    "waliKelas": "N/A"
   },
   {
     "namaRombel": "XI MIA 2",
-    "jumlahSiswa": 16,
-    "waliKelas": "-"
+    "jumlahSiswa": 20,
+    "waliKelas": "N/A"
   }
 ]
