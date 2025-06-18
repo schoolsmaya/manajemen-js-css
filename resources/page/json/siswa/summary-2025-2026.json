@@ -1,22 +1,37 @@
 [
   {
     "namaRombel": "-",
-    "jumlahSiswa": 143,
-    "waliKelas": "N/A"
-  },
-  {
-    "namaRombel": "Agung Azwar, S.Pd",
-    "jumlahSiswa": 1,
+    "jumlahSiswa": 120,
     "waliKelas": "-"
   },
   {
-    "namaRombel": "Harninsyih H., S.Si.,M.Kes.,Gr",
+    "namaRombel": "\"Agung Azwar, S.Pd\"",
+    "jumlahSiswa": 8,
+    "waliKelas": "-"
+  },
+  {
+    "namaRombel": "\"Harninsyih H., S.Si.,M.Kes.,Gr\"",
+    "jumlahSiswa": 9,
+    "waliKelas": "-"
+  },
+  {
+    "namaRombel": "\"Kasim K., S.Pd\"",
     "jumlahSiswa": 4,
     "waliKelas": "-"
   },
   {
-    "namaRombel": "Sariama, S.Pd.I.,Gr",
-    "jumlahSiswa": 2,
+    "namaRombel": "\"Mustainah Karim, S.Pd\"",
+    "jumlahSiswa": 3,
     "waliKelas": "-"
+  },
+  {
+    "namaRombel": "\"Sariama, S.Pd.I.,Gr\"",
+    "jumlahSiswa": 5,
+    "waliKelas": "-"
+  },
+  {
+    "namaRombel": "XI MIA 2",
+    "jumlahSiswa": 1,
+    "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
   }
 ]
