@@ -1,0 +1,128 @@
+[
+    {
+        "id": "1",
+        "nama": "Disdik Provinsi",
+        "jabatan": null,
+        "parent_id": "images/disdik.jpg",
+        "foto_url": null
+    },
+    {
+        "id": "2",
+        "nama": "Cabang Dinas Wilayah Kab/Kota",
+        "jabatan": "Kab/Kota",
+        "parent_id": "1",
+        "foto_url": "images/cabdin.jpg"
+    },
+    {
+        "id": "3",
+        "nama": "Bapak Susanto",
+        "jabatan": "Ketua Yayasan",
+        "parent_id": "2",
+        "foto_url": "images/yayasan_susanto.jpg"
+    },
+    {
+        "id": "4",
+        "nama": "Ibu Kartika Sari",
+        "jabatan": "Kepala Sekolah",
+        "parent_id": "3",
+        "foto_url": "images/ks_kartika.jpg"
+    },
+    {
+        "id": "5",
+        "nama": "Komite Sekolah",
+        "jabatan": "Penasihat",
+        "parent_id": "4",
+        "foto_url": "images/komite_sekolah.jpg"
+    },
+    {
+        "id": "6",
+        "nama": "Bapak Adi Wijaya",
+        "jabatan": "Wakasek Kurikulum",
+        "parent_id": "4",
+        "foto_url": "images/wakasek_adi.jpg"
+    },
+    {
+        "id": "7",
+        "nama": "Ibu Dian Pertiwi",
+        "jabatan": "Wakasek Kesiswaan",
+        "parent_id": "4",
+        "foto_url": "images/wakasek_dian.jpg"
+    },
+    {
+        "id": "8",
+        "nama": "Bapak Cahyo Utomo",
+        "jabatan": "Wakasek Sarana Prasarana",
+        "parent_id": "4",
+        "foto_url": "images/wakasek_cahyo.jpg"
+    },
+    {
+        "id": "9",
+        "nama": "Bapak Rudi Hidayat",
+        "jabatan": "Pelaksana Tata Usaha",
+        "parent_id": "4",
+        "foto_url": "images/tu_rudi.jpg"
+    },
+    {
+        "id": "10",
+        "nama": "Ibu Ani Susilawati",
+        "jabatan": "Operator Sekolah",
+        "parent_id": "9",
+        "foto_url": "images/op_ani.jpg"
+    },
+    {
+        "id": "11",
+        "nama": "Bapak Joko Santoso",
+        "jabatan": "Bendahara BOS",
+        "parent_id": "4",
+        "foto_url": "images/bos_joko.jpg"
+    },
+    {
+        "id": "12",
+        "nama": "Sdr. Rina Setiawati",
+        "jabatan": "Staf Bendahara BOS / Bendahara Sekolah",
+        "parent_id": "11",
+        "foto_url": "images/staf_rina.jpg"
+    },
+    {
+        "id": "13",
+        "nama": "Ibu Larasati",
+        "jabatan": "Kepala Perpustakaan",
+        "parent_id": "6",
+        "foto_url": "images/perpus_laras.jpg"
+    },
+    {
+        "id": "14",
+        "nama": "Sdr. Fajar Maulana",
+        "jabatan": "Staf Perpustakaan",
+        "parent_id": "13",
+        "foto_url": "images/staf_fajar.jpg"
+    },
+    {
+        "id": "15",
+        "nama": "Bapak Sigit Pamungkas",
+        "jabatan": "Kepala Laboratorium",
+        "parent_id": "6",
+        "foto_url": "images/lab_sigit.jpg"
+    },
+    {
+        "id": "16",
+        "nama": "Sdr. Winda Lestari",
+        "jabatan": "Staf Laboratorium",
+        "parent_id": "15",
+        "foto_url": "images/staf_winda.jpg"
+    },
+    {
+        "id": "17",
+        "nama": "Tim Wali Kelas",
+        "jabatan": "Koordinator",
+        "parent_id": "6",
+        "foto_url": "images/wali_kelas_group.jpg"
+    },
+    {
+        "id": "18",
+        "nama": "Siswa",
+        "jabatan": null,
+        "parent_id": "7",
+        "foto_url": "images/siswa_group.jpg"
+    }
+]
