@@ -1,30 +1,30 @@
 [
     {
         "id": "1",
-        "nama": "Disdik Provinsi",
-        "jabatan": "Sulawesi Selatan",
+        "nama": "Dinas Pendidikan",
+        "jabatan": "Provinsi Sulawesi Selatan",
         "parent_id": null,
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "2",
-        "nama": "Zulhaidir, SE.,M.AP",
-        "jabatan": "Ketua Yayasan",
-        "parent_id": "1",
-        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
-    },
-    {
-        "id": "3",
         "nama": "Cabang Dinas Pendidikan",
         "jabatan": "Wilayah II Kabupaten Gowa",
         "parent_id": "1",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
+    },
+    {
+        "id": "3",
+        "nama": "Zulhaidir, SE.,M.AP",
+        "jabatan": "Ketua Yayasan",
+        "parent_id": "1",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "4",
@@ -33,7 +33,7 @@
         "parent_id": "2",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "5",
@@ -42,7 +42,7 @@
         "parent_id": "3",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "6",
@@ -51,7 +51,7 @@
         "parent_id": "3",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "7",
@@ -60,7 +60,7 @@
         "parent_id": "3",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "8",
@@ -69,7 +69,7 @@
         "parent_id": "7",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "9",
@@ -78,7 +78,7 @@
         "parent_id": "3",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "10",
@@ -87,7 +87,7 @@
         "parent_id": "10",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "11",
@@ -96,7 +96,7 @@
         "parent_id": "5",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "12",
@@ -105,7 +105,7 @@
         "parent_id": "5",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "13",
@@ -114,21 +114,21 @@
         "parent_id": "5",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "14",
         "nama": "Siswa",
-        "jabatan": "",
+        "jabatan": "Ketua OSIS",
         "parent_id": "6",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
-        "tahun_ajaran_selesai": "2025/2026"
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "1",
-        "nama": "Disdik Provinsi",
-        "jabatan": "Sulawesi Selatan",
+        "nama": "Dinas Pendidikan",
+        "jabatan": "Provinsi Sulawesi Selatan",
         "parent_id": null,
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2025/2026",
@@ -136,8 +136,8 @@
     },
     {
         "id": "2",
-        "nama": "Zulhaidir, SE.,M.AP",
-        "jabatan": "Ketua Yayasan",
+        "nama": "Cabang Dinas Pendidikan",
+        "jabatan": "Wilayah II Kabupaten Gowa",
         "parent_id": "1",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2025/2026",
@@ -145,8 +145,8 @@
     },
     {
         "id": "3",
-        "nama": "Cabang Dinas Pendidikan",
-        "jabatan": "Wilayah II Kabupaten Gowa",
+        "nama": "Zulhaidir, SE.,M.AP",
+        "jabatan": "Ketua Yayasan",
         "parent_id": "1",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2025/2026",
@@ -272,7 +272,7 @@
     {
         "id": "17",
         "nama": "Siswa",
-        "jabatan": "",
+        "jabatan": "Ketua OSIS",
         "parent_id": "6",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2025/2026",
