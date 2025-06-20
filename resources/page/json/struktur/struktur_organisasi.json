@@ -162,15 +162,6 @@
         "tahun_ajaran_selesai": "2025/2026"
     },
     {
-        "id": "id",
-        "nama": "nama",
-        "jabatan": "jabatan",
-        "parent_id": "parent_id",
-        "foto_url": "foto_url",
-        "tahun_ajaran_mulai": "tahun_ajaran_mulai",
-        "tahun_ajaran_selesai": "tahun_ajaran_selesai"
-    },
-    {
         "id": "1",
         "nama": "Disdik Provinsi",
         "jabatan": "",
