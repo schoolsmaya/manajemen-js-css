@@ -19,29 +19,21 @@
     },
     {
         "id": "3",
-        "nama": "Zulhaidir",
-        "jabatan": " SE.",
-        "parent_id": " M.AP",
-        "foto_url": "Ketua Yayasan",
-        "tahun_ajaran_mulai": "",
-        "tahun_ajaran_selesai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "null": [
-            "2024/2025",
-            "2025/2026"
-        ]
+        "nama": "Zulhaidir, SE.,M.AP",
+        "jabatan": "Ketua Yayasan",
+        "parent_id": null,
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "4",
-        "nama": "Irma Syuryani DJ.",
-        "jabatan": " S.Pd.",
-        "parent_id": " M.Si",
-        "foto_url": "Kepala Sekolah",
-        "tahun_ajaran_mulai": "4",
-        "tahun_ajaran_selesai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "null": [
-            "2024/2025",
-            "2025/2026"
-        ]
+        "nama": "Irma Syuryani DJ., S.Pd.,M.Si",
+        "jabatan": "Kepala Sekolah",
+        "parent_id": "4",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "5",
@@ -54,79 +46,57 @@
     },
     {
         "id": "6",
-        "nama": "Harninsyih H.",
-        "jabatan": " S.Si.",
-        "parent_id": "M.Kes.",
-        "foto_url": "Gr",
-        "tahun_ajaran_mulai": "Wakasek Kurikulum",
-        "tahun_ajaran_selesai": "5",
-        "null": [
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-            "2024/2025",
-            "2025/2026"
-        ]
+        "nama": "Harninsyih H., S.S.,M.Kes.,Gr",
+        "jabatan": "Wakasek Kurikulum",
+        "parent_id": "5",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "7",
-        "nama": "Kasim K.",
-        "jabatan": " S.Pd",
-        "parent_id": "Ketua Kombel Akbarakka",
-        "foto_url": "6",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2024/2025",
-        "null": [
-            "2025/2026"
-        ]
+        "nama": "Kasim K., S.Pd",
+        "jabatan": "Ketua Kombel Akbarakka",
+        "parent_id": "6",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "8",
-        "nama": "Kasim K.",
-        "jabatan": " S.Pd",
-        "parent_id": "Kordinator P5",
-        "foto_url": "6",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2024/2025",
-        "null": [
-            "2025/2026"
-        ]
+        "nama": "Kasim K., S.Pd",
+        "jabatan": "Kordinator P5",
+        "parent_id": "6",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "9",
-        "nama": "Nasrul Alimuddin",
-        "jabatan": " S.Pd",
-        "parent_id": "Pelaksana Tata Usaha",
-        "foto_url": "5",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2024/2025",
-        "null": [
-            "2025/2026"
-        ]
+        "nama": "Nasrul Alimuddin, S.Pd",
+        "jabatan": "Pelaksana Tata Usaha",
+        "parent_id": "5",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "10",
-        "nama": "Nasrul Alimuddin",
-        "jabatan": " S.Pd",
-        "parent_id": "Operator Sekolah",
-        "foto_url": "9",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2024/2025",
-        "null": [
-            "2025/2026"
-        ]
+        "nama": "Nasrul Alimuddin, S.Pd",
+        "jabatan": "Operator Sekolah",
+        "parent_id": "9",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "11",
-        "nama": "Harninsyih H.",
-        "jabatan": " S.Si.",
-        "parent_id": "M.Kes.",
-        "foto_url": "Gr",
-        "tahun_ajaran_mulai": "Bendahara BOS",
-        "tahun_ajaran_selesai": "5",
-        "null": [
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-            "2024/2025",
-            "2025/2026"
-        ]
+        "nama": "Harninsyih H., S.S.,M.Kes.,Gr",
+        "jabatan": "Bendahara BOS",
+        "parent_id": "5",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "12",
@@ -139,28 +109,21 @@
     },
     {
         "id": "13",
-        "nama": "Nasrul Alimuddin",
-        "jabatan": " S.Pd.",
-        "parent_id": "Gr",
-        "foto_url": "Kepala Perpustakaan",
-        "tahun_ajaran_mulai": "7",
-        "tahun_ajaran_selesai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "null": [
-            "2024/2025",
-            "2025/2026"
-        ]
+        "nama": "Nasrul Alimuddin, S.Pd\".,Gr",
+        "jabatan": "Kepala Perpustakaan",
+        "parent_id": "7",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "14",
-        "nama": "Kasim K.",
-        "jabatan": " S.Pd",
-        "parent_id": "Kepala Laboratorium",
-        "foto_url": "7",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2024/2025",
-        "null": [
-            "2025/2026"
-        ]
+        "nama": "Kasim K., S.Pd",
+        "jabatan": "Kepala Laboratorium",
+        "parent_id": "7",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2024/2025",
+        "tahun_ajaran_selesai": "2025/2026"
     },
     {
         "id": "15",
@@ -200,29 +163,21 @@
     },
     {
         "id": "3",
-        "nama": "Zulhaidir",
-        "jabatan": " SE.",
-        "parent_id": " M.AP",
-        "foto_url": "Ketua Yayasan",
-        "tahun_ajaran_mulai": "",
-        "tahun_ajaran_selesai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "null": [
-            "2025/2026",
-            ""
-        ]
+        "nama": "Zulhaidir, SE.,M.AP",
+        "jabatan": "Ketua Yayasan",
+        "parent_id": null,
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "4",
-        "nama": "Irma Syuryani DJ.",
-        "jabatan": " S.Pd.",
-        "parent_id": " M.Si",
-        "foto_url": "Kepala Sekolah",
-        "tahun_ajaran_mulai": "4",
-        "tahun_ajaran_selesai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "null": [
-            "2025/2026",
-            ""
-        ]
+        "nama": "Irma Syuryani DJ., S.Pd.,M.Si",
+        "jabatan": "Kepala Sekolah",
+        "parent_id": "4",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "5",
@@ -235,69 +190,52 @@
     },
     {
         "id": "6",
-        "nama": "Harninsyih H.",
-        "jabatan": " S.Si.",
-        "parent_id": "M.Kes.",
-        "foto_url": "Gr",
-        "tahun_ajaran_mulai": "Wakasek Kurikulum",
-        "tahun_ajaran_selesai": "5",
-        "null": [
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-            "2025/2026",
-            ""
-        ]
+        "nama": "Harninsyih H., S.S.,M.Kes.,Gr",
+        "jabatan": "Wakasek Kurikulum",
+        "parent_id": "5",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "7",
         "nama": "Agung Azward",
-        "jabatan": " S.Pd",
-        "parent_id": "Ketua Kombel Akbarakka",
-        "foto_url": "6",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "jabatan": "Ketua Kombel Akbarakka",
+        "parent_id": "6",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "8",
-        "nama": "Kasim K.",
-        "jabatan": " S.Pd",
-        "parent_id": "Kordinator P5",
-        "foto_url": "6",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "nama": "Kasim K., S.Pd",
+        "jabatan": "Kordinator P5",
+        "parent_id": "6",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "9",
-        "nama": "Mustainah Karim",
-        "jabatan": " S.Pd",
-        "parent_id": "Wakasek Kesiswaan",
-        "foto_url": "5",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "nama": "Mustainah Karim, S.Pd",
+        "jabatan": "Wakasek Kesiswaan",
+        "parent_id": "5",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "10",
-        "nama": "Taufik Harianto",
-        "jabatan": " S.Pd",
-        "parent_id": "Pembina OSIS",
-        "foto_url": "6",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "nama": "Taufik Harianto, S.Pd",
+        "jabatan": "Pembina OSIS",
+        "parent_id": "6",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "11",
-        "nama": "M. Ali Imran",
+        "nama": "M. Ali Imran, S.Sos",
         "jabatan": "Pembina Pramuka",
         "parent_id": "6",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
@@ -306,41 +244,30 @@
     },
     {
         "id": "12",
-        "nama": "Nasrul Alimuddin",
-        "jabatan": " S.Pd",
-        "parent_id": "Pelaksana Tata Usaha",
-        "foto_url": "5",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "nama": "Nasrul Alimuddin, S.Pd",
+        "jabatan": "Pelaksana Tata Usaha",
+        "parent_id": "5",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "13",
-        "nama": "Nasrul Alimuddin",
-        "jabatan": " S.Pd",
-        "parent_id": "Operator Sekolah",
-        "foto_url": "9",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "nama": "Nasrul Alimuddin, S.Pd",
+        "jabatan": "Operator Sekolah",
+        "parent_id": "9",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "14",
-        "nama": "Harninsyih H.",
-        "jabatan": " S.Si.",
-        "parent_id": "M.Kes.",
-        "foto_url": "Gr",
-        "tahun_ajaran_mulai": "Bendahara BOS",
-        "tahun_ajaran_selesai": "5",
-        "null": [
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-            "2025/2026",
-            ""
-        ]
+        "nama": "Harninsyih H., S.S.,M.Kes.,Gr",
+        "jabatan": "Bendahara BOS",
+        "parent_id": "5",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "15",
@@ -353,52 +280,39 @@
     },
     {
         "id": "16",
-        "nama": "Nasrul Alimuddin",
-        "jabatan": " S.Pd.",
-        "parent_id": "Gr",
-        "foto_url": "Kepala Perpustakaan",
-        "tahun_ajaran_mulai": "7",
-        "tahun_ajaran_selesai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "null": [
-            "2025/2026",
-            ""
-        ]
+        "nama": "Nasrul Alimuddin, S.Pd",
+        "jabatan": "Kepala Perpustakaan",
+        "parent_id": "7",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "17",
-        "nama": "Nursari",
-        "jabatan": " S.Pd",
-        "parent_id": "Staf Perpustakaan",
-        "foto_url": "14",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "nama": "Nursari, S.Pd.,Gr",
+        "jabatan": "Staf Perpustakaan",
+        "parent_id": "14",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "18",
-        "nama": "Kasim K.",
-        "jabatan": " S.Pd",
-        "parent_id": "Kepala Laboratorium",
-        "foto_url": "7",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "nama": "Kasim K., S.Pd",
+        "jabatan": "Kepala Laboratorium",
+        "parent_id": "7",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "19",
-        "nama": "Fitriani",
-        "jabatan": " S.Pd",
-        "parent_id": "Staf Laboratorium",
-        "foto_url": "16",
-        "tahun_ajaran_mulai": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
-        "tahun_ajaran_selesai": "2025/2026",
-        "null": [
-            ""
-        ]
+        "nama": "Fitriani., S.Pd",
+        "jabatan": "Staf Laboratorium",
+        "parent_id": "16",
+        "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
+        "tahun_ajaran_mulai": "2025/2026",
+        "tahun_ajaran_selesai": null
     },
     {
         "id": "20",
