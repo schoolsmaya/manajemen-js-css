@@ -12,7 +12,7 @@
         "id": "2",
         "nama": "Zulhaidir, SE.,M.AP",
         "jabatan": "Ketua Yayasan",
-        "parent_id": null,
+        "parent_id": "1",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2024/2025",
         "tahun_ajaran_selesai": "2025/2026"
@@ -156,7 +156,7 @@
         "id": "2",
         "nama": "Zulhaidir, SE.,M.AP",
         "jabatan": "Ketua Yayasan",
-        "parent_id": null,
+        "parent_id": "1",
         "foto_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGXttnQwES7_U1dQb8cD8Zo1GFV9YhdYRXO0L-aJj1zTOgXb7-QwS3FWKZTzSlHUm4zfpT1aVODbFW0uJKluB5Y87-i5Pf6-wayrYfHyM04IL6fk9zbWhzcQ4sig9hL69F5n-fJV2y4BmfZQswG9xGBM7WC5wDKc-xTGfXngXa69UoArPUw526hIUV9ZUI/s1600/Irma%20Syuryani%20DJ.jpg",
         "tahun_ajaran_mulai": "2025/2026",
         "tahun_ajaran_selesai": "2026/2027"
