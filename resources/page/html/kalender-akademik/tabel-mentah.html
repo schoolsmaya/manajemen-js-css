@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Kalender Mentah</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<div id="kalender-pendidikan-container"></div>
+
+<style>
+  /* Styling dasar untuk kalender, Anda bisa kustomisasi ini */
+  #kalender-pendidikan-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #kalender-pendidikan-container th,
+  #kalender-pendidikan-container td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top; /* Agar konten tinggi tetap rapi */
+  }
+  #kalender-pendidikan-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+  #kalender-pendidikan-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Warna latar baris genap */
+  }
+  #kalender-pendidikan-container p.loading-message {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+  #kalender-pendidikan-container p.error-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+</style>
+
+<script>
+  // PENTING: Ganti dengan ID Spreadsheet Anda yang sudah didapatkan dari Akun B
+  const SPREADSHEET_ID = '17c0czCGCBn7ewmRBAJuGQX9bu94B6Rpst57Fghs8glI'; 
+  // PENTING: Pastikan ini adalah nama sheet yang Anda publikasikan ('Data_Aktif')
+  const SHEET_NAME = 'Data_Aktif'; 
+
+  // URL untuk mengambil data dari Google Sheets yang dipublikasikan (menggunakan Google Visualization API)
+  const DATA_URL = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&sheet=${SHEET_NAME}`;
+
+  async function ambilDataKalender() {
+      const kalenderContainer = document.getElementById('kalender-pendidikan-container');
+      if (!kalenderContainer) {
+          console.error("Elemen container kalender tidak ditemukan. Pastikan ada <div id='kalender-pendidikan-container'></div> di HTML Anda.");
+          return [];
+      }
+      kalenderContainer.innerHTML = "<p class='loading-message'>Memuat data kalender...</p>";
+
+      try {
+          const response = await fetch(DATA_URL);
+          const text = await response.text();
+          
+          const jsonStartIndex = text.indexOf('{');
+          const jsonEndIndex = text.lastIndexOf('}');
+          if (jsonStartIndex === -1 || jsonEndIndex === -1) {
+              throw new Error("Respons dari Google Sheets tidak dalam format JSON yang diharapkan.");
+          }
+          const jsonString = text.substring(jsonStartIndex, jsonEndIndex + 1);
+          
+          const data = JSON.parse(jsonString);
+
+          if (!data || !data.table || !data.table.rows) {
+              throw new Error("Struktur data dari Google Sheets tidak valid.");
+          }
+
+          const rows = data.table.rows;
+          const headers = data.table.cols.map(col => col.label);
+
+          const kalenderData = rows.map(row => {
+              const rowData = {};
+              row.c.forEach((cell, index) => {
+                  if (cell && cell.v !== undefined) { 
+                      rowData[headers[index]] = cell.v;
+                  } else {
+                      rowData[headers[index]] = null;
+                  }
+                  // >>>>> PERBAIKAN: PASTIKAN PROPERTI 'f' JUGA DISIMPAN <<<<<
+                  if (cell && cell.f !== undefined) {
+                      // Simpan formatted value dengan nama kolom_f (misal Tanggal_f)
+                      rowData[headers[index] + '_f'] = cell.f; 
+                  }
+              });
+              return rowData;
+          });
+          return kalenderData;
+
+      } catch (error) {
+          console.error("Gagal mengambil data dari Google Sheets:", error);
+          kalenderContainer.innerHTML = `<p class='error-message'>Maaf, data kalender tidak dapat dimuat. (${error.message})</p>`;
+          return [];
+      }
+  }
+
+  // Fungsi untuk menampilkan kalender di halaman Blogger
+  async function tampilkanKalender() {
+      const kalenderContainer = document.getElementById('kalender-pendidikan-container');
+      if (!kalenderContainer) {
+          return; 
+      }
+
+      const dataKalender = await ambilDataKalender();
+      
+      if (dataKalender.length === 0) {
+          if (!kalenderContainer.innerHTML.includes("error-message")) {
+              kalenderContainer.innerHTML = "<p class='loading-message'>Data kalender tidak tersedia atau kosong.</p>";
+          }
+          return;
+      }
+
+      let htmlContent = '<table><thead><tr><th>Tanggal</th><th>Jenis Hari</th><th>Keterangan</th><th>KodeWarna</th></tr></thead><tbody>';
+      
+      dataKalender.forEach(item => {
+          let tanggalTampil = '';
+          const rawTanggalObj = item.Tanggal; // Ini adalah objek {v: "Date(Y,M,D)", f: "YYYY-MM-DD"}
+          const formattedTanggal = item.Tanggal_f; // Ini adalah string "YYYY-MM-DD"
+
+          // >>>>> PERBAIKAN: PRIORITASKAN PENGGUNAAN TANGGAL_F <<<<<
+          if (formattedTanggal) {
+              tanggalTampil = formattedTanggal; // Langsung gunakan YYYY-MM-DD dari 'f'
+          } else if (rawTanggalObj && typeof rawTanggalObj === 'object' && rawTanggalObj.v && typeof rawTanggalObj.v === 'string' && rawTanggalObj.v.startsWith('Date(')) {
+              // Fallback: Jika 'f' tidak ada, parse dari 'v'
+              const matches = rawTanggalObj.v.match(/Date\((\d+),(\d+),(\d+)\)/);
+              if (matches && matches.length === 4) {
+                  const year = parseInt(matches[1]);
+                  const month = parseInt(matches[2]) + 1; // Konversi ke bulan 1-indeks
+                  const day = parseInt(matches[3]);
+                  tanggalTampil = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+              }
+          } else if (typeof item.Tanggal === 'number') {
+              // Logika untuk serial number Excel/Google Sheets
+              const date = new Date(1899, 11, 30); 
+              date.setDate(date.getDate() + item.Tanggal);
+              tanggalTampil = date.toLocaleDateString('en-CA'); // Format YYYY-MM-DD
+          } else if (typeof item.Tanggal === 'string') {
+              // Untuk kasus tanggal sudah berupa string YYYY-MM-DD
+              tanggalTampil = item.Tanggal;
+          } else {
+              tanggalTampil = 'Invalid Date';
+          }
+          // <<<<<< AKHIR PERBAIKAN TANGGAL <<<<<<
+
+          const jenisHari = item['Jenis Hari'] || ''; 
+          const keterangan = item.Keterangan || '';
+          const kodeWarna = item.KodeWarna || ''; 
+
+          htmlContent += `
+              <tr>
+                  <td>${tanggalTampil}</td>
+                  <td>${jenisHari}</td>
+                  <td>${keterangan}</td>
+                  <td>${kodeWarna}</td> 
+              </tr>
+          `;
+      });
+
+      htmlContent += '</tbody></table>';
+      kalenderContainer.innerHTML = htmlContent;
+  }
+
+  // Panggil fungsi ini saat halaman dimuat
+  document.addEventListener('DOMContentLoaded', tampilkanKalender);
+</script>
+</body>
+</html>
