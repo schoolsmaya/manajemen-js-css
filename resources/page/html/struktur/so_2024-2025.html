@@ -12459,53 +12459,6 @@ QmCC" transform="matrix(1 0 0 1 282 850)">
                 });
             });
         });
-
-	    // --- SKRIP UNTUK MENGIRIM TINGGI KONTEN KE IFRAME (VERSI LEBIH ROBUST) ---
-let resizeTimeout;
-
-function sendIframeHeight() {
-    // Hapus timeout sebelumnya jika ada
-    clearTimeout(resizeTimeout);
-
-    // Set timeout baru untuk memastikan perhitungan tinggi setelah rendering selesai
-    resizeTimeout = setTimeout(() => {
-        const body = document.body;
-        const html = document.documentElement;
-
-        // Hitung tinggi konten sebenarnya, mengambil nilai maksimum dari berbagai properti
-        const contentHeight = Math.max(
-            body.scrollHeight, body.offsetHeight,
-            html.clientHeight, html.scrollHeight, html.offsetHeight
-        );
-
-        // Kirim tinggi konten ke parent (halaman Blogger)
-        if (window.parent) {
-            window.parent.postMessage({
-                frameHeight: contentHeight,
-                frameId: 'bagan-organisasi-iframe' // ID ini harus sama dengan ID iframe di Blogger
-            }, '*'); // '*' berarti bisa mengirim ke domain mana saja (kurang aman, tapi paling kompatibel)
-        }
-        console.log('Mengirim tinggi iframe:', contentHeight); // Untuk debugging
-    }, 100); // Penundaan 100ms untuk memastikan rendering selesai
-}
-
-// Panggil saat DOM sudah dimuat sepenuhnya
-document.addEventListener('DOMContentLoaded', sendIframeHeight);
-
-// Panggil saat ukuran jendela berubah (penting untuk responsivitas mobile)
-window.addEventListener('resize', sendIframeHeight);
-
-// Panggil setelah semua sumber daya (termasuk gambar) dimuat
-window.addEventListener('load', sendIframeHeight);
-
-// Jika ada interaksi yang mengubah ukuran (misal zoom foto), panggil lagi
-// Di fungsi zoom Anda (di file HTML yang sama):
-// zoomablePhotos.forEach(photo => {
-//     photo.addEventListener('click', function() {
-//         this.classList.toggle('zoomed');
-//         sendIframeHeight(); // Panggil setelah zoom
-//     });
-// });
     </script>
 </body>
 </html>
