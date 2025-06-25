@@ -13,7 +13,13 @@
             /* Jika di subfolder 'fonts', maka 'fonts/AgencyFB.woff2' */
             src: url('AgencyFB.woff2') format('woff2'),
                  url('AgencyFB.woff') format('woff'),
-                 url('AgencyFB.ttf') format('truetype');
+                 url('AgencyFB.ttf') format('truetype'),
+		 url('AgencyFB-Bold.woff2') format('woff2'),
+                 url('AgencyFB-Bold.woff') format('woff'),
+                 url('AgencyFB-Bold.ttf') format('truetype'),
+		 url('AgencyFB-Reg.woff2') format('woff2'),
+                 url('AgencyFB-Reg.woff') format('woff'),
+                 url('AgencyFB-Reg.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
@@ -12453,39 +12459,6 @@ QmCC" transform="matrix(1 0 0 1 282 850)">
                 });
             });
         });
-
-	    // --- SKRIP UNTUK MENGIRIM TINGGI KONTEN KE IFRAME ---
-function sendIframeHeight() {
-    const body = document.body;
-    const html = document.documentElement;
-    // Hitung tinggi konten sebenarnya
-    const contentHeight = Math.max( body.scrollHeight, body.offsetHeight,
-                                    html.clientHeight, html.scrollHeight, html.offsetHeight );
-
-    // Kirim tinggi konten ke parent (halaman Blogger)
-    if (window.parent) {
-        window.parent.postMessage({
-            frameHeight: contentHeight,
-            frameId: 'bagan-organisasi-iframe' // ID ini harus sama dengan ID iframe di Blogger
-        }, '*'); // '*' berarti bisa mengirim ke domain mana saja
-    }
-}
-
-// Kirim tinggi saat DOMContentLoaded
-document.addEventListener('DOMContentLoaded', sendIframeHeight);
-
-// Kirim tinggi saat ukuran jendela berubah (responsif)
-window.addEventListener('resize', sendIframeHeight);
-
-// Kirim tinggi setelah gambar dimuat (penting jika ada gambar yang baru muncul)
-window.addEventListener('load', sendIframeHeight);
-
-// Anda mungkin perlu memanggilnya lagi setelah konten dinamis (misal, setelah zoom)
-// Misalnya, di fungsi zoom:
-// photo.addEventListener('click', function() {
-//     this.classList.toggle('zoomed');
-//     setTimeout(sendIframeHeight, 350); // Beri sedikit waktu untuk transisi zoom
-// });
     </script>
 </body>
 </html>
