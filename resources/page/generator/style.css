@@ -1,134 +1,208 @@
-*{
+/* Aturan dasar */
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-   
-    /* font-size: 1.5em; */
+    box-sizing: border-box; /* Penting untuk perhitungan lebar dan tinggi */
 }
 
-header{
-    padding: 150px;
+/* Header */
+header {
+    padding: 100px 20px; /* Kurangi padding untuk layar kecil */
     background-image: url('bg_header.jfif');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-   
     text-align: center;
     position: relative;
+    min-height: 300px; /* Atur tinggi minimum untuk header */
+    display: flex; /* Gunakan flexbox untuk centering konten */
+    align-items: center;
+    justify-content: center;
 }
- .heading_text h1{
-    text-align: center;
-    font-size: 54px;
-    margin-bottom:10px
-    /* font-weight: 900; */
-} 
+
+.heading_text h1 {
+    font-size: 3em; /* Gunakan em untuk ukuran font relatif */
+    margin-bottom: 10px;
+    word-wrap: break-word; /* Memastikan teks panjang pecah baris */
+    padding: 0 10px; /* Sedikit padding horizontal */
+}
+
+/* Main Content */
 main {
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  main form button{
-      margin-top:25px ;
-  }
-  button {
+    max-width: 900px; /* Batasi lebar maksimum main untuk keterbacaan */
+    margin: 20px auto; /* Pusatkan main secara horizontal */
+}
+
+main form button {
+    margin-top: 25px;
+}
+
+/* Buttons */
+button,
+input[type="submit"] { /* Gabungkan gaya untuk button dan input submit */
     background: #8bc34a;
     color: #fff;
     border: none;
-    font-size: 0.8em;
-    padding: 15px 15px;
-    /* margin: 20px; */
+    font-size: 1em; /* Ukuran font relatif */
+    padding: 15px 25px; /* Sesuaikan padding */
     border-radius: 5px;
     cursor: pointer;
-  }
+    transition: background-color 0.3s ease; /* Tambahkan transisi hover */
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #7cb342; /* Efek hover */
+}
+
+/* Form Elements */
 input,
 span,
-label{
-  font-family: 'Ubuntu', sans-serif;
-  display: block;
-  margin: 10px;
-  padding: 5px;
-  border: none;
-  font-size: 22px;
+label {
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    margin: 10px 0; /* Sesuaikan margin */
+    padding: 5px;
+    border: none;
+    font-size: 1.2em; /* Ukuran font relatif */
 }
+
 input:focus {
     outline: 0;
-  }
-input.question{
-  font-size: 48px;
-  font-weight: 300;
-  border-radius: 2px;
-  margin: 0;
-  border: none;
-  width: 80%;
-  background: rgba(0, 0, 0, 0);
-  transition: padding-top 0.2s ease, margin-top 0.2s ease;
-  overflow-x: hidden;
 }
-input.question + label{
-  display: block;
-  position: relative;
-  white-space: nowrap;
-  padding: 0;
-  margin: 0;
-  width: 10%;
-  border-top: 1px solid red;
-  -webkit-transition: width 0.4s ease;
-  transition: width 0.4s ease;
-  height: 0px;
+
+input.question {
+    font-size: 2em; /* Gunakan em untuk ukuran font */
+    font-weight: 300;
+    border-radius: 2px;
+    margin: 0;
+    border: none;
+    width: 100%; /* Gunakan 100% lebar yang tersedia */
+    max-width: 600px; /* Batasi lebar maksimum input */
+    background: rgba(0, 0, 0, 0);
+    transition: padding-top 0.2s ease, margin-top 0.2s ease;
+    overflow-x: hidden;
+    box-sizing: border-box; /* Penting untuk perhitungan lebar */
 }
-input.question:focus + label{
-  width: 80%;
+
+input.question + label {
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+    width: 0%; /* Dimulai dari 0% dan akan diperlebar */
+    border-top: 1px solid red;
+    transition: width 0.4s ease;
+    height: 0px;
 }
+
+input.question:focus + label {
+    width: 100%; /* Memenuhi lebar input */
+}
+
 input.question:focus,
 input.question:valid {
-  padding-top: 35px;
+    padding-top: 35px;
 }
 
 input.question:focus + label > span,
 input.question:valid + label > span {
-  top: -100px;
-  font-size: 22px;
-  color: #333;
+    top: -80px; /* Sesuaikan posisi label saat fokus/valid */
+    font-size: 1.1em; /* Ukuran font relatif */
+    color: #333;
 }
-
-
 
 input.question:valid + label {
-  border-color: green;
+    border-color: green;
 }
 
-input.question:invalid{
-  box-shadow: none;
+input.question:invalid {
+    box-shadow: none;
 }
 
-input.question + label > span{
-  font-weight: 300;
-  margin: 0;
-  position: absolute;
-  color: #8F8F8F;
-  font-size: 48px;
-  top: -66px;
-  left: 0px;
-  z-index: -1;
-  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
-  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+input.question + label > span {
+    font-weight: 300;
+    margin: 0;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 2em; /* Ukuran font relatif */
+    top: -50px; /* Sesuaikan posisi awal label */
+    left: 0px;
+    z-index: -1;
+    transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
 }
 
-input[type="submit"] {
-    background: #8bc34a;
-    color: #fff;
-    border: none;
-    font-size: 0.8em;
-    padding: 15px 15px;
-    /* margin: 20px; */
-    border-radius: 5px;
-    cursor: pointer;
+/* --- Media Queries --- */
+
+/* Untuk layar yang lebih kecil dari 768px (misalnya, tablet dan ponsel) */
+@media (max-width: 768px) {
+    header {
+        padding: 80px 15px; /* Kurangi padding lebih lanjut */
+        min-height: 250px;
+    }
+
+    .heading_text h1 {
+        font-size: 2.2em; /* Kurangi ukuran font untuk layar kecil */
+    }
+
+    input.question {
+        font-size: 1.5em; /* Kurangi ukuran font input */
+    }
+
+    input.question + label > span {
+        font-size: 1.5em; /* Kurangi ukuran font label */
+        top: -40px; /* Sesuaikan posisi */
+    }
+
+    input.question:focus + label > span,
+    input.question:valid + label > span {
+        top: -70px; /* Sesuaikan posisi label saat fokus/valid */
+        font-size: 1em;
+    }
+
+    button,
+    input[type="submit"] {
+        padding: 12px 20px; /* Kurangi padding tombol */
+        font-size: 0.9em;
+    }
 }
 
+/* Untuk layar yang sangat kecil (misalnya, ponsel di mode potret) */
+@media (max-width: 480px) {
+    header {
+        padding: 60px 10px;
+        min-height: 200px;
+    }
 
+    .heading_text h1 {
+        font-size: 1.8em;
+    }
 
+    input,
+    span,
+    label {
+        font-size: 1em;
+    }
 
+    input.question {
+        font-size: 1.2em;
+    }
 
+    input.question + label > span {
+        font-size: 1.2em;
+        top: -30px;
+    }
 
+    input.question:focus + label > span,
+    input.question:valid + label > span {
+        top: -60px;
+        font-size: 0.9em;
+    }
+}
