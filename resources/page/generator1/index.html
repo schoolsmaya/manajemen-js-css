@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertifikat Dinamis</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- Pengaturan Umum Halaman --- */
+        body {
+            font-family: 'Poppins', sans-serif; /* Font default */
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5; /* Latar belakang halaman */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        #sertifikat-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* --- Pengaturan Sertifikat (HTML & CSS Penuh) --- */
+        .certificate-template {
+            /* Ukuran Sertifikat: Rasio A4 Landscape (297mm x 210mm) = 1.414 */
+            width: 90vw; /* Mengambil 90% lebar viewport */
+            max-width: 29.7cm; /* Batasi lebar maksimum ke ukuran A4 landscape (29.7cm) */
+            
+            /* Tinggi dihitung secara proporsional dari lebar untuk menjaga rasio A4 */
+            height: calc(90vw / 1.414); 
+            max-height: 21cm; /* Batasi tinggi maksimum ke ukuran A4 landscape (21cm) */
+            
+            background-color: #ffffff; /* Latar belakang putih sertifikat */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Bayangan elegan */
+            border-radius: 8px; /* Sudut sedikit membulat */
+            overflow: hidden; /* Pastikan konten tidak keluar dari area */
+            
+            position: relative; /* Penting untuk positioning elemen di dalamnya */
+            margin: 20px auto; /* Pusatkan sertifikat dan beri margin */
+            padding: 2.5cm; /* Padding untuk konten di dalam bingkai (sesuaikan) */
+            box-sizing: border-box; /* Pastikan padding tidak menambah ukuran total */
+
+            /* Penting untuk pencetakan PDF: setiap sertifikat di halaman baru */
+            page-break-after: always;
+
+            /* Gaya bingkai utama */
+            border: 5px solid #007bff; /* Bingkai solid biru */
+            /* Bisa juga pakai border-image untuk tekstur, tapi itu butuh gambar eksternal */
+        }
+
+        /* Dekorasi Sudut (Menggunakan Pseudo-elements) */
+        .certificate-template::before,
+        .certificate-template::after {
+            content: '';
+            position: absolute;
+            width: 60px; /* Ukuran ornamen */
+            height: 60px;
+            border: 4px solid #f0ad4e; /* Warna emas/oranye */
+            border-radius: 10px;
+            transform: rotate(45deg); /* Putar untuk efek berlian */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .certificate-template::before {
+            top: -30px; /* Setengah dari width/height agar di sudut */
+            left: -30px;
+        }
+
+        .certificate-template::after {
+            bottom: -30px;
+            right: -30px;
+        }
+
+        /* Bagian Konten Teks */
+        .content-area {
+            text-align: center;
+            position: absolute; /* Posisikan absolut di dalam sertifikat */
+            width: calc(100% - 5cm); /* Ambil lebar sertifikat dikurangi padding */
+            left: 2.5cm; /* Sesuaikan dengan padding */
+            top: 50%; /* Awal dari tengah vertikal */
+            transform: translateY(-50%); /* Pusatkan vertikal */
+        }
+
+        .award-text {
+            font-size: 1.5vw;
+            max-font-size: 1.2em;
+            margin-bottom: 0.5em;
+            color: #555;
+        }
+
+        .recipient-name {
+            font-family: 'Playfair Display', serif; /* Font khusus untuk nama */
+            font-size: 5vw; /* Sangat responsif */
+            max-font-size: 3em; /* Batasi ukuran maksimum */
+            font-weight: 700;
+            color: #d9534f; /* Warna merah gelap */
+            margin: 0.2em 0 0.5em 0;
+            line-height: 1.1;
+            word-wrap: break-word; /* Mengatasi nama terlalu panjang */
+            padding: 0 10px; /* Sedikit padding horizontal */
+        }
+
+        .description-text {
+            font-size: 1.2vw;
+            max-font-size: 1em;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            color: #666;
+        }
+
+        .event-name {
+            font-size: 1.8vw;
+            max-font-size: 1.3em;
+            font-weight: 600;
+            color: #337ab7; /* Warna biru */
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .date-text {
+            font-size: 1vw;
+            max-font-size: 0.9em;
+            color: #777;
+            margin-top: 0.5em;
+        }
+
+        .signature-block {
+            position: absolute;
+            bottom: 2.5cm; /* Posisi dari bawah, sesuaikan dengan padding */
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            width: calc(100% - 5cm); /* Sama seperti content-area */
+        }
+
+        .signature-block p {
+            margin: 0.2em 0;
+            font-size: 1.1vw;
+            max-font-size: 0.9em;
+            color: #555;
+        }
+
+        .signer-name {
+            font-weight: 600;
+            margin-top: 0.5em;
+        }
+
+        /* --- Styling Tombol Unduh --- */
+        button {
+            padding: 10px 20px;
+            background-color: #28a745; /* Warna hijau */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        /* --- Garis Pemisah (Opsional) --- */
+        hr {
+            border: 0;
+            border-top: 1px dashed #e0e0e0;
+            margin: 30px auto;
+            width: 80%;
+        }
+
+        /* --- MEDIA QUERIES untuk Responsivitas --- */
+        @media (max-width: 1024px) { /* Tablet dan laptop kecil */
+            .certificate-template { padding: 2cm; }
+            .content-area { left: 2cm; width: calc(100% - 4cm); }
+            .signature-block { bottom: 2cm; width: calc(100% - 4cm); }
+            .award-text { font-size: 1.8vw; }
+            .recipient-name { font-size: 6vw; }
+            .description-text { font-size: 1.5vw; }
+            .event-name { font-size: 2.2vw; }
+            .date-text { font-size: 1.3vw; }
+            .signature-block p { font-size: 1.4vw; }
+        }
+
+        @media (max-width: 768px) { /* Tablet portrait dan ponsel besar */
+            .certificate-template { 
+                width: 95vw; 
+                height: calc(95vw / 1.414);
+                padding: 1.5cm; 
+            }
+            .content-area { left: 1.5cm; width: calc(100% - 3cm); }
+            .signature-block { bottom: 1.5cm; width: calc(100% - 3cm); }
+            .award-text { font-size: 2.5vw; }
+            .recipient-name { font-size: 7.5vw; }
+            .description-text { font-size: 2vw; }
+            .event-name { font-size: 3vw; }
+            .date-text { font-size: 2.2vw; }
+            .signature-block p { font-size: 2.5vw; }
+            button { font-size: 0.9em; padding: 8px 15px; }
+        }
+
+        @media (max-width: 480px) { /* Ponsel yang sangat kecil */
+            .certificate-template {
+                width: 98vw;
+                height: calc(98vw / 1.414);
+                padding: 1cm;
+            }
+            .content-area { left: 1cm; width: calc(100% - 2cm); }
+            .signature-block { bottom: 1cm; width: calc(100% - 2cm); }
+            .award-text { font-size: 3.5vw; }
+            .recipient-name { font-size: 9vw; }
+            .description-text { font-size: 3vw; }
+            .event-name { font-size: 4vw; }
+            .date-text { font-size: 3.2vw; }
+            .signature-block p { font-size: 3.5vw; }
+        }
+
+        /* --- CSS untuk Pencetakan PDF --- */
+        @media print {
+            body {
+                background-color: #fff !important; /* Latar belakang putih saat cetak */
+                padding: 0 !important;
+                margin: 0 !important;
+                display: block !important;
+            }
+            #sertifikat-container {
+                width: 100% !important;
+                display: block !important;
+                page-break-after: always;
+            }
+            /* Sembunyikan elemen yang tidak perlu di PDF */
+            h1, button, hr {
+                display: none !important; 
+            }
+
+            /* Pastikan sertifikat mengambil ukuran fisik penuh A4 di PDF */
+            .certificate-template {
+                width: 29.7cm !important; /* Lebar A4 landscape */
+                height: 21cm !important; /* Tinggi A4 landscape */
+                margin: 0 !important; /* Hapus margin */
+                box-shadow: none !important; /* Hapus bayangan */
+                border-radius: 0 !important; /* Hapus sudut membulat */
+                transform: none !important; /* Hapus transform jika ada */
+                page-break-after: always !important; /* Penting untuk setiap sertifikat di halaman baru */
+                overflow: hidden !important;
+                /* Pastikan padding tetap atau sesuaikan untuk cetak */
+                padding: 2.5cm !important; 
+            }
+
+            /* Atur ulang dekorasi sudut untuk ukuran cetak jika diperlukan */
+            .certificate-template::before,
+            .certificate-template::after {
+                width: 3cm !important; /* Ukuran ornamen fisik */
+                height: 3cm !important;
+                top: -1.5cm !important;
+                left: -1.5cm !important;
+                bottom: -1.5cm !important;
+                right: -1.5cm !important;
+            }
+
+            /* Pastikan teks berada di posisi yang tepat di PDF */
+            .content-area, .signature-block {
+                position: absolute !important;
+                left: 2.5cm !important; /* Sesuaikan dengan padding sertifikat */
+                width: calc(100% - 5cm) !important;
+                transform: none !important; /* Hapus transform */
+                text-align: center !important;
+            }
+
+            .award-text {
+                font-size: 1.2em !important; /* Ukuran font spesifik untuk cetak */
+                margin-bottom: 0.5em !important;
+            }
+            .recipient-name {
+                font-size: 3em !important; /* Ukuran font nama di PDF */
+                margin: 0.2em 0 0.5em 0 !important;
+                padding: 0 !important; /* Hapus padding horizontal */
+            }
+            .description-text {
+                font-size: 1em !important;
+                margin-top: 1em !important;
+            }
+            .event-name {
+                font-size: 1.3em !important;
+                margin-top: 0.5em !important;
+            }
+            .date-text {
+                font-size: 0.9em !important;
+                margin-top: 0.5em !important;
+            }
+            .signature-block {
+                bottom: 2.5cm !important; /* Posisi tanda tangan di PDF */
+            }
+            .signature-block p {
+                font-size: 0.9em !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Daftar Sertifikat</h1>
+
+    <div id="sertifikat-container">
+        <p>Memuat data sertifikat...</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script>
+        // --- KONFIGURASI PENTING ---
+        // GANTI DENGAN ID SPREADSHEET GOOGLE ANDA
+        const SPREADSHEET_ID = '136f-IvdJ5xZfOLRhtlahmOrPdvg73DtX2Eznjx80DXo'; 
+
+        // GANTI DENGAN GID (SHEET ID) DARI LEMBAR KERJA ANDA
+        const SHEET_GID = '0'; 
+
+        // URL LENGKAP untuk mengambil data JSON dari Google Sheet Anda
+        const SPREADSHEET_JSON_URL = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&gid=${SHEET_GID}`;
+
+        // --- FUNGSI UNDUH PDF ---
+        // html2canvas akan mengambil "screenshot" dari elemen HTML, lalu jsPDF akan mengubahnya ke PDF.
+        function unduhSertifikat(elementId, fileName) {
+            const element = document.getElementById(elementId);
+            // Skala 3 sangat disarankan untuk kualitas PDF yang tinggi dari HTML/CSS
+            html2canvas(element, { 
+                scale: 3, 
+                useCORS: false, /* Tidak perlu CORS karena tidak ada gambar eksternal */
+                logging: false 
+            }).then(canvas => {
+                const imgData = canvas.toDataURL('image/png');
+                const pdf = new jspdf.jsPDF({
+                    orientation: 'landscape', 
+                    unit: 'cm', /* Gunakan cm untuk unit */
+                    format: 'a4' 
+                });
+                
+                const imgWidth = pdf.internal.pageSize.getWidth(); /* Lebar halaman PDF (29.7cm) */
+                const imgHeight = canvas.height * imgWidth / canvas.width; /* Tinggi gambar proporsional */
+                
+                pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+                pdf.save(fileName + '.pdf');
+            }).catch(error => {
+                console.error("Error creating PDF:", error);
+                alert("Maaf, terjadi kesalahan saat membuat PDF. Silakan coba lagi.");
+            });
+        }
+
+        // --- FUNGSI UTAMA MEMUAT DATA DAN MERENDER SERTIFIKAT ---
+        async function loadCertificates() {
+            const container = document.getElementById('sertifikat-container');
+            container.innerHTML = '<p>Memuat data sertifikat...</p>';
+
+            try {
+                const response = await fetch(SPREADSHEET_JSON_URL);
+                const textData = await response.text();
+                
+                const jsonStart = textData.indexOf('(') + 1;
+                const jsonEnd = textData.lastIndexOf(')');
+                const jsonString = textData.substring(jsonStart, jsonEnd);
+                const jsonData = JSON.parse(jsonString);
+
+                if (!jsonData.table || !jsonData.table.rows || jsonData.table.rows.length === 0) {
+                    container.innerHTML = '<p>Tidak ada data sertifikat yang ditemukan.</p>';
+                    return;
+                }
+
+                const entries = jsonData.table.rows;
+                container.innerHTML = ''; /* Bersihkan pesan loading */
+
+                entries.forEach((entry, index) => {
+                    // --- SESUAIKAN INDEKS KOLOM ANDA ---
+                    // Kolom A (indeks 0): Nama Lengkap
+                    // Kolom B (indeks 1): Tanggal Acara
+                    // Kolom C (indeks 2): Nama Acara
+                    const namaLengkap = entry.c[0] ? entry.c[0].v : ''; 
+                    const tanggalAcara = entry.c[1] ? entry.c[1].v : ''; 
+                    const namaAcara = entry.c[2] ? entry.c[2].v : '';    
+
+                    const certificateId = `sertifikat-${index}`;
+                    
+                    const certificateHtml = `
+                        <div id="${certificateId}" class="certificate-template">
+                            <div class="content-area">
+                                <p class="award-text">Dengan bangga mempersembahkan kepada</p>
+                                <h2 class="recipient-name">${namaLengkap}</h2> 
+                                <p class="description-text">Atas partisipasi yang luar biasa dalam</p>
+                                <h3 class="event-name">${namaAcara}</h3> 
+                                <p class="date-text">pada tanggal ${tanggalAcara}</p> 
+                            </div>
+                            <div class="signature-block">
+                                <p>Hormat kami,</p>
+                                <p class="signer-name">Panitia Penyelenggara</p>
+                            </div>
+                        </div>
+                        <button onclick="unduhSertifikat('${certificateId}', 'Sertifikat_${namaLengkap.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, '')}')">Unduh Sertifikat ${namaLengkap}</button>
+                        <hr>
+                    `;
+                    container.innerHTML += certificateHtml;
+                });
+
+            } catch (error) {
+                console.error('Error fetching or parsing data:', error);
+                container.innerHTML = '<p>Terjadi kesalahan saat memuat sertifikat. Pastikan URL Spreadsheet dan GID sudah benar, dan spreadsheet sudah dipublikasikan ke web.</p>';
+            }
+        }
+
+        // Panggil fungsi utama saat halaman dimuat
+        window.onload = loadCertificates;
+    </script>
+</body>
+</html>
