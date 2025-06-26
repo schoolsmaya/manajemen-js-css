@@ -3,265 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sertifikat Dinamis (Template PDF)</title>
-
-    <style>
-        /* --- Pengaturan Umum Halaman --- */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f2f5;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-            box-sizing: border-box;
-            color: #333;
-        }
-
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        #sertifikat-container {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        /* --- Styling Kontainer Sertifikat di Web (Hanya Placeholder/Preview) --- */
-        /* Ini adalah tampilan di browser, bukan sertifikat aslinya yang akan dicetak. */
-        /* Sertifikat aslinya ada di file PDF eksternal. */
-        .certificate-display {
-            width: 90vw; /* Responsif */
-            max-width: 29.7cm; /* Batas A4 */
-            height: calc(90vw / 1.414); /* Jaga rasio A4 */
-            max-height: 21cm; /* Batas A4 */
-            background-color: #e0e0e0; /* Warna latar belakang placeholder */
-            border: 1px dashed #999; /* Border placeholder */
-            margin: 20px auto;
-            display: flex;
-            flex-direction: column; /* Mengatur konten di tengah vertikal */
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            font-size: 1.2em;
-            color: #555;
-            box-sizing: border-box;
-            position: relative; /* Untuk memposisikan teks preview nama */
-        }
-
-        .certificate-display p {
-            margin: 5px 0;
-        }
-
-        /* Styling Nama Lengkap di Tampilan Web (sebagai preview) */
-        .certificate-display .nama-preview {
-            position: absolute;
-            top: 50%; /* Tengah vertikal placeholder */
-            transform: translateY(-50%);
-            width: 90%; /* Lebar teks preview */
-            font-size: 2em; /* Ukuran font di preview */
-            font-weight: bold;
-            color: #d9534f;
-            word-wrap: break-word;
-        }
-
-        /* --- Styling Tombol Unduh --- */
-        button {
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1em;
-            margin-top: 10px;
-            margin-bottom: 30px; /* Jarak antar tombol */
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #218838;
-        }
-
-        /* --- Garis Pemisah (Opsional) --- */
-        hr {
-            border: 0;
-            border-top: 1px dashed #e0e0e0;
-            margin: 30px auto;
-            width: 80%;
-        }
-
-        /* --- MEDIA QUERIES untuk Responsivitas Tampilan Web --- */
-        @media (max-width: 768px) {
-            .certificate-display {
-                width: 95vw;
-                height: calc(95vw / 1.414);
-            }
-            .certificate-display .nama-preview {
-                font-size: 1.5em;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .certificate-display {
-                width: 98vw;
-                height: calc(98vw / 1.414);
-            }
-            .certificate-display .nama-preview {
-                font-size: 1.2em;
-            }
-        }
-
-        /* --- CSS untuk Pencetakan PDF (Hanya untuk menyembunyikan tombol, jsPDF yang utama) --- */
-        @media print {
-            body > *:not(#sertifikat-container) {
-                display: none !important; /* Sembunyikan semua kecuali container utama saat cetak */
-            }
-            /* Tidak perlu mengatur ukuran certificate-template di sini, karena jsPDF yang membuat PDF baru */
-        }
-    </style>
+    <title>Generator Sertifikat Dinamis</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png"/>
 </head>
 <body>
-    <h1>Daftar Sertifikat</h1>
 
-    <div id="sertifikat-container">
-        <p>Memuat data peserta...</p>
-    </div>
+    <header>
+        <div class="heading_text">
+            <h1>Buat Sertifikat Gratis dalam Hitungan Menit</h1>
+            <h2>Buat sertifikat unik dalam hitungan menit. Tanpa perlu skill desain.</h2>
+        </div>
+    </header>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <main>
+        <div id="certificate-list-container">
+            <p>Memuat data peserta...</p>
+        </div>
+    </main>
 
-    <script>
-        // --- KONFIGURASI PENTING ---
-
-        // GANTI DENGAN ID SPREADSHEET GOOGLE ANDA
-        const SPREADSHEET_ID = '136f-IvdJ5xZfOLRhtlahmOrPdvg73DtX2Eznjx80DXo'; 
-
-        // GANTI DENGAN GID (SHEET ID) DARI LEMBAR KERJA ANDA
-        const SHEET_GID = '0'; 
-
-        // URL LENGKAP untuk mengambil data JSON dari Google Sheet Anda
-        const SPREADSHEET_JSON_URL = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&gid=${SHEET_GID}`;
-
-        // GANTI DENGAN URL LANGSUNG KE FILE TEMPLATE PDF ANDA
-        // Contoh: 'https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_DI_SINI'
-        const GLOBAL_PDF_TEMPLATE_URL = 'Sertifikat-Kombel.pdf';
-
-        // --- POSISI TEKS NAMA DI DALAM PDF (KOORDINAT X, Y) ---
-        // Ini adalah nilai yang paling penting untuk disesuaikan!
-        // Unit: 'cm' (sentimeter) karena kita akan pakai unit 'cm' di jsPDF.
-        // X = jarak dari tepi kiri halaman PDF (contoh: 14.85cm untuk tengah A4 landscape)
-        // Y = jarak dari tepi atas halaman PDF ke garis dasar teks (ini yang perlu Anda sesuaikan presisi)
-        const NAMA_POS_X = 14.85; // Tengah halaman A4 landscape (29.7cm / 2)
-        const NAMA_POS_Y = 11.0;  // <--- SESUAIKAN: Posisi Y ini sangat penting!
-        const NAMA_FONT_SIZE = 36; // Ukuran font untuk nama (misal: 36pt)
-        const NAMA_FONT_COLOR = '#d9534f'; // Warna font untuk nama (misal: merah gelap)
-        const NAMA_FONT_FAMILY = 'helvetica'; // Font standar jsPDF: 'helvetica', 'times', 'courier'
-
-        // --- FUNGSI UNDUH PDF DENGAN TEMPLATE DAN TEKS ---
-        async function unduhSertifikatPDF(namaPeserta, fileName) {
-            try {
-                // Muat template PDF dari URL
-                const templateResponse = await fetch(GLOBAL_PDF_TEMPLATE_URL);
-                if (!templateResponse.ok) {
-                    throw new Error(`Gagal memuat template PDF: ${templateResponse.statusText}`);
-                }
-                const templateBlob = await templateResponse.blob();
-                
-                const pdf = new jspdf.jsPDF({
-                    orientation: 'landscape', 
-                    unit: 'cm', 
-                    format: 'a4' 
-                });
-
-                // Baca Blob sebagai Data URL (Base64)
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const base64Pdf = e.target.result.split(',')[1];
-                    // Tambahkan template PDF sebagai halaman pertama
-                    pdf.addImage(base64Pdf, 'PDF', 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
-
-                    // --- TAMBAHKAN TEKS NAMA DI ATAS TEMPLATE PDF ---
-                    pdf.setFont(NAMA_FONT_FAMILY);
-                    pdf.setTextColor(NAMA_FONT_COLOR);
-                    pdf.setFontSize(NAMA_FONT_SIZE);
-
-                    // Tambahkan teks nama di posisi yang telah ditentukan
-                    pdf.text(namaPeserta, NAMA_POS_X, NAMA_POS_Y, { align: 'center' });
-
-                    // Simpan PDF
-                    pdf.save(fileName + '.pdf');
-                };
-                reader.onerror = function(e) {
-                    console.error("FileReader error:", e);
-                    alert("Gagal membaca file template PDF.");
-                };
-                reader.readAsDataURL(templateBlob);
-
-            } catch (error) {
-                console.error("Error in unduhSertifikatPDF:", error);
-                alert("Maaf, terjadi kesalahan saat membuat PDF. Pastikan URL template PDF sudah benar dan bisa diakses secara publik.");
-            }
-        }
-
-        // --- FUNGSI UTAMA MEMUAT DATA DAN MENAMPILKAN ---
-        async function loadCertificatesData() {
-            const container = document.getElementById('sertifikat-container');
-            container.innerHTML = '<p>Memuat data peserta...</p>';
-
-            try {
-                const response = await fetch(SPREADSHEET_JSON_URL);
-                const textData = await response.text();
-                
-                // Ekstrak JSON dari respons gviz/tq
-                const jsonStart = textData.indexOf('(') + 1;
-                const jsonEnd = textData.lastIndexOf(')');
-                const jsonString = textData.substring(jsonStart, jsonEnd);
-                const jsonData = JSON.parse(jsonString);
-
-                if (!jsonData.table || !jsonData.table.rows || jsonData.table.rows.length === 0) {
-                    container.innerHTML = '<p>Tidak ada data peserta yang ditemukan.</p>';
-                    return;
-                }
-
-                const entries = jsonData.table.rows;
-                container.innerHTML = ''; /* Bersihkan pesan loading */
-
-                entries.forEach((entry, index) => {
-                    // --- SESUAIKAN INDEKS KOLOM ANDA ---
-                    const namaLengkap = entry.c[0] ? entry.c[0].v : ''; 
-                    const tanggalAcara = entry.c[1] ? entry.c[1].v : ''; 
-                    const namaAcara = entry.c[2] ? entry.c[2].v : '';    
-
-                    const displayHtml = `
-                        <div class="certificate-display">
-                            <p>Sertifikat untuk:</p>
-                            <div class="nama-preview">${namaLengkap}</div>
-                            <p style="margin-top: 20px;">(Acara: ${namaAcara}, Tanggal: ${tanggalAcara})</p>
-                        </div>
-                        <button onclick="unduhSertifikatPDF('${namaLengkap.replace(/'/g, "\\'")}', 'Sertifikat_${namaLengkap.replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, '')}')">Unduh Sertifikat ${namaLengkap}</button>
-                        <hr>
-                    `;
-                    container.innerHTML += displayHtml;
-                });
-
-            } catch (error) {
-                console.error('Error fetching or parsing data:', error);
-                alert('Terjadi kesalahan saat memuat data dari spreadsheet. Pastikan URL dan GID sudah benar, dan spreadsheet sudah dipublikasikan ke web.');
-                container.innerHTML = '<p>Terjadi kesalahan saat memuat sertifikat. Periksa konsol browser untuk detail.</p>';
-            }
-        }
-
-        // Panggil fungsi utama saat halaman dimuat
-        window.onload = loadCertificatesData;
-    </script>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="filesaver.js"></script> <script src="index.js"></script>
 </body>
 </html>
