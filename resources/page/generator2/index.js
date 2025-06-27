@@ -1,39 +1,50 @@
 console.log("Aplikasi Generator Sertifikat Dimuat");
 
-// --- Inisialisasi pdf-lib (HARUS DI BAGIAN ATAS SCRIPT!) ---
-// Tambahkan TextAlignment di sini untuk menggunakannya nanti
+// --- Inisialisasi pdf-lib ---
 const { PDFDocument, rgb, degrees, TextAlignment } = PDFLib; 
 
 
 // --- KONFIGURASI PENTING ---
-// GANTI DENGAN ID SPREADSHEET GOOGLE ANDA
 const SPREADSHEET_ID = '136f-IvdJ5xZfOLRhtlahmOrPdvg73DtX2Eznjx80DXo'; 
-
-// GANTI DENGAN GID (SHEET ID) DARI LEMBAR KERJA ANDA
 const SHEET_GID = '0'; 
-
-// URL LENGKAP untuk mengambil data JSON dari Google Sheet Anda
 const SPREADSHEET_JSON_URL = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&gid=${SHEET_GID}`;
 
-// URL ke template PDF dan Font Anda (pastikan bisa diakses publik!)
 const CERTIFICATE_TEMPLATE_URL = "Certificate.pdf"; 
 const CUSTOM_FONT_URL = "Sanchez-Regular.ttf"; 
 
 // --- POSISI TEKS DI DALAM PDF ---
-// Ini adalah koordinat X (horizontal dari kiri) dan Y (vertikal dari bawah) dalam point (pt)
-// CATATAN PENTING: Karena kita menggunakan TextAlignment.Center,
-// nilai X_POS ini akan menjadi TITIK TENGAH horizontal teks Anda.
-// Anda perlu MENYESUAIKAN NILAI INI agar teks terletak di posisi yang tepat pada template PDF Anda.
-// (Misal: untuk halaman landscape 842pt lebar, titik tengah adalah sekitar 421pt)
-const NAME_X_POS = 421; // <--- SESUAIKAN: Contoh titik tengah horizontal untuk nama
-const NAME_Y_POS = 270; // <--- SESUAIKAN: Koordinat Y untuk nama
+const NAME_X_POS = 421; 
+const NAME_Y_POS = 270; 
 const NAME_FONT_SIZE = 58; 
 const NAME_COLOR = rgb(0.2, 0.84, 0.67); 
 
-const CERT_NUM_X_POS = 421; // <--- SESUAIKAN: Contoh titik tengah horizontal untuk nomor sertifikat
-const CERT_NUM_Y_POS = 50;  // <--- SESUAIKAN: Koordinat Y untuk nomor sertifikat
+const CERT_NUM_X_POS = 421; 
+const CERT_NUM_Y_POS = 50;  
 const CERT_NUM_FONT_SIZE = 14; 
 const CERT_NUM_COLOR = rgb(0, 0, 0); 
+
+
+// --- FUNGSI PEMFORMATAN TANGGAL BARU ---
+function formatTanggalIndonesia(tanggalString) {
+    // Asumsi tanggalString adalah dalam format "YYYY-MM-DD" dari spreadsheet
+    const [tahun, bulan, hari] = tanggalString.split('-').map(Number);
+
+    // Membuat objek Date. Perhatikan: bulan di JavaScript 0-indeks, jadi kurangi 1.
+    // Jika format dari spreadsheet adalah "YYYY-MM-DD", new Date(tanggalString) akan menanganinya dengan baik
+    // tanpa perlu mengurangi bulan, karena ini ISO 8601-like string.
+    const tanggalObj = new Date(tanggalString); 
+
+    const namaBulan = [
+        "Januari", "Februari", "Maret", "April", "Mei", "Juni", 
+        "Juli", "Agustus", "September", "Oktober", "November", "Desember"
+    ];
+
+    const tgl = tanggalObj.getDate();
+    const bln = namaBulan[tanggalObj.getMonth()]; // getMonth() akan memberikan bulan 0-indeks
+    const thn = tanggalObj.getFullYear();
+
+    return `${tgl} ${bln} ${thn}`;
+}
 
 
 // --- Fungsi untuk menghasilkan PDF ---
@@ -60,24 +71,22 @@ const generatePDF = async (name, certificateNumber) => {
         const pages = pdfDoc.getPages();
         const firstPage = pages[0]; 
 
-        // Gambar teks NAMA pada halaman - DISETEL UNTUK TENGAH
         firstPage.drawText(name, {
             x: NAME_X_POS,
             y: NAME_Y_POS,
             size: NAME_FONT_SIZE,
             font: SanChezFont,
             color: NAME_COLOR,
-            align: TextAlignment.Center, // *** BARIS INI MENJADIKAN TEKS TENGAH ***
+            align: TextAlignment.Center, 
         });
 
-        // Gambar teks NOMOR SERTIFIKAT PADA HALAMAN - DISETEL UNTUK TENGAH
-        firstPage.drawText(`Nomor: ${certificateNumber}`, { 
+        firstPage.drawText(`No. ${certificateNumber}`, { 
             x: CERT_NUM_X_POS,
             y: CERT_NUM_Y_POS,
             size: CERT_NUM_FONT_SIZE,
             font: SanChezFont, 
             color: CERT_NUM_COLOR,
-            align: TextAlignment.Center, // *** BARIS INI MENJADIKAN TEKS TENGAH ***
+            align: TextAlignment.Center, 
         });
 
         const pdfBytes = await pdfDoc.save();
@@ -116,7 +125,11 @@ async function loadCertificateData() {
 
         entries.forEach((entry, index) => {
             const namaLengkap = entry.c[0] && entry.c[0].v !== null ? String(entry.c[0].v) : ''; 
-            const tanggalAcara = entry.c[1] && entry.c[1].v !== null ? String(entry.c[1].v) : ''; 
+            // Ambil tanggal mentah dari spreadsheet
+            const tanggalAcaraMentah = entry.c[1] && entry.c[1].v !== null ? String(entry.c[1].v) : ''; 
+            // Format tanggal menggunakan fungsi baru
+            const tanggalAcara = formatTanggalIndonesia(tanggalAcaraMentah); 
+            
             const namaAcara = entry.c[2] && entry.c[2].v !== null ? String(entry.c[2].v) : '';    
             const nomorSertifikat = entry.c[3] && entry.c[3].v !== null ? String(entry.c[3].v) : ''; 
 
