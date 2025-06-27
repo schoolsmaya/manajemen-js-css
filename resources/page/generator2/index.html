@@ -4,28 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generator Sertifikat Dinamis</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="favicon.png"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #0056b3;
+            margin-bottom: 30px;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap; /* Untuk responsif pada layar kecil */
+            gap: 10px; /* Jarak antar elemen kontrol */
+        }
+        .controls input[type="text"],
+        .controls select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .controls label {
+            margin-right: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top; /* Pastikan konten sel di atas */
+        }
+        th {
+            background-color: #0056b3;
+            color: white;
+            cursor: pointer; /* Menandakan bisa disortir jika ingin ditambahkan fitur sorting */
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            gap: 5px;
+        }
+        .pagination button {
+            padding: 6px 12px;
+            font-size: 0.9em;
+            background-color: #007bff;
+        }
+        .pagination button:hover {
+            background-color: #0056b3;
+        }
+        .pagination span {
+            padding: 6px 12px;
+            border-radius: 4px;
+        }
+        .pagination .current-page {
+            font-weight: bold;
+            color: #0056b3;
+        }
+        .status-message {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit/dist/fontkit.umd.min.js"></script>
+    <script src="https://unpkg.com/file-saver@2.0.5/dist/FileSaver.min.js"></script>
 </head>
 <body>
+    <div class="container">
+        <h1>Generator Sertifikat Dinamis</h1>
 
-    <header>
-        <div class="heading_text">
-            <h1>Buat Sertifikat Gratis dalam Hitungan Menit</h1>
-            <h2>Buat sertifikat unik dalam hitungan menit. Tanpa perlu skill desain.</h2>
+        <div class="controls">
+            <div>
+                <label for="search-input">Cari:</label>
+                <input type="text" id="search-input" placeholder="Cari nama, acara, atau nomor...">
+            </div>
+            <div>
+                <label for="rows-per-page-select">Tampilkan:</label>
+                <select id="rows-per-page-select">
+                    <option value="10">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="All">Semua</option>
+                </select>
+                <span>baris per halaman</span>
+            </div>
         </div>
-    </header>
 
-    <main>
-        <div id="certificate-list-container">
-            <p>Memuat data peserta...</p>
+        <div class="status-message" id="status-message">Memuat data peserta...</div>
+
+        <div id="table-container">
+            </div>
+        
+        <div class="pagination">
+            <button id="prev-page-btn" disabled>Sebelumnya</button>
+            <span id="page-info">Halaman 1 dari 1</span>
+            <button id="next-page-btn" disabled>Berikutnya</button>
         </div>
-    </main>
+    </div>
 
-    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
-    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
-    <script src="filesaver.js"></script> 
     <script src="index.js"></script>
 </body>
 </html>
