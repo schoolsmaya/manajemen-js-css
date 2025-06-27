@@ -9,7 +9,7 @@ const SPREADSHEET_ID = '136f-IvdJ5xZfOLRhtlahmOrPdvg73DtX2Eznjx80DXo';
 const SHEET_GID = '0'; 
 const SPREADSHEET_JSON_URL = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&gid=${SHEET_GID}`;
 
-const CERTIFICATE_TEMPLATE_URL = "Certificate.pdf"; 
+const CERTIFICATE_TEMPLATE_URL = "https://drive.google.com/file/d/17y75bpn6uZiYe93TrMOUwgDUE719YhbY/view?usp=drive_link"; 
 const CUSTOM_FONT_URL = "Sanchez-Regular.ttf"; 
 
 // --- POSISI TEKS DI DALAM PDF ---
