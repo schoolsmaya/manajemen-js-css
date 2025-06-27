@@ -1,4 +1,4 @@
-console.log("Aplikasi Generator Kartu Pelajar Dimuat");
+  console.log("Aplikasi Generator Kartu Pelajar Dimuat");
 
 // --- Inisialisasi pdf-lib ---
 const { PDFDocument, rgb, degrees, TextAlignment, StandardFonts } = PDFLib;
@@ -12,8 +12,8 @@ const SHEET_GID_KP = '0';
 const SPREADSHEET_JSON_URL_KP = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID_KP}/gviz/tq?tqx=out:json&gid=${SHEET_GID_KP}`;
 
 // URL ke template PDF Kartu Pelajar dan Font Anda
-const ID_CARD_TEMPLATE_URL = "kartu_pelajar_template.pdf"; // <--- GANTI DENGAN NAMA FILE TEMPLATE KARTU PELAJAR ANDA
-const CUSTOM_FONT_URL_KP = "Sanchez-Regular.ttf"; // <--- BISA SAMA DENGAN SERTIFIKAT ATAU FONT LAIN
+const ID_CARD_TEMPLATE_URL = "https://schoolsmaya.github.io/manajemen-js-css/resources/page/generator3/kartu_pelajar_template.pdf"; // <--- GANTI DENGAN NAMA FILE TEMPLATE KARTU PELAJAR ANDA
+const CUSTOM_FONT_URL_KP = "https://schoolsmaya.github.io/manajemen-js-css/resources/page/generator3/Sanchez-Regular.ttf"; // <--- BISA SAMA DENGAN SERTIFIKAT ATAU FONT LAIN
 
 
 // --- POSISI TEKS DAN GAMBAR DI DALAM PDF KARTU PELAJAR ---
@@ -22,43 +22,43 @@ const CUSTOM_FONT_URL_KP = "Sanchez-Regular.ttf"; // <--- BISA SAMA DENGAN SERTI
 // Ingat: X_POS ini adalah titik awal teks dari kiri.
 
 // Contoh posisi (INI HANYA CONTOH, HARUS DISESUAIKAN!)
-const NAME_X_POS_KP = 100; // Posisi X untuk Nama (dari kiri)
-const NAME_Y_POS_KP = 300; // Posisi Y untuk Nama
-const NAME_FONT_SIZE_KP = 20;
-const NAME_COLOR_KP = rgb(0, 0, 0); // Hitam
+const NAME_X_POS_KP = 117; // Posisi X untuk Nama (dari kiri)
+const NAME_Y_POS_KP = 72; // Posisi Y untuk Nama
+const NAME_FONT_SIZE_KP = 8;
+const NAME_COLOR_KP = rgb(0.580, 0.008, 0.008); // Hitam
 
-const TL_X_POS_KP = 100; // Tempat Lahir
-const TL_Y_POS_KP = 280;
-const TL_FONT_SIZE_KP = 12;
+const TL_X_POS_KP = 117; // Tempat Lahir
+const TL_Y_POS_KP = 60;
+const TL_FONT_SIZE_KP = 8;
 
-const TGL_LAHIR_X_POS_KP = 100; // Tanggal Lahir
-const TGL_LAHIR_Y_POS_KP = 260;
-const TGL_LAHIR_FONT_SIZE_KP = 12;
+const TGL_LAHIR_X_POS_KP = 109; // Tanggal Lahir
+const TGL_LAHIR_Y_POS_KP = 152;
+const TGL_LAHIR_FONT_SIZE_KP = 8;
 
-const NIS_X_POS_KP = 100;
-const NIS_Y_POS_KP = 240;
-const NIS_FONT_SIZE_KP = 12;
+const NIS_X_POS_KP = 6;
+const NIS_Y_POS_KP = 135;
+const NIS_FONT_SIZE_KP = 7;
 
-const NISN_X_POS_KP = 100;
-const NISN_Y_POS_KP = 220;
-const NISN_FONT_SIZE_KP = 12;
+const NISN_X_POS_KP = 7;
+const NISN_Y_POS_KP = 50;
+const NISN_FONT_SIZE_KP = 6;
 
-const ALAMAT_X_POS_KP = 100;
-const ALAMAT_Y_POS_KP = 200;
-const ALAMAT_FONT_SIZE_KP = 12; 
+const ALAMAT_X_POS_KP = 117;
+const ALAMAT_Y_POS_KP = 48;
+const ALAMAT_FONT_SIZE_KP = 9; 
 
-const NOHP_X_POS_KP = 100;
-const NOHP_Y_POS_KP = 180;
-const NOHP_FONT_SIZE_KP = 12;
+const NOHP_X_POS_KP = 236;
+const NOHP_Y_POS_KP = 236;
+const NOHP_FONT_SIZE_KP = 5;
 
-const EMAIL_X_POS_KP = 100;
-const EMAIL_Y_POS_KP = 160;
-const EMAIL_FONT_SIZE_KP = 12;
+const EMAIL_X_POS_KP = 7;
+const EMAIL_Y_POS_KP = 23;
+const EMAIL_FONT_SIZE_KP = 5;
 
-const PHOTO_X_POS_KP = 50;  // Posisi X untuk Pas Photo
-const PHOTO_Y_POS_KP = 350;  // Posisi Y untuk Pas Photo
-const PHOTO_WIDTH_KP = 80;   // Lebar Pas Photo
-const PHOTO_HEIGHT_KP = 100; // Tinggi Pas Photo
+const PHOTO_X_POS_KP = 9;  // Posisi X untuk Pas Photo
+const PHOTO_Y_POS_KP = 62;  // Posisi Y untuk Pas Photo
+const PHOTO_WIDTH_KP = 50;   // Lebar Pas Photo
+const PHOTO_HEIGHT_KP = 63; // Tinggi Pas Photo
 
 
 // --- Variabel Global untuk Data dan Paginasi/Filter ---
@@ -148,12 +148,12 @@ const generateIDCardPDF = async (data) => {
         });
 
         // Teks: Tempat Lahir
-        firstPage.drawText(`Tempat Lahir: ${data.tempatLahir}`, {
+        firstPage.drawText(`${data.tempatLahir}, ${data.tanggalLahirFormatted}`, {
             x: TL_X_POS_KP,
             y: TL_Y_POS_KP,
             size: TL_FONT_SIZE_KP,
             font: customFont,
-            color: rgb(0,0,0),
+            color: rgb(0.580, 0.008, 0.008),
         });
 
         // Teks: Tanggal Lahir (sudah diformat)
@@ -162,52 +162,52 @@ const generateIDCardPDF = async (data) => {
             y: TGL_LAHIR_Y_POS_KP,
             size: TGL_LAHIR_FONT_SIZE_KP,
             font: customFont,
-            color: rgb(0,0,0),
+            color: rgb(0.580, 0.008, 0.008),
         });
         
         // Teks: NIS
-        firstPage.drawText(`NIS: ${data.nis}`, {
+        firstPage.drawText(`ID ${data.nis}`, {
             x: NIS_X_POS_KP,
             y: NIS_Y_POS_KP,
             size: NIS_FONT_SIZE_KP,
             font: customFont,
-            color: rgb(0,0,0),
+            color: rgb(1, 1, 1),
         });
 
         // Teks: NISN
-        firstPage.drawText(`NISN: ${data.nisn}`, {
+        firstPage.drawText(`NISN ${data.nisn}`, {
             x: NISN_X_POS_KP,
             y: NISN_Y_POS_KP,
             size: NISN_FONT_SIZE_KP,
             font: customFont,
-            color: rgb(0,0,0),
+            color: rgb(0.580, 0.008, 0.008),
         });
 
         // Teks: Alamat
-        firstPage.drawText(`Alamat: ${data.alamat}`, {
+        firstPage.drawText(`${data.alamat}`, {
             x: ALAMAT_X_POS_KP,
             y: ALAMAT_Y_POS_KP,
             size: ALAMAT_FONT_SIZE_KP,
             font: customFont,
-            color: rgb(0,0,0),
+            color: rgb(0.580, 0.008, 0.008),
         });
 
         // Teks: No HP
-        firstPage.drawText(`No HP: ${data.noHp}`, {
+        firstPage.drawText(`${data.noHp}`, {
             x: NOHP_X_POS_KP,
             y: NOHP_Y_POS_KP,
             size: NOHP_FONT_SIZE_KP,
             font: customFont,
-            color: rgb(0,0,0),
+            color: rgb(0.580, 0.008, 0.008),
         });
 
         // Teks: Email
-        firstPage.drawText(`Email: ${data.email}`, {
+        firstPage.drawText(`${data.email} | ${data.noHp}`, {
             x: EMAIL_X_POS_KP,
             y: EMAIL_Y_POS_KP,
             size: EMAIL_FONT_SIZE_KP,
             font: customFont,
-            color: rgb(0,0,0),
+            color: rgb(0.580, 0.008, 0.008),
         });
 
         // --- Handle Pas Photo ---
