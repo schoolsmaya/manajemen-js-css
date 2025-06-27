@@ -24,15 +24,35 @@ const CERT_NUM_FONT_SIZE = 14;
 const CERT_NUM_COLOR = rgb(0, 0, 0); 
 
 
-// --- FUNGSI PEMFORMATAN TANGGAL BARU ---
-function formatTanggalIndonesia(tanggalString) {
-    // Asumsi tanggalString adalah dalam format "YYYY-MM-DD" dari spreadsheet
-    const [tahun, bulan, hari] = tanggalString.split('-').map(Number);
+// --- FUNGSI PEMFORMATAN TANGGAL BARU DAN LEBIH ROBUST ---
+function formatTanggalIndonesia(tanggalData) {
+    if (!tanggalData) return ''; // Tangani jika data tanggal kosong
 
-    // Membuat objek Date. Perhatikan: bulan di JavaScript 0-indeks, jadi kurangi 1.
-    // Jika format dari spreadsheet adalah "YYYY-MM-DD", new Date(tanggalString) akan menanganinya dengan baik
-    // tanpa perlu mengurangi bulan, karena ini ISO 8601-like string.
-    const tanggalObj = new Date(tanggalString); 
+    let tanggalObj;
+
+    // Cek apakah data datang sebagai string "Date(YYYY,MM,DD)" dari Google Sheets
+    if (typeof tanggalData === 'string' && tanggalData.startsWith('Date(')) {
+        // Contoh: "Date(2025,5,21)" -> ekstrak 2025, 5, 21
+        const parts = tanggalData.match(/Date\((\d+),(\d+),(\d+)\)/);
+        if (parts && parts.length === 4) {
+            // new Date(tahun, bulan_index, hari)
+            // Bulan di JavaScript adalah 0-indexed, jadi kita tidak perlu menguranginya lagi karena
+            // Google Sheets sudah mengeluarkan bulan sebagai 0-indexed.
+            tanggalObj = new Date(Number(parts[1]), Number(parts[2]), Number(parts[3]));
+        } else {
+            console.warn("Format tanggal 'Date(...)' tidak dikenal:", tanggalData);
+            return tanggalData; // Kembalikan string asli jika format tidak bisa diurai
+        }
+    } else {
+        // Asumsi format "YYYY-MM-DD" atau format string tanggal lain yang standar
+        tanggalObj = new Date(tanggalData);
+    }
+
+    // Pastikan objek tanggal valid
+    if (isNaN(tanggalObj.getTime())) {
+        console.warn("Tanggal tidak valid setelah parsing:", tanggalData);
+        return tanggalData; // Kembalikan string asli jika tanggal tetap tidak valid
+    }
 
     const namaBulan = [
         "Januari", "Februari", "Maret", "April", "Mei", "Juni", 
@@ -125,10 +145,13 @@ async function loadCertificateData() {
 
         entries.forEach((entry, index) => {
             const namaLengkap = entry.c[0] && entry.c[0].v !== null ? String(entry.c[0].v) : ''; 
-            // Ambil tanggal mentah dari spreadsheet
-            const tanggalAcaraMentah = entry.c[1] && entry.c[1].v !== null ? String(entry.c[1].v) : ''; 
-            // Format tanggal menggunakan fungsi baru
-            const tanggalAcara = formatTanggalIndonesia(tanggalAcaraMentah); 
+            
+            // Perbaikan di sini: Ambil nilai 'v' asli, dan mungkin juga 'f' (formatted value)
+            // Terkadang Google Sheets memberikan tanggal dalam properti 'f' yang sudah diformat.
+            const tanggalMentah = entry.c[1] ? (entry.c[1].v || entry.c[1].f) : null; 
+            
+            // Kemudian, kirim nilai ini ke fungsi pemformatan
+            const tanggalAcara = formatTanggalIndonesia(tanggalMentah); 
             
             const namaAcara = entry.c[2] && entry.c[2].v !== null ? String(entry.c[2].v) : '';    
             const nomorSertifikat = entry.c[3] && entry.c[3].v !== null ? String(entry.c[3].v) : ''; 
