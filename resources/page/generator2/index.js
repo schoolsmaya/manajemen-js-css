@@ -71,7 +71,7 @@ const generatePDF = async (name, certificateNumber) => {
         });
 
         // Gambar teks NOMOR SERTIFIKAT PADA HALAMAN - DISETEL UNTUK TENGAH
-        firstPage.drawText(`No. ${certificateNumber}`, { 
+        firstPage.drawText(`Nomor: ${certificateNumber}`, { 
             x: CERT_NUM_X_POS,
             y: CERT_NUM_Y_POS,
             size: CERT_NUM_FONT_SIZE,
