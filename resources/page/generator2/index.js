@@ -24,34 +24,44 @@ const CERT_NUM_FONT_SIZE = 14;
 const CERT_NUM_COLOR = rgb(0, 0, 0); 
 
 
-// --- FUNGSI PEMFORMATAN TANGGAL BARU DAN LEBIH ROBUST ---
+// --- Variabel Global untuk Data dan Paginasi/Filter ---
+let allCertificateData = []; // Menyimpan semua data dari spreadsheet
+let filteredCertificateData = []; // Data setelah difilter (pencarian)
+
+let currentPage = 1;
+let rowsPerPage = 10; // Default: 10 baris per halaman
+
+// --- Elemen HTML ---
+const statusMessageDiv = document.getElementById("status-message");
+const tableContainerDiv = document.getElementById("table-container");
+const searchInput = document.getElementById("search-input");
+const rowsPerPageSelect = document.getElementById("rows-per-page-select");
+const prevPageBtn = document.getElementById("prev-page-btn");
+const nextPageBtn = document.getElementById("next-page-btn");
+const pageInfoSpan = document.getElementById("page-info");
+
+
+// --- FUNGSI PEMFORMATAN TANGGAL ---
 function formatTanggalIndonesia(tanggalData) {
-    if (!tanggalData) return ''; // Tangani jika data tanggal kosong
+    if (!tanggalData) return ''; 
 
     let tanggalObj;
 
-    // Cek apakah data datang sebagai string "Date(YYYY,MM,DD)" dari Google Sheets
     if (typeof tanggalData === 'string' && tanggalData.startsWith('Date(')) {
-        // Contoh: "Date(2025,5,21)" -> ekstrak 2025, 5, 21
         const parts = tanggalData.match(/Date\((\d+),(\d+),(\d+)\)/);
         if (parts && parts.length === 4) {
-            // new Date(tahun, bulan_index, hari)
-            // Bulan di JavaScript adalah 0-indexed, jadi kita tidak perlu menguranginya lagi karena
-            // Google Sheets sudah mengeluarkan bulan sebagai 0-indexed.
             tanggalObj = new Date(Number(parts[1]), Number(parts[2]), Number(parts[3]));
         } else {
             console.warn("Format tanggal 'Date(...)' tidak dikenal:", tanggalData);
-            return tanggalData; // Kembalikan string asli jika format tidak bisa diurai
+            return tanggalData;
         }
     } else {
-        // Asumsi format "YYYY-MM-DD" atau format string tanggal lain yang standar
         tanggalObj = new Date(tanggalData);
     }
 
-    // Pastikan objek tanggal valid
     if (isNaN(tanggalObj.getTime())) {
         console.warn("Tanggal tidak valid setelah parsing:", tanggalData);
-        return tanggalData; // Kembalikan string asli jika tanggal tetap tidak valid
+        return tanggalData; 
     }
 
     const namaBulan = [
@@ -60,7 +70,7 @@ function formatTanggalIndonesia(tanggalData) {
     ];
 
     const tgl = tanggalObj.getDate();
-    const bln = namaBulan[tanggalObj.getMonth()]; // getMonth() akan memberikan bulan 0-indeks
+    const bln = namaBulan[tanggalObj.getMonth()];
     const thn = tanggalObj.getFullYear();
 
     return `${tgl} ${bln} ${thn}`;
@@ -118,10 +128,104 @@ const generatePDF = async (name, certificateNumber) => {
     }
 };
 
-// --- Fungsi untuk memuat data dari Spreadsheet dan menampilkan tombol unduh ---
+
+// --- Fungsi untuk merender tabel ---
+function renderTable() {
+    tableContainerDiv.innerHTML = ''; // Bersihkan kontainer tabel
+
+    if (filteredCertificateData.length === 0) {
+        statusMessageDiv.textContent = "Tidak ada data yang ditemukan.";
+        tableContainerDiv.innerHTML = ""; // Pastikan tabel kosong
+        prevPageBtn.disabled = true;
+        nextPageBtn.disabled = true;
+        pageInfoSpan.textContent = "Halaman 0 dari 0";
+        return;
+    }
+
+    statusMessageDiv.textContent = ""; // Kosongkan pesan status jika ada data
+
+    const table = document.createElement('table');
+    const thead = document.createElement('thead');
+    const tbody = document.createElement('tbody');
+
+    // Header Tabel
+    thead.innerHTML = `
+        <tr>
+            <th>No.</th>
+            <th>Nama Lengkap</th>
+            <th>Nama Acara</th>
+            <th>Tanggal Acara</th>
+            <th>Nomor Sertifikat</th>
+            <th>Aksi</th>
+        </tr>
+    `;
+    table.appendChild(thead);
+
+    // Hitung halaman
+    const totalPages = Math.ceil(filteredCertificateData.length / rowsPerPage);
+    const startIndex = (currentPage - 1) * rowsPerPage;
+    const endIndex = (rowsPerPage === 'All') ? filteredCertificateData.length : Math.min(startIndex + rowsPerPage, filteredCertificateData.length);
+
+    const dataToDisplay = (rowsPerPage === 'All') ? filteredCertificateData : filteredCertificateData.slice(startIndex, endIndex);
+
+    // Isi Baris Tabel
+    dataToDisplay.forEach((data, index) => {
+        const globalIndex = startIndex + index + 1; // Nomor urut global
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${globalIndex}</td>
+            <td>${data.namaLengkap}</td>
+            <td>${data.namaAcara}</td>
+            <td>${data.tanggalAcaraFormatted}</td>
+            <td>${data.nomorSertifikat}</td>
+            <td>
+                <button onclick="generatePDF('${data.namaLengkap.replace(/'/g, "\\'")}', '${data.nomorSertifikat.replace(/'/g, "\\'")}')">Unduh</button>
+            </td>
+        `;
+        tbody.appendChild(row);
+    });
+
+    table.appendChild(tbody);
+    tableContainerDiv.appendChild(table);
+
+    // Update Paginasi Info
+    pageInfoSpan.textContent = `Halaman ${currentPage} dari ${totalPages}`;
+    prevPageBtn.disabled = currentPage === 1;
+    nextPageBtn.disabled = currentPage === totalPages || rowsPerPage === 'All';
+    
+    // Sembunyikan pagination jika hanya ada 1 halaman atau "All" dipilih
+    if (totalPages <= 1 || rowsPerPage === 'All') {
+        prevPageBtn.style.display = 'none';
+        nextPageBtn.style.display = 'none';
+        pageInfoSpan.style.display = 'none';
+    } else {
+        prevPageBtn.style.display = '';
+        nextPageBtn.style.display = '';
+        pageInfoSpan.style.display = '';
+    }
+}
+
+// --- Fungsi untuk menerapkan filter (pencarian) ---
+function applyFilter() {
+    const searchTerm = searchInput.value.toLowerCase().trim();
+    
+    filteredCertificateData = allCertificateData.filter(data => {
+        // Cari di kolom nama, acara, dan nomor sertifikat
+        return data.namaLengkap.toLowerCase().includes(searchTerm) ||
+               data.namaAcara.toLowerCase().includes(searchTerm) ||
+               data.nomorSertifikat.toLowerCase().includes(searchTerm) ||
+               data.tanggalAcaraFormatted.toLowerCase().includes(searchTerm); // Juga cari di tanggal yang sudah diformat
+    });
+    currentPage = 1; // Reset ke halaman 1 setiap kali filter berubah
+    renderTable();
+}
+
+// --- Fungsi untuk memuat data dari Spreadsheet ---
 async function loadCertificateData() {
-    const container = document.getElementById("certificate-list-container");
-    container.innerHTML = "<p>Memuat data peserta dari spreadsheet...</p>";
+    statusMessageDiv.textContent = "Memuat data peserta dari spreadsheet...";
+    tableContainerDiv.innerHTML = ''; // Pastikan tabel kosong saat memuat
+    prevPageBtn.disabled = true; // Disable tombol saat memuat
+    nextPageBtn.disabled = true;
 
     try {
         const response = await fetch(SPREADSHEET_JSON_URL);
@@ -136,42 +240,60 @@ async function loadCertificateData() {
         const jsonData = JSON.parse(jsonString);
 
         if (!jsonData.table || !jsonData.table.rows || jsonData.table.rows.length === 0) {
-            container.innerHTML = "<p>Tidak ada data peserta yang ditemukan di spreadsheet.</p>";
+            statusMessageDiv.textContent = "Tidak ada data peserta yang ditemukan di spreadsheet.";
             return;
         }
 
-        const entries = jsonData.table.rows;
-        container.innerHTML = ""; 
-
-        entries.forEach((entry, index) => {
+        allCertificateData = jsonData.table.rows.map(entry => {
             const namaLengkap = entry.c[0] && entry.c[0].v !== null ? String(entry.c[0].v) : ''; 
-            
-            // Perbaikan di sini: Ambil nilai 'v' asli, dan mungkin juga 'f' (formatted value)
-            // Terkadang Google Sheets memberikan tanggal dalam properti 'f' yang sudah diformat.
             const tanggalMentah = entry.c[1] ? (entry.c[1].v || entry.c[1].f) : null; 
-            
-            // Kemudian, kirim nilai ini ke fungsi pemformatan
-            const tanggalAcara = formatTanggalIndonesia(tanggalMentah); 
-            
+            const tanggalAcaraFormatted = formatTanggalIndonesia(tanggalMentah); 
             const namaAcara = entry.c[2] && entry.c[2].v !== null ? String(entry.c[2].v) : '';    
             const nomorSertifikat = entry.c[3] && entry.c[3].v !== null ? String(entry.c[3].v) : ''; 
 
-            const itemHtml = `
-                <div class="certificate-item">
-                    <h3>${namaLengkap}</h3>
-                    <p>Acara: ${namaAcara} | Tanggal: ${tanggalAcara} | No. ${nomorSertifikat}</p>
-                    <button onclick="generatePDF('${namaLengkap.replace(/'/g, "\\'")}', '${nomorSertifikat.replace(/'/g, "\\'")}')">Unduh Sertifikat ${namaLengkap}</button>
-                    <hr>
-                </div>
-            `;
-            container.innerHTML += itemHtml;
+            return {
+                namaLengkap,
+                tanggalAcaraRaw: tanggalMentah, // Simpan juga data mentah jika diperlukan
+                tanggalAcaraFormatted,
+                namaAcara,
+                nomorSertifikat
+            };
         });
+        
+        filteredCertificateData = [...allCertificateData]; // Awalnya, data filter sama dengan semua data
+
+        renderTable(); // Render tabel pertama kali setelah data dimuat
 
     } catch (error) {
         console.error("Error fetching or parsing data from Google Sheet:", error);
-        alert(`Terjadi kesalahan saat memuat data dari spreadsheet. Periksa konsol browser untuk detail. (${error.message})`);
-        container.innerHTML = `<p>Terjadi kesalahan saat memuat sertifikat. Mohon periksa konsol browser (tekan F12) untuk detail lebih lanjut.</p>`;
+        statusMessageDiv.innerHTML = `<p>Terjadi kesalahan saat memuat data dari spreadsheet. Periksa konsol browser untuk detail: ${error.message}</p>`;
     }
 }
 
-document.addEventListener("DOMContentLoaded", loadCertificateData);
+// --- Event Listeners ---
+document.addEventListener("DOMContentLoaded", () => {
+    loadCertificateData();
+
+    searchInput.addEventListener("keyup", applyFilter); // Filter saat ketikan berubah
+
+    rowsPerPageSelect.addEventListener("change", () => {
+        rowsPerPage = (rowsPerPageSelect.value === 'All') ? 'All' : Number(rowsPerPageSelect.value);
+        currentPage = 1; // Reset ke halaman 1 saat mengubah jumlah baris per halaman
+        renderTable();
+    });
+
+    prevPageBtn.addEventListener("click", () => {
+        if (currentPage > 1) {
+            currentPage--;
+            renderTable();
+        }
+    });
+
+    nextPageBtn.addEventListener("click", () => {
+        const totalPages = Math.ceil(filteredCertificateData.length / rowsPerPage);
+        if (currentPage < totalPages) {
+            currentPage++;
+            renderTable();
+        }
+    });
+});
