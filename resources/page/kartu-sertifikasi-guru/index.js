@@ -181,7 +181,7 @@ const generateSertifikasiPDF = async (data) => {
 
 
         const pdfBytes = await pdfDoc.save();
-        saveAs(new Blob([pdfBytes], { type: "application/pdf" }), `Sertifikat_Guru_${data['Nama'].replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, '')}_${data['NUPTK'].replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, '')}.pdf`);
+        saveAs(new Blob([pdfBytes], { type: "application/pdf" }), `Sertifikat_Guru_${String(data['Nama']).replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, '')}_${String(data['NUPTK']).replace(/\s/g, '_').replace(/[^a-zA-Z0-9_]/g, '')}.pdf`);
         statusMessageDiv.textContent = `Sertifikat untuk ${data['Nama']} berhasil dibuat.`;
 
     } catch (error) {
