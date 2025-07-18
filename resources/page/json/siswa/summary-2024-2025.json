@@ -1,23 +1,33 @@
 [
   {
+    "namaRombel": "-",
+    "jumlahSiswa": 1,
+    "waliKelas": "-"
+  },
+  {
+    "namaRombel": "Khaidir",
+    "jumlahSiswa": 1,
+    "waliKelas": "1961121044"
+  },
+  {
     "namaRombel": "X",
-    "jumlahSiswa": 18,
+    "jumlahSiswa": 10,
     "waliKelas": "Nursari, S.Pd.,Gr"
   },
   {
     "namaRombel": "XI MIA 1",
-    "jumlahSiswa": 18,
+    "jumlahSiswa": 17,
     "waliKelas": "Mustainah Karim, S.Pd"
   },
   {
     "namaRombel": "XI MIA 2",
-    "jumlahSiswa": 21,
+    "jumlahSiswa": 19,
     "waliKelas": "Sariama, S.Pd.I.,Gr"
   },
   {
     "namaRombel": "XII IIS",
-    "jumlahSiswa": 42,
-    "waliKelas": "Agung Azwar, S.Pd"
+    "jumlahSiswa": 9,
+    "waliKelas": "Agung Asward, S.Pd"
   },
   {
     "namaRombel": "XII MIA 1",

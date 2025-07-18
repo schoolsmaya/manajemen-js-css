@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "namaRombel": "-",
+    "jumlahSiswa": 1,
+    "waliKelas": "Jumrah"
+  },
+  {
+    "namaRombel": "Maros",
+    "jumlahSiswa": 1,
+    "waliKelas": "2006-06-01"
+  },
+  {
+    "namaRombel": "XI",
+    "jumlahSiswa": 10,
+    "waliKelas": "Nursari, S.Pd.,Gr"
+  },
+  {
+    "namaRombel": "XII MIA 1",
+    "jumlahSiswa": 20,
+    "waliKelas": "Kasim K., S.Pd"
+  },
+  {
+    "namaRombel": "XII MIA 2",
+    "jumlahSiswa": 16,
+    "waliKelas": "Agung Asward, S.Pd"
+  }
+]
