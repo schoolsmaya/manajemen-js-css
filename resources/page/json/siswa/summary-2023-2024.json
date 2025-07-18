@@ -1,17 +1,12 @@
 [
   {
     "namaRombel": "X MIA",
-    "jumlahSiswa": 39,
+    "jumlahSiswa": 47,
     "waliKelas": "Kasmawati, S.Pd"
   },
   {
-    "namaRombel": "XI",
-    "jumlahSiswa": 1,
-    "waliKelas": "Nursari, S.Pd.,Gr\"\r\n3089952899,Khaidir,1961124002,Pala Palasa,2008-10-10,Laki-laki,Islam,\"Pala-Palasa"
-  },
-  {
     "namaRombel": "XI IIS",
-    "jumlahSiswa": 9,
+    "jumlahSiswa": 42,
     "waliKelas": "Sri Handayani, S.Pd"
   },
   {
@@ -26,12 +21,12 @@
   },
   {
     "namaRombel": "XII MIA 1",
-    "jumlahSiswa": 7,
+    "jumlahSiswa": 24,
     "waliKelas": "Mustainah Karim, S.Pd"
   },
   {
     "namaRombel": "XII MIA 2",
-    "jumlahSiswa": 4,
+    "jumlahSiswa": 25,
     "waliKelas": "Suriati, SE"
   }
 ]

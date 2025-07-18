@@ -135,6 +135,108 @@
       }
     ]
   },
+  "1961123048": {
+    "namaLengkap": "Muh. Angga",
+    "nisn": "1961123048",
+    "nis": "1961123048",
+    "tempatLahir": "-",
+    "tanggalLahir": "-",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "1961123049": {
+    "namaLengkap": "Andi Ilyas",
+    "nisn": "1961123049",
+    "nis": "1961123049",
+    "tempatLahir": "-",
+    "tanggalLahir": "-",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "1961123050": {
+    "namaLengkap": "Nursandi",
+    "nisn": "1961123050",
+    "nis": "1961123050",
+    "tempatLahir": "-",
+    "tanggalLahir": "-",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
   "3062809105": {
     "namaLengkap": "Nur Resky",
     "nisn": "3062809105",
@@ -198,37 +300,90 @@
       }
     ]
   },
+  "3089952899": {
+    "namaLengkap": "Khaidir",
+    "nisn": "3089952899",
+    "nis": "1961124002",
+    "tempatLahir": "Pala Palasa",
+    "tanggalLahir": "2008-10-10",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Pala-Palasa",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "Jumrah",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
   "3092844272": {
     "namaLengkap": "Aulia Rahma",
     "nisn": "3092844272",
     "nis": "1961124001",
-    "tempatLahir": "To\"Tallang,2009-06-08,Perempuan,Islam,\"Jl. A. Mallombasang\"",
-    "tanggalLahir": "085299816396",
-    "jenisKelamin": "Sahril",
-    "alamat": "Ida",
-    "agama": "Petani",
-    "namaAyah": "-",
-    "pekerjaanAyah": "SMP YAPIP MAKASSAR SUNGGUMINASA",
-    "namaIbu": "",
-    "pekerjaanIbu": "",
-    "teleponOrangTua": "X",
-    "teleponSiswa": "Tidak bekerja",
-    "sekolahAsal": "Nursari, S.Pd.,Gr",
+    "tempatLahir": "To'Tallang",
+    "tanggalLahir": "2009-06-08",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jl. A. Mallombasang",
+    "agama": "Islam",
+    "namaAyah": "Sahril",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Ida",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "085299816396",
+    "sekolahAsal": "SMP YAPIP MAKASSAR SUNGGUMINASA",
     "riwayatRombel": [
       {
         "tahunAjaran": "2025/2026",
-        "rombel": "-",
-        "waliKelas": "Jumrah"
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
       },
       {
         "tahunAjaran": "2024/2025",
-        "rombel": "-",
-        "waliKelas": "-"
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
+  "3093595277": {
+    "namaLengkap": "Muh. Fajar Purnama",
+    "nisn": "3093595277",
+    "nis": "1961124019",
+    "tempatLahir": "Mataram",
+    "tanggalLahir": "2009-03-10",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl Ketilang No 7",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "Tidak bekerja",
+    "namaIbu": "Kartika Dian Pertiwi",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
       },
       {
-        "tahunAjaran": "2023/2024",
-        "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr\"\r\n3089952899,Khaidir,1961124002,Pala Palasa,2008-10-10,Laki-laki,Islam,\"Pala-Palasa"
+        "tahunAjaran": "2024/2025",
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
       }
     ]
   },
@@ -277,6 +432,180 @@
     "teleponOrangTua": "-",
     "teleponSiswa": "081343499747",
     "sekolahAsal": "UPTD SMPN 14 TANRALILI",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
+  "0093650502": {
+    "namaLengkap": "M. Akbar",
+    "nisn": "0093650502",
+    "nis": "1961124003",
+    "tempatLahir": "Pakue",
+    "tanggalLahir": "2009-11-17",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl Abd Kadir",
+    "agama": "Islam",
+    "namaAyah": "Anwar",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Sulfa",
+    "pekerjaanIbu": "Lainnya",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "085314063274",
+    "sekolahAsal": "SMP Negeri 12 Kolaka Utara",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
+  "0099898679": {
+    "namaLengkap": "Mitra Lestari A",
+    "nisn": "0099898679",
+    "nis": "1961124004",
+    "tempatLahir": "Kire",
+    "tanggalLahir": "2009-01-05",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Romangpolong",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "Anna",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
+  "0092179943": {
+    "namaLengkap": "Muh. Fahri Fauzan Mallarangan",
+    "nisn": "0092179943",
+    "nis": "1961124005",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2009-04-08",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Andi Tonro",
+    "agama": "Islam",
+    "namaAyah": "Riswandi",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Hamsina",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "082189636627",
+    "sekolahAsal": "SMP NEGERI 4 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
+  "0077714296": {
+    "namaLengkap": "Muh. Ichsan",
+    "nisn": "0077714296",
+    "nis": "1961124017",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-06-20",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Syamsuddin Tunru",
+    "agama": "Islam",
+    "namaAyah": "Herman Dg. Ngawing",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Nurida Dg. Bau",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "088247527794",
+    "sekolahAsal": "SMP NEGERI 1 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
+  "0081100814": {
+    "namaLengkap": "Muhammad Ahnaf Saputra",
+    "nisn": "0081100814",
+    "nis": "1961124006",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2008-08-02",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Btn Pao-Pao Permai Blok E2/No.31",
+    "agama": "Islam",
+    "namaAyah": "Achmad Effendy",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Suharni S",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
+  "0096082309": {
+    "namaLengkap": "Muhammad Ashad Al Habsy",
+    "nisn": "0096082309",
+    "nis": "1961124018",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2009-08-15",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Sungguminasa",
+    "agama": "Islam",
+    "namaAyah": "Ismail Dg. Nuntung",
+    "pekerjaanAyah": "Nelayan",
+    "namaIbu": "Rosmiati Dg. Te'Ne",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
     "riwayatRombel": [
       {
         "tahunAjaran": "2025/2026",
@@ -1653,7 +1982,7 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jl. Andi Tonro",
     "agama": "Islam",
-    "namaAyah": "Jabbar Dg. Se\"Re",
+    "namaAyah": "Jabbar Dg. Se'Re",
     "pekerjaanAyah": "Buruh",
     "namaIbu": "Nia Dg. Sambara",
     "pekerjaanIbu": "Tidak bekerja",
@@ -1664,7 +1993,7 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Agung Asward, S.Pd\"\r\n0079905163,Nia Aprilia,1961123033,Taborong,2007-04-28,Perempuan,Islam,\"Jl. Pelita Taborong"
+        "waliKelas": "Agung Asward, S.Pd"
       },
       {
         "tahunAjaran": "2024/2025",
@@ -1675,6 +2004,1133 @@
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
         "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "0079905163": {
+    "namaLengkap": "Nia Aprilia",
+    "nisn": "0079905163",
+    "nis": "1961123033",
+    "tempatLahir": "Taborong",
+    "tanggalLahir": "2007-04-28",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jl. Pelita Taborong",
+    "agama": "Islam",
+    "namaAyah": "Samaila Dg. Bombong",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Rajaeni Dg. Kebo",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "085396470839",
+    "sekolahAsal": "SMP NEGERI 1 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "0085367893": {
+    "namaLengkap": "Nur Israwati",
+    "nisn": "0085367893",
+    "nis": "1961123035",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2008-12-14",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Malino",
+    "agama": "Islam",
+    "namaAyah": "Swandi Dg Rapi",
+    "pekerjaanAyah": "Lainnya",
+    "namaIbu": "Rahmawati",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "SMP NEGERI 2 BONTOMARANNU",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "0072905826": {
+    "namaLengkap": "Putri Apriliya",
+    "nisn": "0072905826",
+    "nis": "1961123037",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2007-04-08",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Swadaya Iv",
+    "agama": "Islam",
+    "namaAyah": "Kamaruddin Rian",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Yani",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "0895384728600",
+    "sekolahAsal": "SMP HANDAYANI SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "0077581599": {
+    "namaLengkap": "Sudarman H. Haji",
+    "nisn": "0077581599",
+    "nis": "1961123039",
+    "tempatLahir": "Pulau Buaya",
+    "tanggalLahir": "2007-08-18",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Pulau Buaya",
+    "agama": "Islam",
+    "namaAyah": "Hasan Ha",
+    "pekerjaanAyah": "Nelayan",
+    "namaIbu": "Nuriyati Amrullah",
+    "pekerjaanIbu": "Petani",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "SMP YAPIP MAKASSAR SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "0083036753": {
+    "namaLengkap": "Yaser Arafat",
+    "nisn": "0083036753",
+    "nis": "1961123041",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2008-08-28",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Andi Tonro",
+    "agama": "Islam",
+    "namaAyah": "Hatta",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "Sucianti Umar",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "081244168595",
+    "sekolahAsal": "SMP NEGERI 4 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Kasim K., S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "0079167108": {
+    "namaLengkap": "Abdul Jasman Rasyid",
+    "nisn": "0079167108",
+    "nis": "1961122094",
+    "tempatLahir": "Lambaselo",
+    "tanggalLahir": "2007-10-09",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Mesjid Raya No. 8",
+    "agama": "Islam",
+    "namaAyah": "Muh. Adam Razid",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Nirmawati",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "081241286731",
+    "sekolahAsal": "SMAN 1 GOWA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0073094276": {
+    "namaLengkap": "Abrar Thabrani",
+    "nisn": "0073094276",
+    "nis": "1961122013",
+    "tempatLahir": "Depok",
+    "tanggalLahir": "2007-03-29",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Borong Bilalang",
+    "agama": "Islam",
+    "namaAyah": "Muhammad Ridwan",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Nuralia",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "SMP NEGERI 5 PALLANGGA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0071710273": {
+    "namaLengkap": "Achmad Rizaldy Syam",
+    "nisn": "0071710273",
+    "nis": "1961122014",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-05-05",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Alternatif",
+    "agama": "Islam",
+    "namaAyah": "Syamsuddin",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "Nuraeni",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "SMP AISYIYAH SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0076281163": {
+    "namaLengkap": "Adinda Alfianti",
+    "nisn": "0076281163",
+    "nis": "1961122015",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2008-01-20",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jl Poros Malino Km 4.5 Biringbalang",
+    "agama": "Islam",
+    "namaAyah": "Dg. Mangeppek",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "Andi Hasnawati",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "08884598803",
+    "sekolahAsal": "UPT SPF SMP NEGERI 26 MAKASSAR",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0076905793": {
+    "namaLengkap": "Adnan",
+    "nisn": "0076905793",
+    "nis": "1961122016",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-07-24",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Gusung",
+    "agama": "Islam",
+    "namaAyah": "Amrullah",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Suriana",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "081347452136",
+    "sekolahAsal": "SMP NEGERI 2 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0086070094": {
+    "namaLengkap": "Amrin",
+    "nisn": "0086070094",
+    "nis": "1961122082",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2008-05-02",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Borongrappo",
+    "agama": "Islam",
+    "namaAyah": "Jumakari",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Ani",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "085813006099",
+    "sekolahAsal": "SMP NEGERI 1 BONTOMARANNU",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0063433537": {
+    "namaLengkap": "Asfa Wardani",
+    "nisn": "0063433537",
+    "nis": "1961122099",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2006-10-04",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Sultan Abdullah Raya I No. 75",
+    "agama": "Islam",
+    "namaAyah": "Ashari Setiawan, Se.",
+    "pekerjaanAyah": "Lainnya",
+    "namaIbu": "Berlian",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "088242878423",
+    "sekolahAsal": "SMAN 23 MAKASSAR",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0071950991": {
+    "namaLengkap": "Excel Jeremy El Baan",
+    "nisn": "0071950991",
+    "nis": "1961122095",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2007-02-28",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Andi Tonro No 69",
+    "agama": "Kristen",
+    "namaAyah": "Michael Imanuel El Baan",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "Ririn Stevani Ratu Bunga",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "085246275709",
+    "sekolahAsal": "SMAN 2 MAKASSAR",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0078236972": {
+    "namaLengkap": "Fahri Rauf",
+    "nisn": "0078236972",
+    "nis": "1961122056",
+    "tempatLahir": "Parang Loe Lata",
+    "tanggalLahir": "2007-07-26",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Pannambungang",
+    "agama": "Islam",
+    "namaAyah": "Basri Rauf",
+    "pekerjaanAyah": "Lainnya",
+    "namaIbu": "Syamsiah",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0072400914": {
+    "namaLengkap": "Fery",
+    "nisn": "0072400914",
+    "nis": "1961122089",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-02-27",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Bonto-Bonto",
+    "agama": "Islam",
+    "namaAyah": "Rustam",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Roswati",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "088242922199",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0072993097": {
+    "namaLengkap": "Fira",
+    "nisn": "0072993097",
+    "nis": "1961122018",
+    "tempatLahir": "Balang-Balang",
+    "tanggalLahir": "2007-10-04",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Borongrappo",
+    "agama": "Islam",
+    "namaAyah": "Dg. Mile",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Jumairah",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "SMP NEGERI 3 BONTOMARANNU",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0067920785": {
+    "namaLengkap": "Hasbullah Hamsah",
+    "nisn": "0067920785",
+    "nis": "1961122087",
+    "tempatLahir": "Borongkaluku",
+    "tanggalLahir": "2006-09-17",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Borongkaluku",
+    "agama": "Islam",
+    "namaAyah": "Hamsah",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Hasnah",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "085340526342",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0066696179": {
+    "namaLengkap": "Ibnu Febriansyah. K.",
+    "nisn": "0066696179",
+    "nis": "1961122085",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2006-02-04",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl Andi Tonro No 45 C",
+    "agama": "Islam",
+    "namaAyah": "Karmuji",
+    "pekerjaanAyah": "PNS/TNI/Polri",
+    "namaIbu": "Nurbaya",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "081241451672",
+    "sekolahAsal": "SMP NEGERI 1 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0079456603": {
+    "namaLengkap": "Indar Hidayat",
+    "nisn": "0079456603",
+    "nis": "1961122019",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-04-10",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Andi Tonro No.45 C",
+    "agama": "Islam",
+    "namaAyah": "Karmuji",
+    "pekerjaanAyah": "PNS/TNI/Polri",
+    "namaIbu": "Nurbaya",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "089531564811",
+    "sekolahAsal": "SMP NEGERI 4 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0057861232": {
+    "namaLengkap": "Khaerul Adi Aqsha",
+    "nisn": "0057861232",
+    "nis": "1961122090",
+    "tempatLahir": "Batangkaluku",
+    "tanggalLahir": "2005-04-04",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Btn Tamarunang Indah",
+    "agama": "Islam",
+    "namaAyah": "Amirullah Wahid Dg. Ruppa",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Sukmawati",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "0411",
+    "teleponSiswa": "081243731293",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0074408369": {
+    "namaLengkap": "M Alham Yusuf",
+    "nisn": "0074408369",
+    "nis": "1961122035",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2006-10-16",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Bonto-Bontoa",
+    "agama": "Islam",
+    "namaAyah": "Yusuf Arifin",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Ulfa Dg. Ratu",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "085395921944",
+    "sekolahAsal": "SMP NEGERI 4 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0071237740": {
+    "namaLengkap": "M Alief Galang Ramadhani",
+    "nisn": "0071237740",
+    "nis": "1961122021",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-10-08",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Habibu Kulle",
+    "agama": "Islam",
+    "namaAyah": "Suardi Dg Rate",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Andi Hera Sulo Uleng",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "085824429724",
+    "sekolahAsal": "SMP NEGERI 1 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0071010051": {
+    "namaLengkap": "M Alwi Paisal",
+    "nisn": "0071010051",
+    "nis": "1961122020",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-09-23",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl.Pallantikang No.87",
+    "agama": "Islam",
+    "namaAyah": "Paisal Jarani",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "St Aisyah",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "083135424877",
+    "sekolahAsal": "UPT SPF SMP NEGERI 49 MAKASSAR",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0072931030": {
+    "namaLengkap": "M. Raihan",
+    "nisn": "0072931030",
+    "nis": "1961122086",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-07-27",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Pallangga",
+    "agama": "Islam",
+    "namaAyah": "Abd Jalil",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Rosdiana",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "088804327808",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0077218484": {
+    "namaLengkap": "Muh Aditya",
+    "nisn": "0077218484",
+    "nis": "1961122042",
+    "tempatLahir": "Karetojeng",
+    "tanggalLahir": "2007-01-01",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Karetojeng",
+    "agama": "Islam",
+    "namaAyah": "Coga",
+    "pekerjaanAyah": "Wirausaha",
+    "namaIbu": "Hildayanti",
+    "pekerjaanIbu": "Petani",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "082347076622",
+    "sekolahAsal": "SMP NEGERI 4 BIRINGBULU",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0085782727": {
+    "namaLengkap": "Muh Aimar Al Qalam",
+    "nisn": "0085782727",
+    "nis": "1961122022",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2008-02-19",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl.Poros Cambaya",
+    "agama": "Islam",
+    "namaAyah": "Asmar",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "Ika Puspita Merdekawati",
+    "pekerjaanIbu": "Pedagang Kecil",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "082187427705",
+    "sekolahAsal": "SMP NEGERI 1 PALLANGGA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0066998254": {
+    "namaLengkap": "Muh Farel Febrian",
+    "nisn": "0066998254",
+    "nis": "1961122023",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2006-02-01",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Pelita Taborong",
+    "agama": "Islam",
+    "namaAyah": "Amiruddin",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "Suharti",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "0895333407188",
+    "sekolahAsal": "SMP NEGERI 1 SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0071300356": {
+    "namaLengkap": "Muh. Aditya Putra",
+    "nisn": "0071300356",
+    "nis": "1961122098",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-04-23",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Alternatif",
+    "agama": "Islam",
+    "namaAyah": "Ardiansyah",
+    "pekerjaanAyah": "Pedagang Kecil",
+    "namaIbu": "Rahmayani",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "089671818390",
+    "sekolahAsal": "SMAN 14 GOWA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0072372425": {
+    "namaLengkap": "Muh. Anugrah Ramadhan",
+    "nisn": "0072372425",
+    "nis": "1961122041",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-10-06",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Gusung Tengah",
+    "agama": "Islam",
+    "namaAyah": "Abdul Hafid",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "Nyili",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0073820368": {
+    "namaLengkap": "Muh. Asfaq",
+    "nisn": "0073820368",
+    "nis": "1961122084",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-01-26",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Swadaya",
+    "agama": "Islam",
+    "namaAyah": "Ahmad",
+    "pekerjaanAyah": "PNS/TNI/Polri",
+    "namaIbu": "Hasniati Sultan",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "0895333407254",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0079698501": {
+    "namaLengkap": "Muh. Rafli Adi",
+    "nisn": "0079698501",
+    "nis": "1961122025",
+    "tempatLahir": "Gowa",
+    "tanggalLahir": "2007-11-09",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl.Kacong Dg.Lalang",
+    "agama": "Islam",
+    "namaAyah": "Roni",
+    "pekerjaanAyah": "Sudah Meninggal",
+    "namaIbu": "Aisyah",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "081242018843",
+    "sekolahAsal": "UPT SPF SMP NEGERI 49 MAKASSAR",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0071794903": {
+    "namaLengkap": "Muh. Raihan Rusdie",
+    "nisn": "0071794903",
+    "nis": "1961122074",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2007-07-26",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Btn Graha Kalegowa Blok B2 No 6",
+    "agama": "Islam",
+    "namaAyah": "Rusdi Rusli",
+    "pekerjaanAyah": "Lainnya",
+    "namaIbu": "Dian Ekasari Ramadhani",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "SMAN 9 PALLANGGA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0078740079": {
+    "namaLengkap": "Nova Eliska Ramadhani",
+    "nisn": "0078740079",
+    "nis": "1961122026",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-10-04",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Poros Malino",
+    "agama": "Islam",
+    "namaAyah": "Makmur",
+    "pekerjaanAyah": "Pedagang Kecil",
+    "namaIbu": "Yunita",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "082157974089",
+    "sekolahAsal": "SMP NEGERI 3 BONTOMARANNU",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0063745868": {
+    "namaLengkap": "Nur Efalinda",
+    "nisn": "0063745868",
+    "nis": "1961122027",
+    "tempatLahir": "Pakatto",
+    "tanggalLahir": "2006-10-03",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Poros Malino",
+    "agama": "Islam",
+    "namaAyah": "Rianto",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Hasna",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "0895333419446",
+    "sekolahAsal": "SMP NEGERI 1 BONTOMARANNU",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0074756542": {
+    "namaLengkap": "Nursandi Ramadhan",
+    "nisn": "0074756542",
+    "nis": "1961122028",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2007-09-15",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Nuri No.12",
+    "agama": "Islam",
+    "namaAyah": "Bahtiar Dg Rala",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Nuraeni Dg Singara",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "0895606066664",
+    "sekolahAsal": "SMP YAPIP MAKASSAR SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0063377124": {
+    "namaLengkap": "Nurul Maghfirah Ramadhana",
+    "nisn": "0063377124",
+    "nis": "1961122008",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2006-10-02",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Mappala",
+    "agama": "Islam",
+    "namaAyah": "Syamsuddin",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Rahma",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "SMP AISYIYAH SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0051027355": {
+    "namaLengkap": "Oudry Natalia Regina",
+    "nisn": "0051027355",
+    "nis": "1961122029",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2005-04-13",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jl. Syekh Yusuf 3",
+    "agama": "Islam",
+    "namaAyah": "Jamal Dg Matte",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Cindy Cristina",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "0895396220325",
+    "sekolahAsal": "SMP HANDAYANI SUNGGUMINASA",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
+      }
+    ]
+  },
+  "0062687442": {
+    "namaLengkap": "Revana Qur' Aulia Ar",
+    "nisn": "0062687442",
+    "nis": "1961122030",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2006-06-17",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Kampung Beru",
+    "agama": "Islam",
+    "namaAyah": "Riady Tahir",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Norma",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "082347875801",
+    "sekolahAsal": "SMP NEGERI 1 BONTOMARANNU",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XII IIS",
+        "waliKelas": "Agung Asward, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XI IIS",
+        "waliKelas": "Sri Handayani, S.Pd"
       }
     ]
   },
@@ -2081,6 +3537,11 @@
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
         "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Mustainah Karim, S.Pd"
       }
     ]
   },
@@ -2516,6 +3977,11 @@
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
         "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Mustainah Karim, S.Pd"
       }
     ]
   },
@@ -3096,6 +4562,11 @@
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
         "waliKelas": "Nurlina, S.Pd"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Suriati, SE"
       }
     ]
   },
@@ -3391,35 +4862,6 @@
         "tahunAjaran": "2023/2024",
         "rombel": "XII MIA 2",
         "waliKelas": "Suriati, SE"
-      }
-    ]
-  },
-  "0062000579": {
-    "namaLengkap": "Jihadil",
-    "nisn": "0062000579",
-    "nis": "1961121007",
-    "tempatLahir": "To\"Tallang,2006-06-24,Laki-laki,Islam,\"Salobongko\"",
-    "tanggalLahir": "085242812936",
-    "jenisKelamin": "Sahril",
-    "alamat": "Ida",
-    "agama": "Petani",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "XII MIA 1",
-    "pekerjaanIbu": "Mustainah Karim, S.Pd",
-    "teleponOrangTua": "",
-    "teleponSiswa": "Tidak bekerja",
-    "sekolahAsal": "",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "Maros",
-        "waliKelas": "2006-06-01"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "Khaidir",
-        "waliKelas": "1961121044"
       }
     ]
   }
