@@ -1,4 +1,140 @@
 {
+  "1961123044": {
+    "namaLengkap": "Muh. Haidir",
+    "nisn": "1961123044",
+    "nis": "1961123044",
+    "tempatLahir": "",
+    "tanggalLahir": "-",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Kasim K., S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "1961123045": {
+    "namaLengkap": "Muh. Sukrang",
+    "nisn": "1961123045",
+    "nis": "1961123045",
+    "tempatLahir": "",
+    "tanggalLahir": "-",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Kasim K., S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "1961123046": {
+    "namaLengkap": "Syntia Laqqase",
+    "nisn": "1961123046",
+    "nis": "1961123046",
+    "tempatLahir": "",
+    "tanggalLahir": "-",
+    "jenisKelamin": "Perempuan",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Kasim K., S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "1961123047": {
+    "namaLengkap": "Angga Maulana",
+    "nisn": "1961123047",
+    "nis": "1961123047",
+    "tempatLahir": "",
+    "tanggalLahir": "-",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Kasim K., S.Pd"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
   "3062809105": {
     "namaLengkap": "Nur Resky",
     "nisn": "3062809105",
@@ -749,85 +885,6 @@
     "teleponSiswa": "0882020990757",
     "sekolahAsal": "SMP NEGERI 3 PALLANGGA",
     "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      }
-    ]
-  },
-  "-": {
-    "namaLengkap": "Muh. Haidir",
-    "nisn": "-",
-    "nis": "1961123044",
-    "tempatLahir": "",
-    "tanggalLahir": "-",
-    "jenisKelamin": "Laki-laki",
-    "alamat": "",
-    "agama": "Islam",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "-",
-    "pekerjaanIbu": "-",
-    "teleponOrangTua": "-",
-    "teleponSiswa": "-",
-    "sekolahAsal": "-",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      },
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      },
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      },
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
