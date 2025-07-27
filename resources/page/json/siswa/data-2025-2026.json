@@ -949,22 +949,22 @@
       }
     ]
   },
-  "0102788123": {
-    "namaLengkap": "Safa Nur Djannah",
-    "nisn": "0102788123",
+  "0101877107": {
+    "namaLengkap": "Yasser Harafat Ismail",
+    "nisn": "0101877107",
     "nis": "1961125023",
-    "tempatLahir": "-",
-    "tanggalLahir": "-",
-    "jenisKelamin": "Perempuan",
-    "alamat": "-",
+    "tempatLahir": "Sungguminasa",
+    "tanggalLahir": "2010-08-17",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "7306081708100003",
     "agama": "Islam",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "Nurhayati",
-    "pekerjaanIbu": "-",
+    "namaAyah": "Ismail Anwar",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Satriani",
+    "pekerjaanIbu": "Tidak bekerja",
     "teleponOrangTua": "-",
-    "teleponSiswa": "-",
-    "sekolahAsal": "-",
+    "teleponSiswa": "081342127633",
+    "sekolahAsal": "SMP YAPIP MAKASSAR SUNGGUMINASA",
     "riwayatRombel": [
       {
         "tahunAjaran": "2025/2026",
@@ -1404,6 +1404,30 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
+        "waliKelas": "Nursari, S.Pd.,Gr"
+      }
+    ]
+  },
+  "0092764213": {
+    "namaLengkap": "Muhammad Rehan Januardi Darman",
+    "nisn": "0092764213",
+    "nis": "1961124019",
+    "tempatLahir": "Gowa",
+    "tanggalLahir": "10/01/2009",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XI",
         "waliKelas": "Nursari, S.Pd.,Gr"
       }
     ]
@@ -2731,6 +2755,54 @@
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
         "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "0084990393": {
+    "namaLengkap": "Fadil Firmansyah Putra",
+    "nisn": "0084990393",
+    "nis": "1961123044",
+    "tempatLahir": "",
+    "tanggalLahir": "00/01/1900",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Kasim K., S.Pd"
+      }
+    ]
+  },
+  "0088319700": {
+    "namaLengkap": "Andhika Firdhan Syahreza",
+    "nisn": "0088319700",
+    "nis": "1961123045",
+    "tempatLahir": "",
+    "tanggalLahir": "00/01/1900",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "-",
+    "pekerjaanIbu": "-",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 1",
+        "waliKelas": "Kasim K., S.Pd"
       }
     ]
   }
