@@ -1,38 +1,4 @@
 {
-  "0087569367": {
-    "namaLengkap": "Muhammad Haidir",
-    "nisn": "0087569367",
-    "nis": "1961123044",
-    "tempatLahir": "",
-    "tanggalLahir": "-",
-    "jenisKelamin": "Laki-laki",
-    "alamat": "",
-    "agama": "Islam",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "-",
-    "pekerjaanIbu": "-",
-    "teleponOrangTua": "-",
-    "teleponSiswa": "-",
-    "sekolahAsal": "-",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      }
-    ]
-  },
   "1961123045": {
     "namaLengkap": "Muh. Syukrang",
     "nisn": "1961123045",
@@ -40,40 +6,6 @@
     "tempatLahir": "",
     "tanggalLahir": "-",
     "jenisKelamin": "Laki-laki",
-    "alamat": "",
-    "agama": "Islam",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "-",
-    "pekerjaanIbu": "-",
-    "teleponOrangTua": "-",
-    "teleponSiswa": "-",
-    "sekolahAsal": "-",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      }
-    ]
-  },
-  "0081254358": {
-    "namaLengkap": "Syintia Lakkase Bani",
-    "nisn": "0081254358",
-    "nis": "1961123046",
-    "tempatLahir": "",
-    "tanggalLahir": "-",
-    "jenisKelamin": "Perempuan",
     "alamat": "",
     "agama": "Islam",
     "namaAyah": "-",
@@ -2150,6 +2082,74 @@
       }
     ]
   },
+  "0087569367": {
+    "namaLengkap": "Muhammad Haidir",
+    "nisn": "0087569367",
+    "nis": "1961123044",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2008-03-27",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Mannuruki Btn Tabaria Blok Q No.9",
+    "agama": "Islam",
+    "namaAyah": "Indra Jaya",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "St. Aisyah",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "0411869380",
+    "teleponSiswa": "081945422205",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Dra. A. Nisbah"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
+  "0081254358": {
+    "namaLengkap": "Syintia Lakkase Bani",
+    "nisn": "0081254358",
+    "nis": "1961123046",
+    "tempatLahir": "Bambamanurung",
+    "tanggalLahir": "2008-06-13",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jl.Poros Mamuju Palu",
+    "agama": "Islam",
+    "namaAyah": "Umri Arifin",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Harbiana",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "082302302402",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Dra. A. Nisbah"
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "Sariama, S.Pd.I.,Gr"
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "Kasmawati, S.Pd"
+      }
+    ]
+  },
   "0089847390": {
     "namaLengkap": "Alfiana Nur Ramadhani",
     "nisn": "0089847390",
@@ -2875,6 +2875,54 @@
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
         "waliKelas": "Kasim K., S.Pd"
+      }
+    ]
+  },
+  "0081845937": {
+    "namaLengkap": "Muh. Arfan Fauzan",
+    "nisn": "0081845937",
+    "nis": "1961123049",
+    "tempatLahir": "Sunggumnasa",
+    "tanggalLahir": "2008-01-03",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Syamsuddin Tunru",
+    "agama": "Islam",
+    "namaAyah": "Irfan Bahar",
+    "pekerjaanAyah": "Pedagang Kecil",
+    "namaIbu": "Rostina",
+    "pekerjaanIbu": "Pedagang Kecil",
+    "teleponOrangTua": "085397865401",
+    "teleponSiswa": "081245260234",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Dra. A. Nisbah"
+      }
+    ]
+  },
+  "0086955325": {
+    "namaLengkap": "Ahmad Faiz Anugrah",
+    "nisn": "0086955325",
+    "nis": "1961123044",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2008-06-30",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Letjen Mappaoudang No. 178 K",
+    "agama": "Islam",
+    "namaAyah": "Syapriadi",
+    "pekerjaanAyah": "Buruh",
+    "namaIbu": "Adriyanti Ahmad",
+    "pekerjaanIbu": "Karyawan Swasta",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "08875352917",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "Dra. A. Nisbah"
       }
     ]
   }
