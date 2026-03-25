@@ -1,140 +1,4 @@
 {
-  "1961123044": {
-    "namaLengkap": "Muh. Haidir",
-    "nisn": "1961123044",
-    "nis": "1961123044",
-    "tempatLahir": "",
-    "tanggalLahir": "-",
-    "jenisKelamin": "Laki-laki",
-    "alamat": "",
-    "agama": "Islam",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "-",
-    "pekerjaanIbu": "-",
-    "teleponOrangTua": "-",
-    "teleponSiswa": "-",
-    "sekolahAsal": "-",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      }
-    ]
-  },
-  "1961123045": {
-    "namaLengkap": "Muh. Syukrang",
-    "nisn": "1961123045",
-    "nis": "1961123045",
-    "tempatLahir": "",
-    "tanggalLahir": "-",
-    "jenisKelamin": "Laki-laki",
-    "alamat": "",
-    "agama": "Islam",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "-",
-    "pekerjaanIbu": "-",
-    "teleponOrangTua": "-",
-    "teleponSiswa": "-",
-    "sekolahAsal": "-",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      }
-    ]
-  },
-  "1961123046": {
-    "namaLengkap": "Syntia Laqqase",
-    "nisn": "1961123046",
-    "nis": "1961123046",
-    "tempatLahir": "",
-    "tanggalLahir": "-",
-    "jenisKelamin": "Perempuan",
-    "alamat": "",
-    "agama": "Islam",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "-",
-    "pekerjaanIbu": "-",
-    "teleponOrangTua": "-",
-    "teleponSiswa": "-",
-    "sekolahAsal": "-",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      }
-    ]
-  },
-  "1961123047": {
-    "namaLengkap": "Angga Maulana",
-    "nisn": "1961123047",
-    "nis": "1961123047",
-    "tempatLahir": "",
-    "tanggalLahir": "-",
-    "jenisKelamin": "Laki-laki",
-    "alamat": "",
-    "agama": "Islam",
-    "namaAyah": "-",
-    "pekerjaanAyah": "-",
-    "namaIbu": "-",
-    "pekerjaanIbu": "-",
-    "teleponOrangTua": "-",
-    "teleponSiswa": "-",
-    "sekolahAsal": "-",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
-      },
-      {
-        "tahunAjaran": "2023/2024",
-        "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
-      }
-    ]
-  },
   "1961123048": {
     "namaLengkap": "Muh. Angga",
     "nisn": "1961123048",
@@ -155,17 +19,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -189,17 +53,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -223,17 +87,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -257,17 +121,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -291,12 +155,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -309,7 +173,7 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Kampung Baru",
     "agama": "Islam",
-    "namaAyah": "Ambo",
+    "namaAyah": "Ahmad",
     "pekerjaanAyah": "Sudah Meninggal",
     "namaIbu": "Asra",
     "pekerjaanIbu": "Petani",
@@ -320,17 +184,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -354,12 +218,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -383,12 +247,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -412,12 +276,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -441,12 +305,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -470,12 +334,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -499,12 +363,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -528,12 +392,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -557,41 +421,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
-      }
-    ]
-  },
-  "0077714296": {
-    "namaLengkap": "Muh. Ichsan",
-    "nisn": "0077714296",
-    "nis": "1961124017",
-    "tempatLahir": "Sungguminasa",
-    "tanggalLahir": "2007-06-20",
-    "jenisKelamin": "Laki-laki",
-    "alamat": "Jl. Syamsuddin Tunru",
-    "agama": "Islam",
-    "namaAyah": "Herman Dg. Ngawing",
-    "pekerjaanAyah": "Wiraswasta",
-    "namaIbu": "Nurida Dg. Bau",
-    "pekerjaanIbu": "Tidak bekerja",
-    "teleponOrangTua": "-",
-    "teleponSiswa": "088247527794",
-    "sekolahAsal": "SMP NEGERI 1 SUNGGUMINASA",
-    "riwayatRombel": [
-      {
-        "tahunAjaran": "2025/2026",
-        "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
-      },
-      {
-        "tahunAjaran": "2024/2025",
-        "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -615,12 +450,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -644,12 +479,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -673,12 +508,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -702,12 +537,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -731,12 +566,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -760,12 +595,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -789,12 +624,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -818,12 +653,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -847,12 +682,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -876,12 +711,12 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XI",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "X",
-        "waliKelas": "Nursari, S.Pd.,Gr"
+        "waliKelas": "\"Nursari, S.Pd.,Gr\""
       }
     ]
   },
@@ -905,17 +740,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -939,17 +774,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -973,17 +808,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1007,17 +842,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1041,17 +876,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1075,17 +910,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1109,17 +944,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1143,17 +978,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1177,17 +1012,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1211,17 +1046,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1245,17 +1080,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1279,17 +1114,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1313,17 +1148,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1347,17 +1182,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1381,17 +1216,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1415,17 +1250,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1449,17 +1284,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1483,17 +1318,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1517,17 +1352,153 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
+      }
+    ]
+  },
+  "0087569367": {
+    "namaLengkap": "Muhammad Haidir",
+    "nisn": "0087569367",
+    "nis": "1961123044",
+    "tempatLahir": "Makassar",
+    "tanggalLahir": "2008-03-27",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jl. Mannuruki Btn Tabaria Blok Q No.9",
+    "agama": "Islam",
+    "namaAyah": "Indra Jaya",
+    "pekerjaanAyah": "Karyawan Swasta",
+    "namaIbu": "St. Aisyah",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "0411869380",
+    "teleponSiswa": "081945422205",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "\"Dra. A. Nisbah\""
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "\"Kasmawati, S.Pd\""
+      }
+    ]
+  },
+  "0085910790": {
+    "namaLengkap": "Muh Sukrang",
+    "nisn": "0085910790",
+    "nis": "1961123045",
+    "tempatLahir": "Balang Balang",
+    "tanggalLahir": "2008-04-16",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Bontomanai",
+    "agama": "Islam",
+    "namaAyah": "-",
+    "pekerjaanAyah": "-",
+    "namaIbu": "Lina Dg Taugi",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "-",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "\"Dra. A. Nisbah\""
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "\"Kasmawati, S.Pd\""
+      }
+    ]
+  },
+  "0081254358": {
+    "namaLengkap": "Syintia Lakkase Bani",
+    "nisn": "0081254358",
+    "nis": "1961123046",
+    "tempatLahir": "Bambamanurung",
+    "tanggalLahir": "2008-06-13",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jl.Poros Mamuju Palu",
+    "agama": "Islam",
+    "namaAyah": "Umri Arifin",
+    "pekerjaanAyah": "Petani",
+    "namaIbu": "Harbiana",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "082302302402",
+    "sekolahAsal": "-",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "\"Dra. A. Nisbah\""
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "\"Kasmawati, S.Pd\""
+      }
+    ]
+  },
+  "0089474926": {
+    "namaLengkap": "Angga Maulana Zul",
+    "nisn": "0089474926",
+    "nis": "1961123047",
+    "tempatLahir": "Bonto-Bonto",
+    "tanggalLahir": "2008-05-17",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Bonto-Bonto",
+    "agama": "Islam",
+    "namaAyah": "Zulhajji Dg. Makka",
+    "pekerjaanAyah": "Wiraswasta",
+    "namaIbu": "Sri Mariati Dg. Nginga",
+    "pekerjaanIbu": "Tidak bekerja",
+    "teleponOrangTua": "-",
+    "teleponSiswa": "6283139001496",
+    "sekolahAsal": " ",
+    "riwayatRombel": [
+      {
+        "tahunAjaran": "2025/2026",
+        "rombel": "XII MIA 2",
+        "waliKelas": "\"Dra. A. Nisbah\""
+      },
+      {
+        "tahunAjaran": "2024/2025",
+        "rombel": "XI MIA 2",
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
+      },
+      {
+        "tahunAjaran": "2023/2024",
+        "rombel": "X MIA",
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1551,17 +1522,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1585,17 +1556,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1619,17 +1590,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1653,17 +1624,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1687,17 +1658,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1721,17 +1692,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1755,17 +1726,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1789,17 +1760,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1823,17 +1794,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1857,17 +1828,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1891,17 +1862,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1925,17 +1896,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1959,17 +1930,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -1993,17 +1964,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -2027,17 +1998,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -2061,17 +2032,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -2095,17 +2066,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -2129,17 +2100,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -2163,17 +2134,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 2",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 2",
-        "waliKelas": "Sariama, S.Pd.I.,Gr"
+        "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -2197,17 +2168,17 @@
       {
         "tahunAjaran": "2025/2026",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XI MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "X MIA",
-        "waliKelas": "Kasmawati, S.Pd"
+        "waliKelas": "\"Kasmawati, S.Pd\""
       }
     ]
   },
@@ -2231,12 +2202,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2260,12 +2231,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2289,12 +2260,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2318,12 +2289,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2347,12 +2318,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2376,12 +2347,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2405,12 +2376,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2434,12 +2405,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2463,12 +2434,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2492,12 +2463,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2521,12 +2492,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2550,12 +2521,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2579,12 +2550,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2608,12 +2579,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2637,12 +2608,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2666,12 +2637,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2695,12 +2666,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2724,12 +2695,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2753,12 +2724,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2782,12 +2753,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2811,12 +2782,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2840,12 +2811,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2869,12 +2840,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2898,12 +2869,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2927,12 +2898,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2956,12 +2927,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -2985,12 +2956,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3014,12 +2985,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3043,12 +3014,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3072,12 +3043,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3101,12 +3072,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3130,12 +3101,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3159,12 +3130,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3188,12 +3159,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3217,12 +3188,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3246,12 +3217,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3275,12 +3246,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3304,12 +3275,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3333,12 +3304,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3362,12 +3333,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3391,12 +3362,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3420,12 +3391,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII IIS",
-        "waliKelas": "Dra. A. Nisbah"
+        "waliKelas": "\"Dra. A. Nisbah\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI IIS",
-        "waliKelas": "Sri Handayani, S.Pd"
+        "waliKelas": "\"Sri Handayani, S.Pd\""
       }
     ]
   },
@@ -3449,12 +3420,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3478,12 +3449,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3507,12 +3478,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3536,12 +3507,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3565,17 +3536,17 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XII MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       }
     ]
   },
@@ -3599,12 +3570,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3628,12 +3599,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3657,12 +3628,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3686,12 +3657,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3715,12 +3686,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3744,12 +3715,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3773,12 +3744,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3802,12 +3773,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3831,12 +3802,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3860,12 +3831,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3889,12 +3860,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3918,12 +3889,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3947,12 +3918,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -3976,12 +3947,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -4005,17 +3976,17 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XII MIA 1",
-        "waliKelas": "Mustainah Karim, S.Pd"
+        "waliKelas": "\"Mustainah Karim, S.Pd\""
       }
     ]
   },
@@ -4039,12 +4010,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -4068,12 +4039,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -4097,12 +4068,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -4126,12 +4097,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -4155,12 +4126,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 1",
-        "waliKelas": "Kasim K., S.Pd"
+        "waliKelas": "\"Kasim K., S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 1",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       }
     ]
   },
@@ -4184,12 +4155,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4213,12 +4184,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4242,12 +4213,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4271,12 +4242,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4300,12 +4271,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4329,12 +4300,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4358,12 +4329,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4387,12 +4358,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4416,12 +4387,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4445,12 +4416,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4474,12 +4445,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4503,12 +4474,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4532,12 +4503,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4561,12 +4532,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4590,17 +4561,17 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XII MIA 2",
-        "waliKelas": "Suriati, SE"
+        "waliKelas": "\"Suriati, SE\""
       }
     ]
   },
@@ -4624,12 +4595,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4653,12 +4624,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4682,12 +4653,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4711,12 +4682,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4740,12 +4711,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4769,12 +4740,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4798,12 +4769,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4827,12 +4798,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4856,12 +4827,12 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       }
     ]
   },
@@ -4885,17 +4856,17 @@
       {
         "tahunAjaran": "2024/2025",
         "rombel": "XII MIA 2",
-        "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+        "waliKelas": "\"Harninsyih H., S.Si.,M.Kes.,Gr\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XI MIA 2",
-        "waliKelas": "Nurlina, S.Pd"
+        "waliKelas": "\"Nurlina, S.Pd\""
       },
       {
         "tahunAjaran": "2023/2024",
         "rombel": "XII MIA 2",
-        "waliKelas": "Suriati, SE"
+        "waliKelas": "\"Suriati, SE\""
       }
     ]
   }
