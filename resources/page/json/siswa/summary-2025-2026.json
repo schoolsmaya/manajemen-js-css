@@ -1,22 +1,27 @@
 [
   {
+    "namaRombel": "Laki-laki",
+    "jumlahSiswa": 1,
+    "waliKelas": "Islam"
+  },
+  {
     "namaRombel": "X",
-    "jumlahSiswa": 31,
-    "waliKelas": "\"Sariama, S.Pd.I.,Gr\""
+    "jumlahSiswa": 21,
+    "waliKelas": "Sariama, S.Pd.I.,Gr"
   },
   {
     "namaRombel": "XI",
-    "jumlahSiswa": 23,
-    "waliKelas": "\"Nursari, S.Pd.,Gr\""
+    "jumlahSiswa": 8,
+    "waliKelas": "Nursari, S.Pd.,Gr"
   },
   {
     "namaRombel": "XII MIA 1",
-    "jumlahSiswa": 28,
-    "waliKelas": "\"Kasim K., S.Pd\""
+    "jumlahSiswa": 5,
+    "waliKelas": "Kasim K., S.Pd"
   },
   {
     "namaRombel": "XII MIA 2",
-    "jumlahSiswa": 28,
-    "waliKelas": "\"Dra. A. Nisbah\""
+    "jumlahSiswa": 9,
+    "waliKelas": "Dra. A. Nisbah"
   }
 ]
