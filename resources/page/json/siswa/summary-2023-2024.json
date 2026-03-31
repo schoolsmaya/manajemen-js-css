@@ -1,27 +1,32 @@
 [
   {
-    "namaRombel": "Reyhan Al Farel",
-    "jumlahSiswa": 1,
-    "waliKelas": "1961122093"
-  },
-  {
     "namaRombel": "X MIA",
-    "jumlahSiswa": 9,
+    "jumlahSiswa": 48,
     "waliKelas": "Kasmawati, S.Pd"
   },
   {
     "namaRombel": "XI IIS",
-    "jumlahSiswa": 32,
+    "jumlahSiswa": 42,
     "waliKelas": "Sri Handayani, S.Pd"
   },
   {
+    "namaRombel": "XI MIA 1",
+    "jumlahSiswa": 26,
+    "waliKelas": "Harninsyih H., S.Si.,M.Kes.,Gr"
+  },
+  {
+    "namaRombel": "XI MIA 2",
+    "jumlahSiswa": 25,
+    "waliKelas": "Nurlina, S.Pd"
+  },
+  {
     "namaRombel": "XII MIA 1",
-    "jumlahSiswa": 18,
+    "jumlahSiswa": 24,
     "waliKelas": "Mustainah Karim, S.Pd"
   },
   {
     "namaRombel": "XII MIA 2",
-    "jumlahSiswa": 22,
+    "jumlahSiswa": 25,
     "waliKelas": "Suriati, SE"
   }
 ]
