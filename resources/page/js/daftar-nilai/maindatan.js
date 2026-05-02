@@ -121,12 +121,11 @@ fetch(credentialsUrl)
         function calculateKogAvgOverall(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             const nusGrades = studentGrades.nus || {};
-            const subjectsInNus = Object.keys(nusGrades); // Daftar mapel ujian
+            const subjectsInNus = Object.keys(nusGrades);
            
             let sumOfAverages = 0;
             let totalSubjects = 0;
 
-            // Kita hitung rata-rata tiap mapel satu per satu
             subjectsInNus.forEach(subjectName => {
                 let totalValueMapel = 0;
                 let countSemesterMapel = 0;
@@ -135,21 +134,22 @@ fetch(credentialsUrl)
                     const semesterKey = `s${i}`;
                     if (studentGrades[semesterKey] && studentGrades[semesterKey][subjectName]) {
                         const data = studentGrades[semesterKey][subjectName];
+                        // Hitung Kog/Psik
                         const val = config.usePsik ? (data.kog + data.psik) / 2 : data.kog;
                         totalValueMapel += val;
                         countSemesterMapel++;
                     }
                 }
 
-                // Jika mapel ini punya nilai di rapor
                 if (countSemesterMapel > 0) {
-                    const avgMapel = totalValueMapel / countSemesterMapel;
+                    // PENTING: Kita bulatkan rata-rata PER MAPEL dulu ke 2 desimal (seperti di kolom Excel)
+                    const avgMapel = parseFloat((totalValueMapel / countSemesterMapel).toFixed(2));
                     sumOfAverages += avgMapel;
                     totalSubjects++;
                 }
             });
 
-            // Hasil akhir: Rata-rata dari rata-rata mapel
+            // Hasil akhir pembagian total rata-rata mapel
             return totalSubjects > 0 ? (sumOfAverages / totalSubjects).toFixed(2) : 'N/A';
         }
 
@@ -160,7 +160,8 @@ fetch(credentialsUrl)
             for (const subject in nusGrades) {
                 const nilai = nusGrades[subject];
                 if (nilai !== undefined && nilai !== null && !isNaN(nilai) && nilai !== "") {
-                    totalNus += parseFloat(nilai);
+                    // Bulatkan per item NUS jika di Excel Anda juga dibulatkan
+                    totalNus += parseFloat(parseFloat(nilai).toFixed(2));
                     count++;
                 }
             }
