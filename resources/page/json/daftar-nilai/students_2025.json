@@ -97,10 +97,10 @@
                 "Seni Budaya": { "kog": 97, "psik": 96 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 93, "psik": 93 },
                 "Prakarya dan Kewirausahaan": { "kog": 90, "psik": 90 },
-                "Matematika": { "kog": 88, "psik": 88 },
-                "Biologi": { "kog": 90, "psik": 90 },
-                "Fisika": { "kog": 90, "psik": 90 },
-                "Kimia": { "kog": 88, "psik": 88 },
+                "Geografi": { "kog": 88, "psik": 88 },
+                "Ekonomi": { "kog": 90, "psik": 90 },
+                "Sosiologi": { "kog": 90, "psik": 90 },
+                "Sejarah": { "kog": 88, "psik": 88 },
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 92 }
             },	
             "nus": {
@@ -113,10 +113,10 @@
                 "Seni Budaya": 91,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 91,
                 "Prakarya dan Kewirausahaan": 85.79,
-                "Matematika": 89,
-                "Biologi": 88.67,
-                "Fisika": 89,
-                "Kimia": 89,
+                "Geografi": 89,
+                "Ekonomi": 88.67,
+                "Sosiologi": 89,
+                "Sejarah": 89,
                 "Bahasa dan Sastra Inggris": 89.7
             }
         }
