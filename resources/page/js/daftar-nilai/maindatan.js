@@ -44,10 +44,10 @@ fetch(credentialsUrl)
                 usePsik: false // Hanya Kognitif
             },
             '2025': {
-                maxSemester: 5,
+                maxSemester: 6,
                 kogWeight: 0.70,
                 nusWeight: 0.30,
-                usePsik: false // Hanya Kognitif
+                usePsik: true // Hanya Kognitif
             },
             '2026': {
                 maxSemester: 6,
