@@ -8,7 +8,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 83 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -24,7 +24,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -56,7 +56,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -72,7 +72,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 84 },
@@ -88,7 +88,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -148,7 +148,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -164,7 +164,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -180,7 +180,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -212,7 +212,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 86 },
@@ -256,7 +256,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 80, "psik": 80 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 83, "psik": 83 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -272,7 +272,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -288,7 +288,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 83, "psik": 83 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -304,7 +304,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -320,7 +320,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 90, "psik": 90 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -336,7 +336,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 92, "psik": 92 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 84 },
@@ -380,7 +380,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 83, "psik": 83 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -396,7 +396,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -412,7 +412,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -428,7 +428,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -444,7 +444,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -460,7 +460,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -504,7 +504,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -520,7 +520,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -536,7 +536,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -552,7 +552,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 88 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -568,7 +568,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 89 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -584,7 +584,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 90 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 98, "psik": 97 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -644,7 +644,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -660,7 +660,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -676,7 +676,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -692,7 +692,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 85 },
@@ -708,7 +708,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 86 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 97, "psik": 97 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -768,7 +768,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -784,7 +784,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -800,7 +800,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 89, "psik": 89 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -816,7 +816,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -832,7 +832,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 97, "psik": 97 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -924,7 +924,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -940,7 +940,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -956,7 +956,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -1016,7 +1016,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1048,7 +1048,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1064,7 +1064,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1080,7 +1080,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -1124,7 +1124,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 80, "psik": 80 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 85 },
@@ -1140,7 +1140,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1156,7 +1156,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -1172,7 +1172,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 86 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 87 },
@@ -1188,7 +1188,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -1204,7 +1204,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 92, "psik": 92 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -1248,7 +1248,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 82, "psik": 82 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1264,7 +1264,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1296,7 +1296,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1312,7 +1312,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -1328,7 +1328,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1372,7 +1372,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1404,7 +1404,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1420,7 +1420,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -1436,7 +1436,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -1452,7 +1452,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 98, "psik": 97 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 96, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 93 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -1496,7 +1496,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 88 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1512,7 +1512,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 90, "psik": 90 },
                 "Bahasa Indonesia": { "kog": 92, "psik": 90 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -1528,7 +1528,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 90, "psik": 90 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 89, "psik": 89 },
@@ -1544,7 +1544,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 91, "psik": 91 },
@@ -1560,7 +1560,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 94, "psik": 93 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 93, "psik": 93 },
@@ -1576,7 +1576,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 94, "psik": 94 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 96, "psik": 96 },
                 "Bahasa Indonesia": { "kog": 95, "psik": 95 },
                 "Matematika (W)": { "kog": 94, "psik": 93 },
@@ -1620,7 +1620,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1636,7 +1636,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1652,7 +1652,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1668,7 +1668,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1684,7 +1684,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 97, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 84 },
@@ -1700,7 +1700,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 86 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 98, "psik": 97 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1744,7 +1744,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1776,7 +1776,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1792,7 +1792,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -1808,7 +1808,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1824,7 +1824,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 90, "psik": 90 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -1868,7 +1868,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1884,7 +1884,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -1900,7 +1900,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1916,7 +1916,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -1932,7 +1932,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -1948,7 +1948,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -1992,7 +1992,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 83, "psik": 83 },
                 "Bahasa Indonesia": { "kog": 83, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -2008,7 +2008,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 83, "psik": 83 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 83 },
                 "Matematika (W)": { "kog": 83, "psik": 84 },
@@ -2024,7 +2024,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 83, "psik": 83 },
                 "Bahasa Indonesia": { "kog": 83, "psik": 83 },
                 "Matematika (W)": { "kog": 84, "psik": 83 },
@@ -2040,7 +2040,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 83 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 83, "psik": 83 },
                 "Bahasa Indonesia": { "kog": 83, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -2056,7 +2056,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 97, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -2072,7 +2072,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 98, "psik": 97 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2116,7 +2116,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 80, "psik": 80 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2132,7 +2132,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2148,7 +2148,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2164,7 +2164,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -2180,7 +2180,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 85 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -2196,7 +2196,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 86 },
@@ -2240,7 +2240,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 83, "psik": 83 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2256,7 +2256,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 83, "psik": 83 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2288,7 +2288,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2304,7 +2304,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2320,7 +2320,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 84 },
@@ -2364,7 +2364,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2380,7 +2380,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2396,7 +2396,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2412,7 +2412,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -2428,7 +2428,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 88 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 85 },
@@ -2444,7 +2444,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 86 },
@@ -2520,7 +2520,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2536,7 +2536,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2552,7 +2552,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -2612,7 +2612,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -2628,7 +2628,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 89, "psik": 90 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 88 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -2644,7 +2644,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -2660,7 +2660,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 89, "psik": 89 },
@@ -2676,7 +2676,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -2692,7 +2692,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 93, "psik": 92 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 96, "psik": 96 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 93, "psik": 93 },
@@ -2736,7 +2736,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2752,7 +2752,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 90, "psik": 90 },
                 "Bahasa Indonesia": { "kog": 91, "psik": 91 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2768,7 +2768,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -2784,7 +2784,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 89, "psik": 89 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 89, "psik": 89 },
@@ -2800,7 +2800,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 92, "psik": 92 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 97, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -2816,7 +2816,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 93, "psik": 92 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 98, "psik": 97 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 96, "psik": 96 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 92, "psik": 92 },
@@ -2860,7 +2860,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -2892,7 +2892,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2908,7 +2908,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2924,7 +2924,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -2940,7 +2940,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3000,7 +3000,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -3016,7 +3016,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -3048,7 +3048,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3064,7 +3064,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -3108,7 +3108,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -3140,7 +3140,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -3156,7 +3156,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 91, "psik": 91 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 92, "psik": 92 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -3172,7 +3172,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -3188,7 +3188,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -3248,7 +3248,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -3264,7 +3264,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 84, "psik": 85 },
@@ -3280,7 +3280,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 86 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 92, "psik": 92 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -3296,7 +3296,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -3312,7 +3312,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 91, "psik": 91 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 91, "psik": 91 },
@@ -3356,7 +3356,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3372,7 +3372,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 83 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3388,7 +3388,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -3404,7 +3404,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3420,7 +3420,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 89 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 90, "psik": 89 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -3436,7 +3436,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 91, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -3480,7 +3480,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3496,7 +3496,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 86, "psik": 85 },
@@ -3512,7 +3512,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -3528,7 +3528,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 89 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -3560,7 +3560,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -3604,7 +3604,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3652,7 +3652,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 88, "psik": 89 },
@@ -3668,7 +3668,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 92 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 94, "psik": 94 },
@@ -3728,7 +3728,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -3744,7 +3744,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3776,7 +3776,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3792,7 +3792,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -3808,7 +3808,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -3852,7 +3852,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -3868,7 +3868,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 89 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -3884,7 +3884,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 90, "psik": 90 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 92 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -3900,7 +3900,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -3916,7 +3916,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 93, "psik": 93 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 95, "psik": 95 },
@@ -3932,7 +3932,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 94, "psik": 94 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 96, "psik": 96 },
                 "Bahasa Indonesia": { "kog": 95, "psik": 95 },
                 "Matematika (W)": { "kog": 95, "psik": 95 },
@@ -3976,7 +3976,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -3992,7 +3992,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -4008,7 +4008,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -4024,7 +4024,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 92, "psik": 92 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -4040,7 +4040,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 94, "psik": 93 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 91, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 94, "psik": 94 },
@@ -4056,7 +4056,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 93, "psik": 93 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 96, "psik": 96 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 95, "psik": 95 },
@@ -4100,7 +4100,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -4132,7 +4132,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -4148,7 +4148,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 89, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -4164,7 +4164,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 89, "psik": 89 },
@@ -4180,7 +4180,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 91, "psik": 91 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -4256,7 +4256,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -4272,7 +4272,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -4288,7 +4288,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -4304,7 +4304,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 90, "psik": 89 },
@@ -4348,7 +4348,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 82, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 82, "psik": 82 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 82, "psik": 82 },
                 "Bahasa Indonesia": { "kog": 83, "psik": 84 },
                 "Matematika (W)": { "kog": 81, "psik": 82 },
@@ -4380,7 +4380,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 82, "psik": 83 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 83 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 83, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 82, "psik": 81 },
@@ -4396,7 +4396,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -4412,7 +4412,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -4428,7 +4428,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -4472,7 +4472,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -4488,7 +4488,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -4504,7 +4504,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -4520,7 +4520,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -4536,7 +4536,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 89, "psik": 89 },
@@ -4552,7 +4552,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 89 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 91, "psik": 91 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -4596,7 +4596,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -4628,7 +4628,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -4644,7 +4644,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 91, "psik": 91 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 89, "psik": 89 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -4660,7 +4660,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 89, "psik": 89 },
@@ -4676,7 +4676,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 89 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 91, "psik": 91 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -4720,7 +4720,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 85, "psik": 84 },
@@ -4736,7 +4736,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 84, "psik": 85 },
@@ -4752,7 +4752,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 84, "psik": 84 },
@@ -4768,7 +4768,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -4784,7 +4784,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -4800,7 +4800,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -4844,7 +4844,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -4876,7 +4876,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -4892,7 +4892,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -4908,7 +4908,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -4924,7 +4924,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 89 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 94 },
                 "Matematika (W)": { "kog": 91, "psik": 91 },
@@ -4968,7 +4968,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -4984,7 +4984,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -5000,7 +5000,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -5016,7 +5016,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 91, "psik": 91 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -5032,7 +5032,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -5048,7 +5048,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -5108,7 +5108,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -5140,7 +5140,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -5156,7 +5156,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 89, "psik": 89 },
@@ -5172,7 +5172,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -5216,7 +5216,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -5248,7 +5248,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -5280,7 +5280,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -5296,7 +5296,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 89 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -5340,7 +5340,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 86, "psik": 87 },
@@ -5356,7 +5356,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 90 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 88 },
@@ -5372,7 +5372,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 91 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 89 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -5388,7 +5388,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -5404,7 +5404,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 93, "psik": 93 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 94, "psik": 94 },
@@ -5420,7 +5420,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 94, "psik": 94 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 96, "psik": 96 },
                 "Bahasa Indonesia": { "kog": 95, "psik": 95 },
                 "Matematika (W)": { "kog": 95, "psik": 95 },
@@ -5528,7 +5528,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -5544,7 +5544,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -5588,7 +5588,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 88 },
@@ -5604,7 +5604,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 89, "psik": 89 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -5636,7 +5636,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 92, "psik": 93 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -5712,7 +5712,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -5728,7 +5728,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -5744,7 +5744,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -5760,7 +5760,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 92 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 90 },
                 "Matematika (W)": { "kog": 89, "psik": 89 },
@@ -5776,7 +5776,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 93, "psik": 93 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 94, "psik": 94 },
@@ -5792,7 +5792,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 94, "psik": 94 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 96, "psik": 96 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 95, "psik": 95 },
@@ -5852,7 +5852,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 84, "psik": 84 },
                 "Bahasa Indonesia": { "kog": 84, "psik": 84 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -5868,7 +5868,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -5884,7 +5884,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 92, "psik": 92 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 90, "psik": 89 },
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -5900,7 +5900,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 93, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 90, "psik": 90 },
@@ -5916,7 +5916,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 91, "psik": 91 },
@@ -5960,7 +5960,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
@@ -5976,7 +5976,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 85, "psik": 86 },
@@ -5992,7 +5992,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 87, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -6008,7 +6008,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 89, "psik": 88 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 89 },
                 "Matematika (W)": { "kog": 88, "psik": 89 },
@@ -6024,7 +6024,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 95, "psik": 95 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 95 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 94, "psik": 94 },
@@ -6040,7 +6040,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 91, "psik": 91 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 96, "psik": 96 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 96 },
                 "Bahasa Indonesia": { "kog": 94, "psik": 94 },
                 "Matematika (W)": { "kog": 95, "psik": 95 },
@@ -6084,7 +6084,7 @@
        "peminatan": "Matematika Dan Ilmu Pengetahuan Alam",
        "grades": {	
             "s1": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 85, "psik": 85 },
                 "Bahasa Indonesia": { "kog": 85, "psik": 85 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -6100,7 +6100,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 84 }
             },	
             "s2": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 86 },
                 "Bahasa Indonesia": { "kog": 86, "psik": 86 },
                 "Matematika (W)": { "kog": 83, "psik": 83 },
@@ -6116,7 +6116,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
             },	
             "s3": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 86, "psik": 87 },
                 "Bahasa Indonesia": { "kog": 88, "psik": 88 },
                 "Matematika (W)": { "kog": 86, "psik": 86 },
@@ -6132,7 +6132,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
             },	
             "s4": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 88, "psik": 88 },
                 "Bahasa Indonesia": { "kog": 89, "psik": 90 },
                 "Matematika (W)": { "kog": 87, "psik": 87 },
@@ -6148,7 +6148,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
             },	
             "s5": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 86 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 94, "psik": 93 },
                 "Bahasa Indonesia": { "kog": 90, "psik": 91 },
                 "Matematika (W)": { "kog": 88, "psik": 88 },
@@ -6164,7 +6164,7 @@
                 "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 88 }
             },	
             "s6": {
-                "Pendidkan Agama dan Budi Pekerti": { "kog": 93, "psik": 93 },
+                "Pendidkan Agama dan Budi Pekerti": { "kog": 94, "psik": 94 },
                 "Pendidikan Pancasila dan Kewarganegaraan": { "kog": 95, "psik": 94 },
                 "Bahasa Indonesia": { "kog": 93, "psik": 93 },
                 "Matematika (W)": { "kog": 93, "psik": 93 },
