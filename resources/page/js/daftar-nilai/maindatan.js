@@ -181,7 +181,7 @@ fetch(credentialsUrl)
 
             if (selectedYear) {
                 try {
-                    const BASE_JSON_URL = 'https://sekolah.github.io/json/daftar-nilai/';
+                    const BASE_JSON_URL = 'https://schoolsmaya.github.io/manajemen-js-css/resources/page/json/daftar-nilai/';
                     const response = await fetch(`${BASE_JSON_URL}students_${selectedYear}.json`);
                     if (!response.ok) throw new Error(`Status: ${response.status}`);
                     currentStudentsData = await response.json();
