@@ -108,17 +108,26 @@ fetch(credentialsUrl)
                 }
 
         function calculateNilaiSekolahBySubject(avgKogBySubject, nusBySubject, year) {
-            if (avgKogBySubject === 'N/A' || nusBySubject === 'N/A') {
+            // Jika rata-rata rapor saja sudah tidak ada (N/A), maka hasil akhirnya N/A
+            if (avgKogBySubject === 'N/A') {
                 return 'N/A';
             }
+
             const config = yearConfigurations[year] || defaultConfiguration;
-            const avg = parseFloat(avgKogBySubject);
-            const nus = parseFloat(nusBySubject);
+            const avgRapor = parseFloat(avgKogBySubject);
 
-            const nilaiSekolah = (avg * config.kogWeight) + (nus * config.nusWeight);
-            return nilaiSekolah.toFixed(2);
+            // CEK: Apakah ada nilai NUS?
+            if (nusBySubject !== 'N/A' && nusBySubject !== undefined) {
+                // KASUS 1: Ada NUS -> Gunakan rumus pembobotan konfigurasi
+                const nus = parseFloat(nusBySubject);
+                const nilaiSekolah = (avgRapor * config.kogWeight) + (nus * config.nusWeight);
+                return nilaiSekolah.toFixed(2);
+            } else {
+                // KASUS 2: Tidak ada NUS -> Nilai Sekolah = Rata-rata Rapor (100%)
+                return avgRapor.toFixed(2);
+            }
         }
-
+        
         function calculateKogAvgOverall(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             let totalValue = 0;
@@ -280,6 +289,20 @@ fetch(credentialsUrl)
             const avgKogBySubject = calculateKogAvgBySubject(grades, subjectName, year);
             const nusBySubject = getNusBySubject(grades.nus, subjectName);
             const nilaiSekolahBySubject = calculateNilaiSekolahBySubject(avgKogBySubject, nusBySubject, year);
+
+            let keteranganRumus;
+            if (nusBySubject !== 'N/A') {
+                keteranganRumus = `
+                    <li>**${(config.kogWeight * 100)}%** dari rata-rata nilai "${labelTipeNilai}".</li>
+                    <li>**${(config.nusWeight * 100)}%** dari Nilai Ujian Sekolah (NUS).</li>
+                    <p>Rumus: (Rata-rata &times; ${config.kogWeight}) + (NUS &times; ${config.nusWeight})</p>
+                `;
+            } else {
+                keteranganRumus = `
+                    <li>**100%** diambil dari rata-rata nilai "${labelTipeNilai}" (Karena mata pelajaran ini tidak diujiankan).</li>
+                    <p>Rumus: Rata-rata Rapor (Tanpa NUS)</p>
+                `;
+            }            
 
             const avgKogOverall = calculateKogAvgOverall(grades, year);
             const nusOverall = calculateNusOverall(grades.nus);
