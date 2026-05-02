@@ -121,28 +121,36 @@ fetch(credentialsUrl)
         function calculateKogAvgOverall(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             const nusGrades = studentGrades.nus || {};
-            const subjectsInNus = Object.keys(nusGrades); // Daftar filter
-            
-            let totalValue = 0;
-            let count = 0;
+            const subjectsInNus = Object.keys(nusGrades); // Daftar mapel ujian
+           
+            let sumOfAverages = 0;
+            let totalSubjects = 0;
 
-            for (let i = 1; i <= config.maxSemester; i++) {
-                const semesterGrades = studentGrades[`s${i}`];
-                if (semesterGrades) {
-                    for (const subject in semesterGrades) {
-                        // Hanya masukkan ke IPK jika mapel ini diujiankan
-                        if (subjectsInNus.includes(subject)) {
-                            const data = semesterGrades[subject];
-                            if (data && data.kog !== undefined) {
-                                const val = config.usePsik ? (data.kog + data.psik) / 2 : data.kog;
-                                totalValue += val;
-                                count++;
-                            }
-                        }
+            // Kita hitung rata-rata tiap mapel satu per satu
+            subjectsInNus.forEach(subjectName => {
+                let totalValueMapel = 0;
+                let countSemesterMapel = 0;
+
+                for (let i = 1; i <= config.maxSemester; i++) {
+                    const semesterKey = `s${i}`;
+                    if (studentGrades[semesterKey] && studentGrades[semesterKey][subjectName]) {
+                        const data = studentGrades[semesterKey][subjectName];
+                        const val = config.usePsik ? (data.kog + data.psik) / 2 : data.kog;
+                        totalValueMapel += val;
+                        countSemesterMapel++;
                     }
                 }
-            }
-            return count > 0 ? (totalValue / count).toFixed(2) : 'N/A';
+
+                // Jika mapel ini punya nilai di rapor
+                if (countSemesterMapel > 0) {
+                    const avgMapel = totalValueMapel / countSemesterMapel;
+                    sumOfAverages += avgMapel;
+                    totalSubjects++;
+                }
+            });
+
+            // Hasil akhir: Rata-rata dari rata-rata mapel
+            return totalSubjects > 0 ? (sumOfAverages / totalSubjects).toFixed(2) : 'N/A';
         }
 
         function calculateNusOverall(nusGrades) {
