@@ -40,19 +40,19 @@ fetch(credentialsUrl)
             '2024': {
                 maxSemester: 6,
                 kogWeight: 0.50,
-                nusWeight: 0.50
+                nusWeight: 0.50,
                 usePsik: false // Hanya Kognitif
             },
             '2025': {
                 maxSemester: 5,
                 kogWeight: 0.70,
-                nusWeight: 0.30
+                nusWeight: 0.30,
                 usePsik: true // Hanya Kognitif
             },
             '2026': {
                 maxSemester: 6,
                 kogWeight: 0.70,
-                nusWeight: 0.30
+                nusWeight: 0.30,
                 usePsik: true // Kognitif + Psikomotorik
             },
         };
@@ -60,7 +60,7 @@ fetch(credentialsUrl)
         const defaultConfiguration = {
             maxSemester: 5,
             kogWeight: 0.60,
-            nusWeight: 0.40
+            nusWeight: 0.40,
             usePsik: false
         };
 
