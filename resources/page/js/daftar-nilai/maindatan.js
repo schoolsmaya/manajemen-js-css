@@ -285,3 +285,31 @@ fetch(credentialsUrl)
             studentDetailsDiv.style.display = 'block';
         }
     } // --- AKHIR DARI initializeApp() ---
+
+        // --- 2. LOGIKA PENANGANAN LOGIN ---
+
+    // Awalnya, sembunyikan aplikasi utama dan tampilkan formulir login
+    appContentMain.style.display = 'none';
+    loginFormDiv.style.display = 'block';
+    loginErrorP.style.display = 'none'; // Sembunyikan pesan error awal
+
+    // Tambahkan event listener untuk tombol 'Masuk'
+    submitAccessCodeBtn.addEventListener('click', () => {
+        const enteredMemberId = memberIdInput.value.trim(); // Ambil nomor anggota dan hapus spasi
+        const enteredAccessCode = accessCodeInput.value.trim(); // Ambil sandi dan hapus spasi
+
+        // Cek apakah nomor anggota dan sandi cocok dengan yang ada di daftar
+        if (MEMBER_CREDENTIALS[enteredMemberId] === enteredAccessCode) {
+            // Jika cocok:
+            loginFormDiv.style.display = 'none'; // Sembunyikan formulir login
+            appContentMain.style.display = 'block'; // Tampilkan aplikasi utama
+            loginErrorP.style.display = 'none'; // Sembunyikan pesan error
+            initializeApp(); // Panggil fungsi untuk menjalankan aplikasi
+        } else {
+            // Jika tidak cocok:
+            loginErrorP.textContent = "Nomor anggota atau kode akses salah. Silakan coba lagi.";
+            loginErrorP.style.display = 'block'; // Tampilkan pesan error
+        }
+    });
+});
+
