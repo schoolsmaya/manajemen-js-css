@@ -332,7 +332,7 @@ fetch(credentialsUrl)
                             <span>Rata-rata NUS (Mapel Ujian)</span>
                             <span>${nusOverall.replace('.', ',')}</span>
                         </div>
-                        <div style="display:flex; justify-content:space-between; margin-top:10px; padding:10px; background:#2c3e50; color:#FFFFFF; border-radius:5px; font-size:1.2em;">
+                        <div style="display:flex; justify-content:space-between; margin-top:10px; padding:15px; background:#ffeb3b; color:#000000; border: 2px solid #fbc02d; border-radius:5px; font-size:1.2em;">
                             <span><strong>IPK AKHIR</strong></span>
                             <span><strong>${nilaiSekolahOverall.replace('.', ',')}</strong></span>
                         </div>
