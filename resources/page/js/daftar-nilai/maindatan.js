@@ -41,16 +41,19 @@ fetch(credentialsUrl)
                 maxSemester: 6,
                 kogWeight: 0.50,
                 nusWeight: 0.50
+                usePsik: false // Hanya Kognitif
             },
             '2025': {
                 maxSemester: 5,
                 kogWeight: 0.70,
                 nusWeight: 0.30
+                usePsik: false // Hanya Kognitif
             },
             '2026': {
                 maxSemester: 6,
                 kogWeight: 0.70,
                 nusWeight: 0.30
+                usePsik: true // Kognitif + Psikomotorik
             },
         };
 
@@ -58,6 +61,7 @@ fetch(credentialsUrl)
             maxSemester: 5,
             kogWeight: 0.60,
             nusWeight: 0.40
+            usePsik: false
         };
 
         // --- VARIABLE GLOBAL APLIKASI ---
@@ -74,18 +78,20 @@ fetch(credentialsUrl)
         // --- FUNGSI PERHITUNGAN ---
         function calculateKogAvgBySubject(studentGrades, subjectName, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
-            let totalKog = 0;
+            let totalValue = 0;
             let count = 0;
-            let maxSemester = config.maxSemester;
 
-            for (let i = 1; i <= maxSemester; i++) {
+            for (let i = 1; i <= config.maxSemester; i++) {
                 const semesterKey = `s${i}`;
-                if (studentGrades[semesterKey] && studentGrades[semesterKey][subjectName]) {
-                    totalKog += studentGrades[semesterKey][subjectName].kog;
+                const data = studentGrades[semesterKey]?.[subjectName];
+                if (data) {
+                    // Jika usePsik true, ambil rata-rata (Kog+Psik)/2, jika tidak hanya Kog
+                    const val = config.usePsik ? (data.kog + data.psik) / 2 : data.kog;
+                    totalValue += val;
                     count++;
                 }
             }
-            return count > 0 ? (totalKog / count).toFixed(2) : 'N/A';
+            return count > 0 ? (totalValue / count).toFixed(2) : 'N/A';
         }
 
         function getNusBySubject(nusGrades, subjectName) {
@@ -109,22 +115,23 @@ fetch(credentialsUrl)
 
         function calculateKogAvgOverall(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
-            let totalKog = 0;
+            let totalValue = 0;
             let count = 0;
-            let maxSemester = config.maxSemester;
 
-            for (let i = 1; i <= maxSemester; i++) {
+            for (let i = 1; i <= config.maxSemester; i++) {
                 const semesterGrades = studentGrades[`s${i}`];
                 if (semesterGrades) {
                     for (const subject in semesterGrades) {
-                        if (semesterGrades[subject].kog !== undefined) {
-                            totalKog += semesterGrades[subject].kog;
+                        const data = semesterGrades[subject];
+                        if (data.kog !== undefined) {
+                            const val = config.usePsik ? (data.kog + data.psik) / 2 : data.kog;
+                            totalValue += val;
                             count++;
                         }
                     }
                 }
             }
-            return count > 0 ? (totalKog / count).toFixed(2) : 'N/A';
+            return count > 0 ? (totalValue / count).toFixed(2) : 'N/A';
         }
 
         function calculateNusOverall(nusGrades) {
@@ -259,9 +266,10 @@ fetch(credentialsUrl)
         // --- FUNGSI TAMPILAN DETAIL ---
         function displayStudentSubjectGrades(student, subjectName, year) {
             const grades = student.grades;
-
             const config = yearConfigurations[year] || defaultConfiguration;
 
+            const labelTipeNilai = config.usePsik ? "Kog & Psik" : "Kog";
+            
             const avgKogBySubject = calculateKogAvgBySubject(grades, subjectName, year);
             const nusBySubject = getNusBySubject(grades.nus, subjectName);
             const nilaiSekolahBySubject = calculateNilaiSekolahBySubject(avgKogBySubject, nusBySubject, year);
@@ -326,11 +334,11 @@ fetch(credentialsUrl)
                     </tbody>
                 </table>
                 <div class="summary-grades">
-                    <div class="summary-item"><span>Rata-rata Kog ${semesterRangeText} (${subjectName})</span><span>:</span><span>${avgKogBySubject.replace('.', ',')}</span></div>
+                    <div class="summary-item"><span>Rata-rata ${labelTipeNilai} ${semesterRangeText} (${subjectName})</span><span>:</span><span>${avgKogBySubject.replace('.', ',')}</span></div>
                     <div class="summary-item"><span>Nilai Ujian Sekolah (${subjectName})</span><span>:</span><span>${nusBySubject.replace('.', ',')}</span></div>
                     <div class="summary-item"><span><b>Nilai Sekolah (${subjectName})</b></span><span>:</span><span><b>${nilaiSekolahBySubject.replace('.', ',')}</b></span></div>
                     <hr>
-                    <div class="summary-item"><span><b>Rata-rata Kog ${semesterRangeText} (Semua Mapel)</b></span><span>:</span><span><b>${avgKogOverall.replace('.', ',')}</b></span></div>
+                    <div class="summary-item"><span><b>Rata-rata ${labelTipeNilai} ${semesterRangeText} (Semua Mapel)</b></span><span>:</span><span><b>${avgKogOverall.replace('.', ',')}</b></span></div>
                     <div class="summary-item"><span><b>Rata-rata Nilai Ujian Sekolah (Semua Mapel)</b></span><span>:</span><span><b>${nusOverall.replace('.', ',')}</b></span></div>
                     <div class="summary-item"><span><b>Rata-rata Nilai Sekolah / IPK (Semua Mapel)</b></span><span>:</span><span><b>${nilaiSekolahOverall.replace('.', ',')}</b></span></div>
                 </div>
@@ -338,10 +346,10 @@ fetch(credentialsUrl)
                     <h4>Keterangan Perolehan Nilai Sekolah (${subjectName}) Tahun ${year}:</h4>
                     <p>Nilai Sekolah (${subjectName}) dihitung berdasarkan akumulasi:</p>
                     <ul>
-                        <li>**${kogPercentage}** dari rata-rata nilai "Kog" ${semesterRangeText} untuk mata pelajaran **${subjectName}**.</li>
-                        <li>**${nusPercentage}** dari Nilai Ujian Sekolah untuk mata pelajaran **${subjectName}**.</li>
+                        <li>**${(config.kogWeight * 100)}%** dari rata-rata nilai "${labelTipeNilai}" ${semesterRangeText} untuk mata pelajaran **${subjectName}**.</li>
+                        <li>**${(config.nusWeight * 100)}%** dari Nilai Ujian Sekolah untuk mata pelajaran **${subjectName}**.</li>
                     </ul>
-                    <p>Rumus: (Rata-rata Nilai Kog ${semesterRangeText} ${subjectName} &times; ${config.kogWeight}) + (Nilai Ujian Sekolah ${subjectName} &times; ${config.nusWeight})</p>
+                    <p>Rumus: (Rata-rata Nilai ${labelTipeNilai} &times; ${config.kogWeight}) + (Nilai Ujian Sekolah &times; ${config.nusWeight})</p>
                     <br>
                     <h4>Informasi Rata-rata Nilai Sekolah / IPK (Semua Mapel) Tahun ${year}:</h4>
                     <p>Rata-rata Nilai Sekolah / IPK (Semua Mapel) dihitung berdasarkan akumulasi:</p>
