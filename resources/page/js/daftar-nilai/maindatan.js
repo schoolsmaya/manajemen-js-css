@@ -49,8 +49,8 @@ fetch(credentialsUrl)
             },
             '2026': {
                 maxSemester: 6,
-                kogWeight: 0.60,
-                nusWeight: 0.40
+                kogWeight: 0.70,
+                nusWeight: 0.30
             },
         };
 
