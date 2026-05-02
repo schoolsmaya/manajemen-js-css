@@ -80,26 +80,32 @@ fetch(credentialsUrl)
             const config = yearConfigurations[year] || defaultConfiguration;
             let totalValue = 0;
             let count = 0;
+            let maxSemester = config.maxSemester;
 
-            for (let i = 1; i <= config.maxSemester; i++) {
+            for (let i = 1; i <= maxSemester; i++) {
                 const semesterKey = `s${i}`;
-                const data = studentGrades[semesterKey]?.[subjectName];
-                if (data) {
-                    // Jika usePsik true, ambil rata-rata (Kog+Psik)/2, jika tidak hanya Kog
+                // Cek apakah data untuk mapel ini ada di semester tersebut
+                if (studentGrades[semesterKey] && studentGrades[semesterKey][subjectName]) {
+                    const data = studentGrades[semesterKey][subjectName];
+           
+                    // Logika tahun 2026: (Kog + Psik) / 2
                     const val = config.usePsik ? (data.kog + data.psik) / 2 : data.kog;
+           
                     totalValue += val;
-                    count++;
+                    count++; // Hanya bertambah jika data ditemukan
                 }
             }
+   
+            // Hasil dibagi berdasarkan jumlah semester yang ada datanya saja
             return count > 0 ? (totalValue / count).toFixed(2) : 'N/A';
         }
 
-        function getNusBySubject(nusGrades, subjectName) {
-            if (nusGrades && typeof nusGrades === 'object' && nusGrades[subjectName] !== undefined) {
-                return parseFloat(nusGrades[subjectName]).toFixed(2);
-            }
-            return 'N/A';
-        }
+                function getNusBySubject(nusGrades, subjectName) {
+                    if (nusGrades && typeof nusGrades === 'object' && nusGrades[subjectName] !== undefined) {
+                        return parseFloat(nusGrades[subjectName]).toFixed(2);
+                    }
+                    return 'N/A';
+                }
 
         function calculateNilaiSekolahBySubject(avgKogBySubject, nusBySubject, year) {
             if (avgKogBySubject === 'N/A' || nusBySubject === 'N/A') {
@@ -117,13 +123,14 @@ fetch(credentialsUrl)
             const config = yearConfigurations[year] || defaultConfiguration;
             let totalValue = 0;
             let count = 0;
+            let maxSemester = config.maxSemester;
 
-            for (let i = 1; i <= config.maxSemester; i++) {
+            for (let i = 1; i <= maxSemester; i++) {
                 const semesterGrades = studentGrades[`s${i}`];
                 if (semesterGrades) {
                     for (const subject in semesterGrades) {
                         const data = semesterGrades[subject];
-                        if (data.kog !== undefined) {
+                        if (data && data.kog !== undefined) {
                             const val = config.usePsik ? (data.kog + data.psik) / 2 : data.kog;
                             totalValue += val;
                             count++;
