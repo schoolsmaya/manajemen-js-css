@@ -284,10 +284,11 @@ fetch(credentialsUrl)
             studentDetailsDiv.innerHTML = `
                 <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                     <h3>Laporan Nilai: ${student.name}</h3>
-                    <div class="student-identity" style="margin-bottom:20px; display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
-                        <div><strong>NISN:</strong> ${student.nisn}</div>
-                        <div><strong>Kelas:</strong> ${student.class}</div>
-                        <div><strong>Peminatan:</strong> ${student.peminatan}</div>
+                    <div class="student-identity">
+                        <div class="identity-item"><span>NIS</span><span>:</span><span>${student.nis}</span></div>
+                        <div class="identity-item"><span>NISN</span><span>:</span><span>${student.nisn}</span></div>
+                        <div class="identity-item"><span>Kelas</span><span>:</span><span>${student.class}</span></div>
+                        <div class="identity-item"><span>Peminatan</span><span>:</span><span>${student.peminatan}</span></div>
                         <div><strong>Tahun:</strong> ${year}</div>
                     </div>
 
