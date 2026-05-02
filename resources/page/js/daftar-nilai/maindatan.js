@@ -289,7 +289,7 @@ fetch(credentialsUrl)
                         <div class="identity-item"><span>NISN</span><span>:</span><span>${student.nisn}</span></div>
                         <div class="identity-item"><span>Kelas</span><span>:</span><span>${student.class}</span></div>
                         <div class="identity-item"><span>Peminatan</span><span>:</span><span>${student.peminatan}</span></div>
-                        <div><strong>Tahun:</strong> ${year}</div>
+                        <div class="identity-item"><span>Tahun Lulus</span><span>:</span><span>${year}</span></div>
                     </div>
 
                     <h4 style="background:#333; color:white; padding:10px;">Mata Pelajaran: ${subjectName}</h4>
