@@ -17,11 +17,13 @@
                 "Seni Budaya": { "kog": 87, "psik": 87 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
@@ -33,11 +35,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 87, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 83 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -93,7 +97,7 @@
                 "Bahasa Indonesia": { "kog": 87, "psik": 87 },
                 "Matematika (W)": { "kog": 85, "psik": 85 },
                 "Sejarah Indonesia": { "kog": 86, "psik": 86 },
-                "Bahasa Inggris": { "kog": 0, "psik": 0 },
+                "Bahasa Inggris": { "kog": 87, "psik": 87 },
                 "Seni Budaya": { "kog": 90, "psik": 90 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 87, "psik": 87 },
@@ -109,7 +113,7 @@
                 "Bahasa Indonesia": 82.35,
                 "Matematika (W)": 85.47,
                 "Sejarah Indonesia": 88.16,
-                "Bahasa Inggris": 84.67,
+                "Bahasa Inggris": 84.02,
                 "Seni Budaya": 88.66,
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": 87.5,
                 "Prakarya dan Kewirausahaan": 90.16,
@@ -141,11 +145,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -157,11 +163,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -265,11 +273,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 82, "psik": 82 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -281,11 +291,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 },
+                "Ekonomi": { "kog": 82, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -389,11 +401,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 83, "psik": 83 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
@@ -405,11 +419,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 83, "psik": 83 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -513,11 +529,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -529,11 +547,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 86 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 85, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -637,11 +657,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 87, "psik": 87 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -653,11 +675,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 87, "psik": 87 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -761,11 +785,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 86, "psik": 86 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -777,11 +803,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 86 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 85 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -885,11 +913,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -901,11 +931,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 87 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1009,11 +1041,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1025,11 +1059,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1133,11 +1169,13 @@
                 "Seni Budaya": { "kog": 88, "psik": 89 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 88, "psik": 88 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 87, "psik": 87 },
                 "Matematika": { "kog": 86, "psik": 86 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -1149,11 +1187,13 @@
                 "Seni Budaya": { "kog": 89, "psik": 89 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 90, "psik": 90 },
                 "Prakarya dan Kewirausahaan": { "kog": 87, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 87, "psik": 87 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -1257,11 +1297,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1273,11 +1315,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 84, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1381,11 +1425,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 88, "psik": 89 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 84, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1397,11 +1443,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 90, "psik": 90 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -1505,11 +1553,13 @@
                 "Seni Budaya": { "kog": 95, "psik": 95 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 90, "psik": 90 },
+                "Muatan Lokal : …": { "kog": 87, "psik": 87 },
                 "Matematika": { "kog": 89, "psik": 89 },
                 "Biologi": { "kog": 88, "psik": 88 },
                 "Fisika": { "kog": 88, "psik": 87 },
                 "Kimia": { "kog": 90, "psik": 88 },
-                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
+                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -1521,11 +1571,13 @@
                 "Seni Budaya": { "kog": 95, "psik": 95 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 88, "psik": 88 },
                 "Prakarya dan Kewirausahaan": { "kog": 95, "psik": 95 },
+                "Muatan Lokal : …": { "kog": 88, "psik": 88 },
                 "Matematika": { "kog": 86, "psik": 86 },
                 "Biologi": { "kog": 89, "psik": 88 },
                 "Fisika": { "kog": 89, "psik": 88 },
                 "Kimia": { "kog": 95, "psik": 90 },
-                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
+                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -1629,11 +1681,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1645,11 +1699,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 81, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -1753,11 +1809,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
+                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1769,11 +1827,13 @@
                 "Seni Budaya": { "kog": 88, "psik": 88 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 87, "psik": 87 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 86, "psik": 85 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
+                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -1877,11 +1937,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -1893,11 +1955,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -2001,11 +2065,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 83 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 83, "psik": 83 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
@@ -2017,11 +2083,13 @@
                 "Seni Budaya": { "kog": 83, "psik": 83 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 83, "psik": 83 },
                 "Prakarya dan Kewirausahaan": { "kog": 83, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 83, "psik": 83 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -2125,11 +2193,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
@@ -2141,11 +2211,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -2249,11 +2321,13 @@
                 "Seni Budaya": { "kog": 83, "psik": 83 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -2265,11 +2339,13 @@
                 "Seni Budaya": { "kog": 83, "psik": 83 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -2373,11 +2449,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 85, "psik": 86 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -2389,11 +2467,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 87, "psik": 87 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -2497,11 +2577,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -2513,11 +2595,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -2621,11 +2705,13 @@
                 "Seni Budaya": { "kog": 90, "psik": 90 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 90, "psik": 90 },
                 "Prakarya dan Kewirausahaan": { "kog": 88, "psik": 88 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 86 },
                 "Matematika": { "kog": 86, "psik": 86 },
                 "Biologi": { "kog": 87, "psik": 87 },
                 "Fisika": { "kog": 87, "psik": 87 },
                 "Kimia": { "kog": 87, "psik": 87 },
-                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
+                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
@@ -2637,11 +2723,13 @@
                 "Seni Budaya": { "kog": 90, "psik": 90 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 92, "psik": 90 },
                 "Prakarya dan Kewirausahaan": { "kog": 87, "psik": 88 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 86 },
                 "Matematika": { "kog": 88, "psik": 88 },
                 "Biologi": { "kog": 87, "psik": 87 },
                 "Fisika": { "kog": 87, "psik": 87 },
                 "Kimia": { "kog": 87, "psik": 87 },
-                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 }
+                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 89 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -2745,11 +2833,13 @@
                 "Seni Budaya": { "kog": 92, "psik": 92 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 90, "psik": 90 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 87, "psik": 87 },
                 "Biologi": { "kog": 93, "psik": 88 },
                 "Fisika": { "kog": 86, "psik": 86 },
                 "Kimia": { "kog": 86, "psik": 86 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -2761,11 +2851,13 @@
                 "Seni Budaya": { "kog": 95, "psik": 95 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 88, "psik": 88 },
                 "Prakarya dan Kewirausahaan": { "kog": 93, "psik": 93 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 86, "psik": 86 },
                 "Fisika": { "kog": 87, "psik": 86 },
                 "Kimia": { "kog": 86, "psik": 86 },
-                "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 }
+                "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 87 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -2869,11 +2961,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 87 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -2885,11 +2979,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 83 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 83, "psik": 84 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -2993,11 +3089,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -3009,11 +3107,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 87, "psik": 88 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -3117,11 +3217,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -3133,11 +3235,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
@@ -3241,11 +3345,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -3257,11 +3363,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 85 },
                 "Fisika": { "kog": 84, "psik": 85 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -3365,11 +3473,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -3381,11 +3491,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 83, "psik": 84 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
@@ -3489,11 +3601,13 @@
                 "Seni Budaya": { "kog": 87, "psik": 87 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 89, "psik": 90 },
                 "Prakarya dan Kewirausahaan": { "kog": 87, "psik": 88 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 85 },
                 "Fisika": { "kog": 87, "psik": 87 },
                 "Kimia": { "kog": 87, "psik": 87 },
-                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
+                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -3505,11 +3619,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 90, "psik": 90 },
                 "Prakarya dan Kewirausahaan": { "kog": 88, "psik": 88 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 86 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 85, "psik": 86 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
+                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -3613,11 +3729,13 @@
                 "Seni Budaya": { "kog": 88, "psik": 88 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 90, "psik": 88 },
                 "Prakarya dan Kewirausahaan": { "kog": 89, "psik": 90 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 86 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 85, "psik": 86 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 86 },
+                "Ekonomi": { "kog": 84, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 87 },
@@ -3629,11 +3747,13 @@
                 "Seni Budaya": { "kog": 89, "psik": 90 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 88, "psik": 88 },
                 "Prakarya dan Kewirausahaan": { "kog": 89, "psik": 89 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 86 },
                 "Matematika": { "kog": 86, "psik": 86 },
                 "Biologi": { "kog": 86, "psik": 86 },
                 "Fisika": { "kog": 86, "psik": 86 },
                 "Kimia": { "kog": 86, "psik": 86 },
-                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
+                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -3737,11 +3857,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
@@ -3753,11 +3875,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -3861,11 +3985,13 @@
                 "Seni Budaya": { "kog": 90, "psik": 89 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 88, "psik": 88 },
                 "Prakarya dan Kewirausahaan": { "kog": 89, "psik": 90 },
+                "Muatan Lokal : …": { "kog": 89, "psik": 89 },
                 "Matematika": { "kog": 87, "psik": 87 },
                 "Biologi": { "kog": 92, "psik": 92 },
                 "Fisika": { "kog": 92, "psik": 92 },
                 "Kimia": { "kog": 92, "psik": 92 },
-                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
+                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 },
+                "Ekonomi": { "kog": 87, "psik": 87 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 89 },
@@ -3877,11 +4003,13 @@
                 "Seni Budaya": { "kog": 90, "psik": 90 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 89, "psik": 89 },
                 "Prakarya dan Kewirausahaan": { "kog": 92, "psik": 93 },
+                "Muatan Lokal : …": { "kog": 88, "psik": 89 },
                 "Matematika": { "kog": 88, "psik": 88 },
                 "Biologi": { "kog": 90, "psik": 90 },
                 "Fisika": { "kog": 90, "psik": 90 },
                 "Kimia": { "kog": 92, "psik": 92 },
-                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
+                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 },
+                "Ekonomi": { "kog": 88, "psik": 87 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -3985,11 +4113,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 86, "psik": 86 },
                 "Fisika": { "kog": 86, "psik": 86 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -4001,11 +4131,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 86, "psik": 85 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -4109,11 +4241,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -4125,11 +4259,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -4233,11 +4369,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -4249,11 +4387,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -4357,11 +4497,13 @@
                 "Seni Budaya": { "kog": 82, "psik": 82 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 83, "psik": 83 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 83 },
+                "Muatan Lokal : …": { "kog": 83, "psik": 83 },
                 "Geografi": { "kog": 82, "psik": 82 },
                 "Sejarah": { "kog": 82, "psik": 83 },
                 "Sosiologi": { "kog": 83, "psik": 83 },
                 "Ekonomi": { "kog": 82, "psik": 81 },
-                "Bahasa dan Sastra Inggris": { "kog": 82, "psik": 82 }
+                "Bahasa dan Sastra Inggris": { "kog": 82, "psik": 82 },
+                "Biologi": { "kog": 81, "psik": 80 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 83, "psik": 83 },
@@ -4373,11 +4515,13 @@
                 "Seni Budaya": { "kog": 83, "psik": 83 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Geografi": { "kog": 83, "psik": 83 },
                 "Sejarah": { "kog": 83, "psik": 83 },
                 "Sosiologi": { "kog": 84, "psik": 84 },
                 "Ekonomi": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 82, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 82, "psik": 83 },
+                "Biologi": { "kog": 82, "psik": 82 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 83 },
@@ -4481,11 +4625,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 84, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 83, "psik": 83 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -4497,11 +4643,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 83, "psik": 83 },
                 "Fisika": { "kog": 83, "psik": 83 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 }
+                "Bahasa dan Sastra Inggris": { "kog": 83, "psik": 83 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -4605,11 +4753,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 85 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -4621,11 +4771,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 87, "psik": 87 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 89, "psik": 89 },
@@ -4729,11 +4881,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 84 },
                 "Matematika": { "kog": 85, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -4745,11 +4899,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 88, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 83, "psik": 83 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -4853,11 +5009,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -4869,11 +5027,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -4977,11 +5137,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 85 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -4993,11 +5155,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 85, "psik": 86 },
                 "Fisika": { "kog": 85, "psik": 86 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -5101,11 +5265,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 86, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 85 },
@@ -5117,11 +5283,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 84 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -5225,11 +5393,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 84, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -5241,11 +5411,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -5349,11 +5521,13 @@
                 "Seni Budaya": { "kog": 90, "psik": 89 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 89, "psik": 90 },
                 "Prakarya dan Kewirausahaan": { "kog": 88, "psik": 88 },
+                "Muatan Lokal : …": { "kog": 89, "psik": 88 },
                 "Matematika": { "kog": 86, "psik": 87 },
                 "Biologi": { "kog": 89, "psik": 90 },
                 "Fisika": { "kog": 89, "psik": 90 },
                 "Kimia": { "kog": 89, "psik": 90 },
-                "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 90 }
+                "Bahasa dan Sastra Inggris": { "kog": 88, "psik": 90 },
+                "Ekonomi": { "kog": 89, "psik": 90 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -5365,11 +5539,13 @@
                 "Seni Budaya": { "kog": 90, "psik": 90 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 90, "psik": 92 },
                 "Prakarya dan Kewirausahaan": { "kog": 90, "psik": 90 },
+                "Muatan Lokal : …": { "kog": 88, "psik": 88 },
                 "Matematika": { "kog": 87, "psik": 88 },
                 "Biologi": { "kog": 90, "psik": 90 },
                 "Fisika": { "kog": 90, "psik": 90 },
                 "Kimia": { "kog": 90, "psik": 90 },
-                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 91 }
+                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 91 },
+                "Ekonomi": { "kog": 90, "psik": 90 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -5473,11 +5649,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -5489,11 +5667,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 84, "psik": 84 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 84, "psik": 84 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -5597,11 +5777,13 @@
                 "Seni Budaya": { "kog": 89, "psik": 89 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 89, "psik": 89 },
                 "Prakarya dan Kewirausahaan": { "kog": 90, "psik": 90 },
+                "Muatan Lokal : …": { "kog": 89, "psik": 90 },
                 "Matematika": { "kog": 87, "psik": 88 },
                 "Biologi": { "kog": 90, "psik": 89 },
                 "Fisika": { "kog": 90, "psik": 89 },
                 "Kimia": { "kog": 90, "psik": 90 },
-                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 }
+                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 88 },
+                "Ekonomi": { "kog": 86, "psik": 86 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -5613,11 +5795,13 @@
                 "Seni Budaya": { "kog": 90, "psik": 90 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 90, "psik": 90 },
                 "Prakarya dan Kewirausahaan": { "kog": 92, "psik": 92 },
+                "Muatan Lokal : …": { "kog": 90, "psik": 90 },
                 "Matematika": { "kog": 90, "psik": 90 },
                 "Biologi": { "kog": 90, "psik": 90 },
                 "Fisika": { "kog": 90, "psik": 90 },
                 "Kimia": { "kog": 90, "psik": 90 },
-                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 }
+                "Bahasa dan Sastra Inggris": { "kog": 90, "psik": 90 },
+                "Ekonomi": { "kog": 88, "psik": 88 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -5721,11 +5905,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 86 },
                 "Matematika": { "kog": 86, "psik": 86 },
                 "Biologi": { "kog": 85, "psik": 86 },
                 "Fisika": { "kog": 85, "psik": 86 },
                 "Kimia": { "kog": 85, "psik": 86 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 86, "psik": 86 },
@@ -5737,11 +5923,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 87, "psik": 87 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 85 },
+                "Muatan Lokal : …": { "kog": 86, "psik": 86 },
                 "Matematika": { "kog": 87, "psik": 87 },
                 "Biologi": { "kog": 86, "psik": 86 },
                 "Fisika": { "kog": 86, "psik": 86 },
                 "Kimia": { "kog": 86, "psik": 86 },
-                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 }
+                "Bahasa dan Sastra Inggris": { "kog": 86, "psik": 86 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -5845,11 +6033,13 @@
                 "Seni Budaya": { "kog": 84, "psik": 84 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 85 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -5861,11 +6051,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 85 },
                 "Prakarya dan Kewirausahaan": { "kog": 84, "psik": 84 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 84, "psik": 84 },
                 "Fisika": { "kog": 84, "psik": 84 },
                 "Kimia": { "kog": 84, "psik": 84 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 84 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 90, "psik": 90 },
@@ -5969,11 +6161,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 85 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 89, "psik": 89 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 85, "psik": 85 },
                 "Biologi": { "kog": 87, "psik": 87 },
                 "Fisika": { "kog": 87, "psik": 88 },
                 "Kimia": { "kog": 87, "psik": 88 },
-                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
+                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 },
+                "Ekonomi": { "kog": 85, "psik": 85 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 84, "psik": 84 },
@@ -5985,11 +6179,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 87 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 89, "psik": 89 },
                 "Prakarya dan Kewirausahaan": { "kog": 88, "psik": 88 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 86 },
                 "Matematika": { "kog": 85, "psik": 86 },
                 "Biologi": { "kog": 88, "psik": 88 },
                 "Fisika": { "kog": 88, "psik": 88 },
                 "Kimia": { "kog": 88, "psik": 88 },
-                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 }
+                "Bahasa dan Sastra Inggris": { "kog": 87, "psik": 87 },
+                "Ekonomi": { "kog": 86, "psik": 86 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 88, "psik": 88 },
@@ -6093,11 +6289,13 @@
                 "Seni Budaya": { "kog": 85, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 85, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 85, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 84 }
+                "Bahasa dan Sastra Inggris": { "kog": 85, "psik": 84 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s2": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 85, "psik": 85 },
@@ -6109,11 +6307,13 @@
                 "Seni Budaya": { "kog": 86, "psik": 86 },
                 "Pendidikan Jasmani, Olah Raga dan Kesehatan": { "kog": 86, "psik": 86 },
                 "Prakarya dan Kewirausahaan": { "kog": 86, "psik": 86 },
+                "Muatan Lokal : …": { "kog": 85, "psik": 85 },
                 "Matematika": { "kog": 83, "psik": 83 },
                 "Biologi": { "kog": 85, "psik": 85 },
                 "Fisika": { "kog": 85, "psik": 85 },
                 "Kimia": { "kog": 85, "psik": 85 },
-                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 }
+                "Bahasa dan Sastra Inggris": { "kog": 84, "psik": 85 },
+                "Ekonomi": { "kog": 84, "psik": 84 }
             },	
             "s3": {
                 "Pendidkan Agama dan Budi Pekerti": { "kog": 87, "psik": 87 },
