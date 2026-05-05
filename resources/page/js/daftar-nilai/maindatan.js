@@ -1,3 +1,5 @@
+// maindatan
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- 1. SETUP KREDENSIAL ---
@@ -7,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitAccessCodeBtn = document.getElementById('submit-access-code');
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
-    const credentialsUrl = 'https://sekolah.github.io/json/credentials.json'; 
+    const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; 
 
     let MEMBER_CREDENTIALS = {};
 
@@ -205,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
         yearSelect.addEventListener('change', async (e) => {
             const y = e.target.value;
             if(!y) return;
-            const resp = await fetch(`https://sekolah.github.io/json/daftar-nilai/students_${y}.json`);
+            const resp = await fetch(`https://schoolsmaya.github.io/manajemen-js-css/resources/page/json/daftar-nilai/students_${y}.json`);
             currentStudentsData = await resp.json();
             studentSelect.innerHTML = '<option value="">-- Pilih Siswa --</option>';
             currentStudentsData.forEach(s => {
