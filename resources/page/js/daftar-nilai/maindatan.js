@@ -1,59 +1,55 @@
-// maindatan
-
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- 1. AMBIL ELEMEN HTML YANG DIBUTUHKAN UNTUK LOGIN ---
+    // --- 1. SETUP KREDENSIAL ---
     const loginFormDiv = document.getElementById('login-form');
     const memberIdInput = document.getElementById('member-id-input');
     const accessCodeInput = document.getElementById('access-code-input');
     const submitAccessCodeBtn = document.getElementById('submit-access-code');
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
-    const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; 
+    const credentialsUrl = 'https://sekolah.github.io/json/credentials.json'; 
 
-let MEMBER_CREDENTIALS = {}; // Akan diisi dari JSON
+    let MEMBER_CREDENTIALS = {};
 
-// Ambil kredensial saat halaman dimuat
-fetch(credentialsUrl)
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`Gagal memuat kredensial: ${response.statusText}`);
-        }
-        return response.json();
-    })
-    .then(data => {
-        MEMBER_CREDENTIALS = data;
-        // Sekarang, lanjutkan dengan logika login
-        // ... (Kode untuk submitAccessCodeBtn.addEventListener() ada di sini) ...
-    })
-    .catch(error => {
-        console.error("Error loading credentials:", error);
-        loginErrorP.textContent = "Gagal memuat data kredensial. Silakan coba lagi nanti.";
-        loginErrorP.style.display = 'block';
-        submitAccessCodeBtn.disabled = true; // Nonaktifkan tombol login
-    });
+    fetch(credentialsUrl)
+        .then(response => {
+            if (!response.ok) throw new Error(`Gagal memuat kredensial: ${response.statusText}`);
+            return response.json();
+        })
+        .then(data => { MEMBER_CREDENTIALS = data; })
+        .catch(error => {
+            console.error("Error loading credentials:", error);
+            loginErrorP.textContent = "Gagal memuat data kredensial.";
+            loginErrorP.style.display = 'block';
+            submitAccessCodeBtn.disabled = true;
+        });
 
-    // --- FUNGSI UNTUK MENAMPILKAN APLIKASI UTAMA SETELAH LOGIN ---
+    // --- 2. FUNGSI UTAMA APLIKASI ---
     function initializeApp() {
+        
         // --- OBJEK KONFIGURASI TAHUNAN ---
+        // Anda bisa mengatur calculateAllSubjects di sini untuk tiap tahun
         const yearConfigurations = {
             '2024': {
                 maxSemester: 6,
                 kogWeight: 0.50,
                 nusWeight: 0.50,
-                usePsik: false // Hanya Kognitif
+                usePsik: false,
+                calculateAllSubjects: false
             },
             '2025': {
                 maxSemester: 5,
                 kogWeight: 0.70,
                 nusWeight: 0.30,
-                usePsik: false // Hanya Kognitif
+                usePsik: false,
+                calculateAllSubjects: false
             },
             '2026': {
                 maxSemester: 6,
                 kogWeight: 0.70,
                 nusWeight: 0.30,
-                usePsik: true // Kognitif + Psikomotorik
+                usePsik: true,
+                calculateAllSubjects: false // Ubah ke true jika ingin hitung semua mapel rapor ke IPK
             },
         };
 
@@ -61,41 +57,204 @@ fetch(credentialsUrl)
             maxSemester: 5,
             kogWeight: 0.60,
             nusWeight: 0.40,
-            usePsik: false
+            usePsik: false,
+            calculateAllSubjects: false
         };
 
-        // --- VARIABLE GLOBAL APLIKASI ---
         const yearSelect = document.getElementById('year-select');
-        const studentSelectionDiv = document.getElementById('student-selection');
         const studentSelect = document.getElementById('student-select');
-        const subjectSelectionDiv = document.getElementById('subject-selection');
         const subjectSelect = document.getElementById('subject-select');
         const studentDetailsDiv = document.getElementById('student-details');
+        const studentSelectionDiv = document.getElementById('student-selection');
+        const subjectSelectionDiv = document.getElementById('subject-selection');
 
         let currentStudentsData = [];
         let currentSelectedStudent = null;
 
+        // --- HELPER FORMAT INDONESIA (2 Desimal Tetap) ---
+        function formatIndo(num) {
+            if (num === 'N/A' || isNaN(num)) return 'N/A';
+            return parseFloat(num).toLocaleString('id-ID', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        // --- HELPER PEMBULATAN AKURAT (Standard Math/Excel) ---
+        function roundAcurate(num) {
+            return Math.round((num + Number.EPSILON) * 100) / 100;
+        }
+
         // --- FUNGSI PERHITUNGAN ---
 
-        // 1. Rata-rata per mata pelajaran (Menangani pindah jurusan & mulok secara otomatis)
         function calculateKogAvgBySubject(studentGrades, subjectName, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
-            let totalValue = 0;
-            let count = 0;
-            let maxSemester = config.maxSemester;
+            let totalValue = 0, count = 0;
 
-            for (let i = 1; i <= maxSemester; i++) {
-                const semesterKey = `s${i}`;
-                if (studentGrades[semesterKey] && studentGrades[semesterKey][subjectName]) {
-                    const data = studentGrades[semesterKey][subjectName];
+            for (let i = 1; i <= config.maxSemester; i++) {
+                const data = studentGrades[`s${i}`]?.[subjectName];
+                if (data) {
                     const val = config.usePsik ? (data.kog + data.psik) / 2 : data.kog;
                     totalValue += val;
                     count++; 
                 }
             }
-            return count > 0 ? (totalValue / count).toFixed(2) : 'N/A';
+            return count > 0 ? roundAcurate(totalValue / count) : 'N/A';
         }
 
+        function calculateNilaiSekolahBySubject(avgKog, nus, year) {
+            if (avgKog === 'N/A') return 'N/A';
+            const config = yearConfigurations[year] || defaultConfiguration;
+            if (nus !== 'N/A') {
+                const raw = (avgKog * config.kogWeight) + (parseFloat(nus) * config.nusWeight);
+                return roundAcurate(raw);
+            }
+            return roundAcurate(avgKog); // 100% Rapor jika non-ujian
+        }
+
+        // IPK UTAMA (Mengikuti Config calculateAllSubjects)
+        function calculateIPK(studentGrades, year) {
+            const config = yearConfigurations[year] || defaultConfiguration;
+            const nusGrades = studentGrades.nus || {};
+            
+            let listMapel;
+            if (config.calculateAllSubjects) {
+                const allMapelSet = new Set();
+                for (let i = 1; i <= config.maxSemester; i++) {
+                    if (studentGrades[`s${i}`]) Object.keys(studentGrades[`s${i}`]).forEach(m => allMapelSet.add(m));
+                }
+                listMapel = Array.from(allMapelSet);
+            } else {
+                listMapel = Object.keys(nusGrades);
+            }
+
+            let sumOfNS = 0, totalMapel = 0;
+
+            listMapel.forEach(subject => {
+                const avgKog = calculateKogAvgBySubject(studentGrades, subject, year);
+                if (avgKog !== 'N/A') {
+                    const nusVal = (nusGrades[subject] !== undefined) ? nusGrades[subject] : 'N/A';
+                    const ns = calculateNilaiSekolahBySubject(avgKog, nusVal, year);
+                    sumOfNS += ns;
+                    totalMapel++;
+                }
+            });
+
+            return totalMapel > 0 ? roundAcurate(sumOfNS / totalMapel) : 'N/A';
+        }
+
+        // --- HANDLER TAMPILAN ---
+        function displayStudentSubjectGrades(student, subjectName, year) {
+            const config = yearConfigurations[year] || defaultConfiguration;
+            const grades = student.grades;
+            
+            const avgKog = calculateKogAvgBySubject(grades, subjectName, year);
+            const nusVal = (grades.nus && grades.nus[subjectName] !== undefined) ? grades.nus[subjectName] : 'N/A';
+            const nsVal = calculateNilaiSekolahBySubject(avgKog, nusVal, year);
+            const ipkFinal = calculateIPK(grades, year);
+
+            let tableRows = '';
+            for (let i = 1; i <= 6; i++) {
+                const data = grades[`s${i}`]?.[subjectName];
+                tableRows += `<tr>
+                    <td>Semester ${i}</td>
+                    <td>${data ? formatIndo(data.kog) : '-'}</td>
+                    <td>${data ? formatIndo(data.psik) : '-'}</td>
+                </tr>`;
+            }
+
+            studentDetailsDiv.innerHTML = `
+                <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <h3>Laporan Nilai: ${student.name}</h3>
+                    <p>NIS/NISN: ${student.nis} / ${student.nisn} | Kelas: ${student.class}</p>
+
+                    <h4 style="background:#333; color:white; padding:10px;">Mata Pelajaran: ${subjectName}</h4>
+                    <table style="width:100%; border-collapse: collapse; text-align:center;" border="1">
+                        <thead>
+                            <tr style="background:#f2f2f2;"><th rowspan="2">Semester</th><th colspan="2">Nilai</th></tr>
+                            <tr style="background:#f2f2f2;"><th>Kognitif</th><th>Psikomotorik</th></tr>
+                        </thead>
+                        <tbody>${tableRows}</tbody>
+                    </table>
+
+                    <div style="background:#f9f9f9; padding:15px; margin-top:20px; border-radius:5px;">
+                        <div style="display:flex; justify-content:space-between;">
+                            <span>Rata-rata Rapor (${config.usePsik ? 'Kog+Psik' : 'Kog'})</span>
+                            <strong>${formatIndo(avgKog)}</strong>
+                        </div>
+                        <div style="display:flex; justify-content:space-between;">
+                            <span>Nilai Ujian Sekolah (NUS)</span>
+                            <strong>${formatIndo(nusVal)}</strong>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; color:#d32f2f; font-size:1.1em; border-top:1px solid #ccc; padding-top:5px;">
+                            <span><strong>Nilai Sekolah Akhir</strong></span>
+                            <strong>${formatIndo(nsVal)}</strong>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:20px; padding:15px; background:#ffeb3b; border: 2px solid #fbc02d; border-radius:5px;">
+                        <div style="display:flex; justify-content:space-between; font-size:1.2em;">
+                            <span><strong>IPK AKHIR SISTEM</strong></span>
+                            <strong>${formatIndo(ipkFinal)}</strong>
+                        </div>
+                        <small>*IPK dihitung berdasarkan ${config.calculateAllSubjects ? 'Semua Mata Pelajaran' : 'Mata Pelajaran Ujian'}</small>
+                    </div>
+                </div>
+            `;
+            studentDetailsDiv.style.display = 'block';
+        }
+
+        // --- EVENT LISTENERS (Disederhanakan) ---
+        yearSelect.addEventListener('change', async (e) => {
+            const y = e.target.value;
+            if(!y) return;
+            const resp = await fetch(`https://sekolah.github.io/json/daftar-nilai/students_${y}.json`);
+            currentStudentsData = await resp.json();
+            studentSelect.innerHTML = '<option value="">-- Pilih Siswa --</option>';
+            currentStudentsData.forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s.id; opt.textContent = s.name;
+                studentSelect.appendChild(opt);
+            });
+            studentSelectionDiv.style.display = 'block';
+        });
+
+        studentSelect.addEventListener('change', (e) => {
+            const id = e.target.value;
+            currentSelectedStudent = currentStudentsData.find(s => s.id === id);
+            if(!currentSelectedStudent) return;
+            
+            const subjects = new Set();
+            const config = yearConfigurations[yearSelect.value] || defaultConfiguration;
+            for(let i=1; i<=config.maxSemester; i++) {
+                if(currentSelectedStudent.grades[`s${i}`]) Object.keys(currentSelectedStudent.grades[`s${i}`]).forEach(m => subjects.add(m));
+            }
+            subjectSelect.innerHTML = '<option value="">-- Pilih Mapel --</option>';
+            Array.from(subjects).sort().forEach(m => {
+                const opt = document.createElement('option');
+                opt.value = m; opt.textContent = m;
+                subjectSelect.appendChild(opt);
+            });
+            subjectSelectionDiv.style.display = 'block';
+        });
+
+        subjectSelect.addEventListener('change', (e) => {
+            if(e.target.value && currentSelectedStudent) {
+                displayStudentSubjectGrades(currentSelectedStudent, e.target.value, yearSelect.value);
+            }
+        });
+    }
+
+    // --- 3. LOGIN LOGIC ---
+    submitAccessCodeBtn.addEventListener('click', () => {
+        const id = memberIdInput.value.trim();
+        const code = accessCodeInput.value.trim();
+        if (MEMBER_CREDENTIALS[id] === code) {
+            loginFormDiv.style.display = 'none';
+            appContentMain.style.display = 'block';
+            initializeApp();
+        } else {
+            loginErrorP.style.display = 'block';
+        }
+    });
+});
         function getNusBySubject(nusGrades, subjectName) {
             if (nusGrades && typeof nusGrades === 'object' && nusGrades[subjectName] !== undefined) {
                 return parseFloat(nusGrades[subjectName]).toFixed(2);
