@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitAccessCodeBtn = document.getElementById('submit-access-code');
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
-    const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; 
+    const credentialsUrl = 'https://sekolah.github.io/json/credentials.json'; 
 
     let MEMBER_CREDENTIALS = {}; 
 
@@ -27,12 +27,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 2. FUNGSI UTAMA APLIKASI ---
     function initializeApp() {
         const yearConfigurations = {
-            '2024': { maxSemester: 6, kogWeight: 0.50, nusWeight: 0.50, usePsik: false },
-            '2025': { maxSemester: 5, kogWeight: 0.70, nusWeight: 0.30, usePsik: false },
-            '2026': { maxSemester: 6, kogWeight: 0.70, nusWeight: 0.30, usePsik: true },
+            '2024': { maxSemester: 6, kogWeight: 0.50, nusWeight: 0.50, usePsik: false, calculateAllSubjects: false },
+            '2025': { maxSemester: 5, kogWeight: 0.70, nusWeight: 0.30, usePsik: false, calculateAllSubjects: false },
+            '2026': { 
+                maxSemester: 6, 
+                kogWeight: 0.70, 
+                nusWeight: 0.30, 
+                usePsik: true, 
+                calculateAllSubjects: false // UBAH KE TRUE JIKA INGIN MENGHITUNG SEMUA MAPEL RAPOR DI IPK AKHIR
+            },
         };
 
-        const defaultConfiguration = { maxSemester: 5, kogWeight: 0.60, nusWeight: 0.40, usePsik: false };
+        const defaultConfiguration = { maxSemester: 5, kogWeight: 0.60, nusWeight: 0.40, usePsik: false, calculateAllSubjects: false };
 
         const yearSelect = document.getElementById('year-select');
         const studentSelect = document.getElementById('student-select');
@@ -54,7 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // --- FUNGSI PERHITUNGAN ---
 
-        // 1. Rata-rata per mata pelajaran
         function calculateKogAvgBySubject(studentGrades, subjectName, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             let totalValue = 0, count = 0;
@@ -68,14 +73,24 @@ document.addEventListener('DOMContentLoaded', () => {
             return count > 0 ? roundAccurate(totalValue / count) : 'N/A';
         }
 
-        // 2. IPK Rapor Keseluruhan (Hanya mapel yang ada di NUS)
+        // Fungsi Rata-rata Rapor Keseluruhan (Dinamis: Semua Mapel atau Hanya Mapel Ujian)
         function calculateKogAvgOverall(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             const nusGrades = studentGrades.nus || {};
-            const subjectsInNus = Object.keys(nusGrades);
-            let sumOfAverages = 0, totalSubjects = 0;
+            let listMapel;
 
-            subjectsInNus.forEach(subjectName => {
+            if (config.calculateAllSubjects) {
+                const allMapelSet = new Set();
+                for (let i = 1; i <= config.maxSemester; i++) {
+                    if (studentGrades[`s${i}`]) Object.keys(studentGrades[`s${i}`]).forEach(m => allMapelSet.add(m));
+                }
+                listMapel = Array.from(allMapelSet);
+            } else {
+                listMapel = Object.keys(nusGrades);
+            }
+
+            let sumOfAverages = 0, totalSubjects = 0;
+            listMapel.forEach(subjectName => {
                 const avgMapel = calculateKogAvgBySubject(studentGrades, subjectName, year);
                 if (avgMapel !== 'N/A') {
                     sumOfAverages += avgMapel;
@@ -85,7 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return totalSubjects > 0 ? roundAccurate(sumOfAverages / totalSubjects) : 'N/A';
         }
 
-        // 3. Rata-rata NUS Keseluruhan
         function calculateNusOverall(nusGrades) {
             if (!nusGrades || typeof nusGrades !== 'object') return 'N/A';
             let totalNus = 0, count = 0;
@@ -99,19 +113,21 @@ document.addEventListener('DOMContentLoaded', () => {
             return count > 0 ? roundAccurate(totalNus / count) : 'N/A';
         }
 
-        // 4. IPK Akhir
         function calculateNilaiSekolahOverall(avgKogOverall, nusOverall, year) {
-            if (avgKogOverall === 'N/A' || nusOverall === 'N/A') return 'N/A';
+            if (avgKogOverall === 'N/A') return 'N/A';
             const config = yearConfigurations[year] || defaultConfiguration;
-            return roundAccurate((avgKogOverall * config.kogWeight) + (nusOverall * config.nusWeight));
+            if (nusOverall !== 'N/A') {
+                return roundAccurate((avgKogOverall * config.kogWeight) + (nusOverall * config.nusWeight));
+            }
+            return roundAccurate(avgKogOverall);
         }
 
-        // --- EVENT LISTENERS (Sama dengan sebelumnya) ---
+        // --- EVENT LISTENERS ---
         yearSelect.addEventListener('change', async (e) => {
             const val = e.target.value;
             studentSelect.innerHTML = '<option value="">-- Pilih Siswa --</option>';
             if (val) {
-                const res = await fetch(`https://schoolsmaya.github.io/manajemen-js-css/resources/page/json/daftar-nilai/students_${val}.json`);
+                const res = await fetch(`https://sekolah.github.io/json/daftar-nilai/students_${val}.json`);
                 currentStudentsData = await res.json();
                 currentStudentsData.forEach(s => {
                     const opt = document.createElement('option');
@@ -147,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // --- 3. TAMPILAN DETAIL (KEMBALI KE STRUKTUR ASLI BAPAK) ---
+        // --- 3. TAMPILAN DETAIL LENGKAP ---
         function displayStudentSubjectGrades(student, subjectName, year) {
             const grades = student.grades;
             const config = yearConfigurations[year] || defaultConfiguration;
@@ -155,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const avgKogBySubject = calculateKogAvgBySubject(grades, subjectName, year);
             const nusBySubject = (grades.nus && grades.nus[subjectName] !== undefined) ? grades.nus[subjectName] : 'N/A';
-            const nsBySubject = (nusBySubject !== 'N/A') ? roundAccurate((avgKogBySubject * config.kogWeight) + (parseFloat(nusBySubject) * config.nusWeight)) : avgKogBySubject;
+            const nsBySubject = calculateNilaiSekolahBySubject(avgKogBySubject, nusBySubject, year);
 
             const avgKogOverall = calculateKogAvgOverall(grades, year);
             const nusOverall = calculateNusOverall(grades.nus);
@@ -215,13 +231,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h4>Keterangan Sistem:</h4>
                         ${infoStatusMapel}
                         <hr style="margin:20px 0;">
-                        <h4 style="color:#2c3e50;">Ringkasan IPK Akhir (Seluruh Mapel Ujian)</h4>
+                        <h4 style="color:#2c3e50;">Ringkasan IPK Akhir</h4>
+                        <p style="font-style:italic; color:#666; margin-bottom:10px;">
+                            *Dihitung berdasarkan: ${config.calculateAllSubjects ? 'Seluruh Mata Pelajaran' : 'Mata Pelajaran Ujian'}.
+                        </p>
                         <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-                            <span>Rata-rata Rapor (Mapel Ujian)</span>
+                            <span>Rata-rata Rapor</span>
                             <strong>${formatIndo(avgKogOverall)}</strong>
                         </div>
                         <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-                            <span>Rata-rata NUS (Mapel Ujian)</span>
+                            <span>Rata-rata NUS</span>
                             <strong>${formatIndo(nusOverall)}</strong>
                         </div>
                         <div style="display:flex; justify-content:space-between; margin-top:10px; padding:15px; background:#ffeb3b; border: 2px solid #fbc02d; border-radius:5px; font-size:1.2em;">
