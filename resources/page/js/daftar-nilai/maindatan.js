@@ -1,31 +1,33 @@
 // maindatan
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- 1. AMBIL ELEMEN HTML ---
+    // --- 1. AMBIL ELEMEN HTML UNTUK LOGIN ---
     const loginFormDiv = document.getElementById('login-form');
     const memberIdInput = document.getElementById('member-id-input');
     const accessCodeInput = document.getElementById('access-code-input');
     const submitAccessCodeBtn = document.getElementById('submit-access-code');
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
-    const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; 
+    const credentialsUrl = 'https://sekolah.github.io/json/credentials.json'; 
 
     let MEMBER_CREDENTIALS = {}; 
 
+    // Muat Kredensial
     fetch(credentialsUrl)
         .then(response => {
-            if (!response.ok) throw new Error(`Gagal: ${response.statusText}`);
+            if (!response.ok) throw new Error(`Gagal memuat: ${response.statusText}`);
             return response.json();
         })
         .then(data => { MEMBER_CREDENTIALS = data; })
         .catch(error => {
-            console.error("Error:", error);
+            console.error("Error loading credentials:", error);
             loginErrorP.textContent = "Gagal memuat data kredensial.";
             loginErrorP.style.display = 'block';
         });
 
-    // --- FUNGSI UNTUK MENAMPILKAN APLIKASI UTAMA ---
+    // --- 2. FUNGSI UTAMA APLIKASI ---
     function initializeApp() {
+        
         // --- OBJEK KONFIGURASI TAHUNAN ---
         const yearConfigurations = {
             '2024': { maxSemester: 6, kogWeight: 0.50, nusWeight: 0.50, usePsik: false, calculateAllSubjects: false },
@@ -51,9 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
         let currentStudentsData = [];
         let currentSelectedStudent = null;
 
-        // --- HELPER FORMAT & PEMBULATAN ---
+        // --- HELPER FORMAT INDONESIA & PEMBULATAN ---
         function formatIndo(num) {
-            if (num === 'N/A' || isNaN(num)) return 'N/A';
+            if (num === 'N/A' || isNaN(num) || num === undefined) return 'N/A';
             return parseFloat(num).toLocaleString('id-ID', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
         }
 
@@ -82,15 +84,14 @@ document.addEventListener('DOMContentLoaded', () => {
             if (nus !== 'N/A' && nus !== undefined) {
                 return roundAcurate((parseFloat(avgKog) * config.kogWeight) + (parseFloat(nus) * config.nusWeight));
             }
-            return roundAcurate(avgKog);
+            return roundAcurate(avgKog); 
         }
 
-        // FUNGSI IPK AKHIR (Bisa diatur All Subjects / Hanya NUS)
         function calculateIPKOverall(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             const nusGrades = studentGrades.nus || {};
-            
             let listMapel;
+
             if (config.calculateAllSubjects) {
                 const allMapelSet = new Set();
                 for (let i = 1; i <= config.maxSemester; i++) {
@@ -114,12 +115,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // --- EVENT LISTENERS ---
+
         yearSelect.addEventListener('change', async (event) => {
             const selectedYear = event.target.value;
             studentSelect.innerHTML = '<option value="">-- Pilih Siswa --</option>';
+            subjectSelect.innerHTML = '<option value="">-- Pilih Mata Pelajaran --</option>';
+            studentSelectionDiv.style.display = 'none';
+            subjectSelectionDiv.style.display = 'none';
+            studentDetailsDiv.style.display = 'none';
+
             if (selectedYear) {
                 try {
-                    const response = await fetch(`https://schoolsmaya.github.io/manajemen-js-css/resources/page/json/daftar-nilai/students_${selectedYear}.json`);
+                    const response = await fetch(`https://sekolah.github.io/json/daftar-nilai/students_${selectedYear}.json`);
                     currentStudentsData = await response.json();
                     currentStudentsData.forEach(student => {
                         const option = document.createElement('option');
@@ -127,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         studentSelect.appendChild(option);
                     });
                     studentSelectionDiv.style.display = 'block';
-                } catch (error) { alert("Gagal memuat data."); }
+                } catch (error) { console.error(error); alert("Gagal memuat data siswa."); }
             }
         });
 
@@ -135,77 +142,126 @@ document.addEventListener('DOMContentLoaded', () => {
             const studentId = event.target.value;
             if (studentId) {
                 currentSelectedStudent = currentStudentsData.find(s => s.id === studentId);
-                const subjects = new Set();
                 const config = yearConfigurations[yearSelect.value] || defaultConfiguration;
-                for(let i=1; i<=config.maxSemester; i++) {
+                let subjects = new Set();
+                for(let i = 1; i <= config.maxSemester; i++) {
                     if (currentSelectedStudent.grades[`s${i}`]) Object.keys(currentSelectedStudent.grades[`s${i}`]).forEach(s => subjects.add(s));
                 }
-                subjectSelect.innerHTML = '<option value="">-- Pilih Mapel --</option>';
+                if (currentSelectedStudent.grades.nus) Object.keys(currentSelectedStudent.grades.nus).forEach(s => subjects.add(s));
+                
+                subjectSelect.innerHTML = '<option value="">-- Pilih Mata Pelajaran --</option>';
                 Array.from(subjects).sort().forEach(s => {
                     const option = document.createElement('option');
                     option.value = s; option.textContent = s;
                     subjectSelect.appendChild(option);
                 });
                 subjectSelectionDiv.style.display = 'block';
+                studentDetailsDiv.style.display = 'none';
             }
         });
 
-        subjectSelect.addEventListener('change', (e) => {
-            if (e.target.value && currentSelectedStudent) {
-                displayStudentSubjectGrades(currentSelectedStudent, e.target.value, yearSelect.value);
+        subjectSelect.addEventListener('change', (event) => {
+            if (event.target.value && currentSelectedStudent) {
+                displayStudentSubjectGrades(currentSelectedStudent, event.target.value, yearSelect.value);
             }
         });
 
+        // --- FUNGSI TAMPILAN DETAIL ---
         function displayStudentSubjectGrades(student, subjectName, year) {
-            const config = yearConfigurations[year] || defaultConfiguration;
             const grades = student.grades;
-            const avgKog = calculateKogAvgBySubject(grades, subjectName, year);
-            const nusVal = (grades.nus && grades.nus[subjectName] !== undefined) ? grades.nus[subjectName] : 'N/A';
-            const nsVal = calculateNilaiSekolahBySubject(avgKog, nusVal, year);
+            const config = yearConfigurations[year] || defaultConfiguration;
+            const labelTipeNilai = config.usePsik ? "Kog & Psik" : "Kog";
+            
+            const avgKogBySubject = calculateKogAvgBySubject(grades, subjectName, year);
+            const nusBySubject = (grades.nus && grades.nus[subjectName] !== undefined) ? grades.nus[subjectName] : 'N/A';
+            const nsBySubject = calculateNilaiSekolahBySubject(avgKogBySubject, nusBySubject, year);
             const ipkFinal = calculateIPKOverall(grades, year);
+
+            let infoStatusMapel = (nusBySubject !== 'N/A') ? `
+                <div style="background:#e7f3ff; padding:10px; border-left:5px solid #2196F3; margin:10px 0; text-align:left;">
+                    <strong>Status: Mapel Diujiankan</strong><br>
+                    Nilai ini berkontribusi terhadap IPK Utama.<br>
+                    Rumus: (${labelTipeNilai} &times; ${config.kogWeight}) + (NUS &times; ${config.nusWeight})
+                </div>` : `
+                <div style="background:#fff3e0; padding:10px; border-left:5px solid #ff9800; margin:10px 0; text-align:left;">
+                    <strong>Status: Mapel Non-Ujian</strong><br>
+                    Mata pelajaran ini tidak dihitung dalam IPK Utama.<br>
+                    Rumus: Murni Rata-rata Rapor (100%)
+                </div>`;
 
             let tableRows = '';
             for (let i = 1; i <= 6; i++) {
                 const data = grades[`s${i}`]?.[subjectName];
-                tableRows += `<tr><td>Semester ${i}</td><td>${data ? formatIndo(data.kog) : '-'}</td><td>${data ? formatIndo(data.psik) : '-'}</td></tr>`;
+                tableRows += `<tr>
+                    <td>Semester ${i}</td>
+                    <td>${data ? formatIndo(data.kog) : 'N/A'}</td>
+                    <td>${data ? formatIndo(data.psik) : 'N/A'}</td>
+                </tr>`;
             }
 
             studentDetailsDiv.innerHTML = `
                 <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-                    <h3>Laporan: ${student.name}</h3>
-                    <h4 style="background:#333; color:white; padding:10px;">Mapel: ${subjectName}</h4>
-                    <table style="width:100%; border-collapse: collapse; text-align:center;" border="1">
-                        <thead><tr style="background:#f2f2f2;"><th>Semester</th><th>Kog</th><th>Psik</th></tr></thead>
+                    <h3>Laporan Nilai: ${student.name}</h3>
+                    <div class="student-identity" style="margin-bottom: 20px; text-align:left;">
+                        <div style="display:flex;"><span style="width:120px;">NIS / NISN</span><span>: ${student.nis} / ${student.nisn}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Kelas</span><span>: ${student.class}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Peminatan</span><span>: ${student.peminatan}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Tahun Lulus</span><span>: ${year}</span></div>
+                    </div>
+
+                    <h4 style="background:#333; color:white; padding:10px; margin-bottom:0;">Mata Pelajaran: ${subjectName}</h4>
+                    <table style="width:100%; border-collapse: collapse; margin-bottom: 20px; text-align:center;" border="1">
+                        <thead>
+                            <tr style="background:#f2f2f2;"><th rowspan="2">Semester</th><th colspan="2">Nilai Semester</th></tr>
+                            <tr style="background:#f2f2f2;"><th>Kognitif</th><th>Psikomotorik</th></tr>
+                        </thead>
                         <tbody>${tableRows}</tbody>
                     </table>
-                    <div style="background:#f9f9f9; padding:15px; margin-top:20px;">
-                        <p>Rata Rapor: <strong>${formatIndo(avgKog)}</strong></p>
-                        <p>NUS: <strong>${formatIndo(nusVal)}</strong></p>
-                        <p style="color:#d32f2f;"><strong>Nilai Sekolah: ${formatIndo(nsVal)}</strong></p>
+
+                    <div style="background:#f9f9f9; padding:15px; border-radius:5px; border:1px solid #ddd;">
+                        <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                            <span>Rata-rata ${labelTipeNilai}</span>
+                            <strong>${formatIndo(avgKogBySubject)}</strong>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                            <span>Nilai Ujian Sekolah (NUS)</span>
+                            <strong>${formatIndo(nusBySubject)}</strong>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; border-top:1px solid #ccc; padding-top:5px; font-size:1.1em; color:#d32f2f;">
+                            <span><strong>Nilai Sekolah (${subjectName})</strong></span>
+                            <strong>${formatIndo(nsBySubject)}</strong>
+                        </div>
                     </div>
-                    <div style="margin-top:20px; padding:15px; background:#ffeb3b; border-radius:5px; font-size:1.1em; text-align:center;">
-                        <strong>IPK AKHIR: ${formatIndo(ipkFinal)}</strong><br>
-                        <small style="font-size:0.7em;">*Berdasarkan ${config.calculateAllSubjects ? 'Semua Mapel' : 'Mapel Ujian'}</small>
+
+                    <div style="margin-top:20px; font-size:0.9em; text-align:left;">
+                        <h4>Keterangan Sistem:</h4>
+                        ${infoStatusMapel}
+                        <hr style="margin:20px 0;">
+                        <h4 style="color:#2c3e50;">Ringkasan IPK Akhir</h4>
+                        <p style="font-style:italic; color:#666;">*Berdasarkan: ${config.calculateAllSubjects ? 'Seluruh Mata Pelajaran' : 'Hanya Mapel Ujian'}.</p>
+                        <div style="display:flex; justify-content:space-between; margin-top:10px; padding:15px; background:#ffeb3b; border: 2px solid #fbc02d; border-radius:5px; font-size:1.2em;">
+                            <span><strong>IPK AKHIR</strong></span>
+                            <span><strong>${formatIndo(ipkFinal)}</strong></span>
+                        </div>
                     </div>
                 </div>`;
             studentDetailsDiv.style.display = 'block';
         }
     }
 
-    // --- LOGIKA LOGIN (Sama Persis dengan Versi Bapak) ---
+    // --- 3. LOGIKA LOGIN ---
     appContentMain.style.display = 'none';
     loginFormDiv.style.display = 'block';
 
     submitAccessCodeBtn.addEventListener('click', () => {
-        const enteredMemberId = memberIdInput.value.trim();
-        const enteredAccessCode = accessCodeInput.value.trim();
-
-        if (MEMBER_CREDENTIALS[enteredMemberId] === enteredAccessCode) {
+        const id = memberIdInput.value.trim();
+        const code = accessCodeInput.value.trim();
+        if (MEMBER_CREDENTIALS[id] === code) {
             loginFormDiv.style.display = 'none';
             appContentMain.style.display = 'block';
             initializeApp();
         } else {
-            loginErrorP.textContent = "Nomor anggota atau kode akses salah.";
+            loginErrorP.textContent = "ID atau Kode Akses Salah.";
             loginErrorP.style.display = 'block';
         }
     });
