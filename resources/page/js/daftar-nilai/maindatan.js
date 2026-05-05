@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitAccessCodeBtn = document.getElementById('submit-access-code');
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
-    const credentialsUrl = 'https://sekolah.github.io/json/credentials.json'; 
+    const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; 
 
     let MEMBER_CREDENTIALS = {}; 
 
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
             studentSelect.innerHTML = '<option value="">-- Pilih Siswa --</option>';
             if (selectedYear) {
                 try {
-                    const response = await fetch(`https://sekolah.github.io/json/daftar-nilai/students_${selectedYear}.json`);
+                    const response = await fetch(`https://schoolsmaya.github.io/manajemen-js-css/resources/page/json/daftar-nilai/students_${selectedYear}.json`);
                     currentStudentsData = await response.json();
                     currentStudentsData.forEach(student => {
                         const option = document.createElement('option');
