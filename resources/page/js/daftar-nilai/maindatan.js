@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 kogWeight: 0.70, 
                 nusWeight: 0.30, 
                 usePsik: true, 
-                calculateAllSubjects: false 
+                calculateAllSubjects: true 
             },
         };
 
@@ -213,11 +213,12 @@ document.addEventListener('DOMContentLoaded', () => {
             studentDetailsDiv.innerHTML = `
                 <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                     <h3>Laporan Nilai: ${student.name}</h3>
-                    <div class="student-identity" style="margin-bottom:20px; text-align:left;">
-                        <div style="display:flex;"><span style="width:120px;">NIS / NISN</span><span>: ${student.nis} / ${student.nisn}</span></div>
-                        <div style="display:flex;"><span style="width:120px;">Kelas</span><span>: ${student.class}</span></div>
-                        <div style="display:flex;"><span style="width:120px;">Peminatan</span><span>: ${student.peminatan}</span></div>
-                        <div style="display:flex;"><span style="width:120px;">Tahun Lulus</span><span>: ${year}</span></div>
+                    <div class="student-identity">
+                        <div class="identity-item"><span>NIS</span><span>:</span><span>${student.nis}</span></div>
+                        <div class="identity-item"><span>NISN</span><span>:</span><span>${student.nisn}</span></div>
+                        <div class="identity-item"><span>Kelas</span><span>:</span><span>${student.class}</span></div>
+                        <div class="identity-item"><span>Peminatan</span><span>:</span><span>${student.peminatan}</span></div>
+                        <div class="identity-item"><span>Tahun Lulus</span><span>:</span><span>${year}</span></div>
                     </div>
 
                     <h4 style="background:#333; color:white; padding:10px; margin-bottom:0;">Mata Pelajaran: ${subjectName}</h4>
