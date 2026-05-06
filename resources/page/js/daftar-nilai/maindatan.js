@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 kogWeight: 0.70, 
                 nusWeight: 0.30, 
                 usePsik: true, 
-                calculateAllSubjects: false // TRUE = Hitung per mapel (Mikro), FALSE = Hitung dari rata-rata total (Makro)
+                calculateAllSubjects: true // TRUE = Hitung per mapel (Mikro), FALSE = Hitung dari rata-rata total (Makro)
             },
         };
 
