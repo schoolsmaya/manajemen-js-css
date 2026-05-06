@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitAccessCodeBtn = document.getElementById('submit-access-code');
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
-    const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; 
+    const credentialsUrl = 'https://sekolah.github.io/json/credentials.json'; 
 
     let MEMBER_CREDENTIALS = {}; 
 
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 kogWeight: 0.70, 
                 nusWeight: 0.30, 
                 usePsik: true, 
-                calculateAllSubjects: false // UBAH KE TRUE JIKA INGIN MENGHITUNG SEMUA MAPEL RAPOR DI IPK AKHIR
+                calculateAllSubjects: false 
             },
         };
 
@@ -73,7 +73,16 @@ document.addEventListener('DOMContentLoaded', () => {
             return count > 0 ? roundAccurate(totalValue / count) : 'N/A';
         }
 
-        // Fungsi Rata-rata Rapor Keseluruhan (Dinamis: Semua Mapel atau Hanya Mapel Ujian)
+        // Fungsi ini penting agar displayStudentSubjectGrades tidak error
+        function calculateNilaiSekolahBySubject(avgKog, nus, year) {
+            if (avgKog === 'N/A') return 'N/A';
+            const config = yearConfigurations[year] || defaultConfiguration;
+            if (nus !== 'N/A' && nus !== undefined && nus !== null) {
+                return roundAccurate((parseFloat(avgKog) * config.kogWeight) + (parseFloat(nus) * config.nusWeight));
+            }
+            return roundAccurate(avgKog);
+        }
+
         function calculateKogAvgOverall(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             const nusGrades = studentGrades.nus || {};
@@ -126,20 +135,28 @@ document.addEventListener('DOMContentLoaded', () => {
         yearSelect.addEventListener('change', async (e) => {
             const val = e.target.value;
             studentSelect.innerHTML = '<option value="">-- Pilih Siswa --</option>';
+            subjectSelect.innerHTML = '<option value="">-- Pilih Mata Pelajaran --</option>';
+            document.getElementById('student-selection').style.display = 'none';
+            document.getElementById('subject-selection').style.display = 'none';
+            studentDetailsDiv.style.display = 'none';
             if (val) {
-                const res = await fetch(`https://schoolsmaya.github.io/manajemen-js-css/resources/page/json/daftar-nilai/students_${val}.json`);
-                currentStudentsData = await res.json();
-                currentStudentsData.forEach(s => {
-                    const opt = document.createElement('option');
-                    opt.value = s.id; opt.textContent = s.name;
-                    studentSelect.appendChild(opt);
-                });
-                document.getElementById('student-selection').style.display = 'block';
+                try {
+                    const res = await fetch(`https://sekolah.github.io/json/daftar-nilai/students_${val}.json`);
+                    currentStudentsData = await res.json();
+                    currentStudentsData.forEach(s => {
+                        const opt = document.createElement('option');
+                        opt.value = s.id; opt.textContent = s.name;
+                        studentSelect.appendChild(opt);
+                    });
+                    document.getElementById('student-selection').style.display = 'block';
+                } catch(err) { console.error(err); }
             }
         });
 
         studentSelect.addEventListener('change', (e) => {
             const sid = e.target.value;
+            subjectSelect.innerHTML = '<option value="">-- Pilih Mata Pelajaran --</option>';
+            studentDetailsDiv.style.display = 'none';
             if (sid) {
                 currentSelectedStudent = currentStudentsData.find(s => s.id === sid);
                 const subjects = new Set();
@@ -147,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 for(let i=1; i<=config.maxSemester; i++) {
                     if (currentSelectedStudent.grades[`s${i}`]) Object.keys(currentSelectedStudent.grades[`s${i}`]).forEach(s => subjects.add(s));
                 }
-                subjectSelect.innerHTML = '<option value="">-- Pilih Mata Pelajaran --</option>';
+                if (currentSelectedStudent.grades.nus) Object.keys(currentSelectedStudent.grades.nus).forEach(s => subjects.add(s));
                 Array.from(subjects).sort().forEach(s => {
                     const opt = document.createElement('option');
                     opt.value = s; opt.textContent = s;
@@ -196,14 +213,14 @@ document.addEventListener('DOMContentLoaded', () => {
             studentDetailsDiv.innerHTML = `
                 <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                     <h3>Laporan Nilai: ${student.name}</h3>
-                    <div class="student-identity" style="margin-bottom:20px;">
-                        <div class="identity-item"><span>NIS/NISN</span><span>:</span><span>${student.nis} / ${student.nisn}</span></div>
-                        <div class="identity-item"><span>Kelas</span><span>:</span><span>${student.class}</span></div>
-                        <div class="identity-item"><span>Peminatan</span><span>:</span><span>${student.peminatan}</span></div>
-                        <div class="identity-item"><span>Tahun Lulus</span><span>:</span><span>${year}</span></div>
+                    <div class="student-identity" style="margin-bottom:20px; text-align:left;">
+                        <div style="display:flex;"><span style="width:120px;">NIS / NISN</span><span>: ${student.nis} / ${student.nisn}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Kelas</span><span>: ${student.class}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Peminatan</span><span>: ${student.peminatan}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Tahun Lulus</span><span>: ${year}</span></div>
                     </div>
 
-                    <h4 style="background:#333; color:white; padding:10px;">Mata Pelajaran: ${subjectName}</h4>
+                    <h4 style="background:#333; color:white; padding:10px; margin-bottom:0;">Mata Pelajaran: ${subjectName}</h4>
                     <table style="width:100%; border-collapse: collapse; margin-bottom: 20px; text-align:center;" border="1">
                         <thead>
                             <tr style="background:#f2f2f2;"><th rowspan="2">Semester</th><th colspan="2">Nilai Semester</th></tr>
@@ -212,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <tbody>${tableRows}</tbody>
                     </table>
 
-                    <div class="summary-section" style="background:#f9f9f9; padding:15px; border-radius:5px;">
+                    <div class="summary-section" style="background:#f9f9f9; padding:15px; border-radius:5px; border:1px solid #ddd;">
                         <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
                             <span>Rata-rata ${labelTipeNilai} (${subjectName})</span>
                             <strong>${formatIndo(avgKogBySubject)}</strong>
@@ -227,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
 
-                    <div class="calculation-info" style="margin-top:20px; font-size:0.9em;">
+                    <div class="calculation-info" style="margin-top:20px; font-size:0.9em; text-align:left;">
                         <h4>Keterangan Sistem:</h4>
                         ${infoStatusMapel}
                         <hr style="margin:20px 0;">
