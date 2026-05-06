@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
 
                     <h4 style="background:#333; color:white; padding:10px; margin-bottom:0;">Mata Pelajaran: ${subjectName}</h4>
-                    <table style="width:100%; border-collapse: collapse; margin-bottom: 20px; text-align:center;" border="1">
+                                        <table style="width:100%; border-collapse: collapse; margin-bottom: 20px; text-align:center;" border="1">
                         <thead>
                             <tr style="background:#f2f2f2;"><th rowspan="2">Semester</th><th colspan="2">Nilai Semester</th></tr>
                             <tr style="background:#f2f2f2;"><th>Kognitif</th><th>Psikomotorik</th></tr>
@@ -275,13 +275,26 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
 
                     <div class="calculation-info" style="margin-top:20px; font-size:0.9em; text-align:left;">
-                        <h4>Keterangan Sistem:</h4>
-                        ${infoStatusMapel}
+                        <h4 style="border-bottom: 2px solid #333; padding-bottom: 5px;">Keterangan & Bobot Penilaian:</h4>
+                        
+                        <div style="background:#f1f1f1; padding:15px; border-radius:5px; margin-top:10px;">
+                            <ul style="margin:0; padding-left:20px;">
+                                <li><strong>Bobot Rapor:</strong> ${config.kogWeight * 100}%</li>
+                                <li><strong>Bobot Ujian (NUS):</strong> ${config.nusWeight * 100}%</li>
+                                <li><strong>Batas Semester:</strong> 1 s.d ${config.maxSemester}</li>
+                                <li><strong>Tipe Nilai:</strong> ${config.usePsik ? 'Kognitif & Psikomotorik' : 'Kognitif Saja'}</li>
+                            </ul>
+                        </div>
+
+                        <div style="background:#e8f5e9; padding:15px; border-left:5px solid #4caf50; margin-top:10px;">
+                            ${config.calculateAllSubjects 
+                                ? `<strong>Metode Mikro:</strong> IPK dihitung dari rata-rata Nilai Sekolah (NS) seluruh mata pelajaran yang ada di rapor (Sem 1-${config.maxSemester}). Mapel tanpa ujian dihitung 100% rapor.`
+                                : `<strong>Metode Makro:</strong> IPK dihitung dari bobot gabungan antara Rata-rata Rapor (Mapel Ujian) dan Rata-rata Nilai Ujian Sekolah (NUS).`}
+                        </div>
+
                         <hr style="margin:20px 0;">
+                        
                         <h4 style="color:#2c3e50;">Ringkasan IPK Akhir</h4>
-                        <p style="font-style:italic; color:#666; margin-bottom:10px;">
-                            *Mode: ${config.calculateAllSubjects ? 'Mikro (Hitung per Mapel)' : 'Makro (Rata-rata Global)'}
-                        </p>
                         <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
                             <span>Rata-rata Rapor (${config.calculateAllSubjects ? 'Semua Mapel' : 'Mapel Ujian'})</span>
                             <strong>${formatIndo(avgKogOverall)}</strong>
@@ -290,13 +303,18 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span>Rata-rata NUS</span>
                             <strong>${formatIndo(nusOverall)}</strong>
                         </div>
+                        
                         <div style="display:flex; justify-content:space-between; margin-top:10px; padding:15px; background:#ffeb3b; border: 2px solid #fbc02d; border-radius:5px; font-size:1.2em;">
-                            <span><strong>IPK AKHIR</strong></span>
+                            <span><strong>IPK AKHIR (TRANSKRIP)</strong></span>
                             <strong>${formatIndo(nsOverall)}</strong>
                         </div>
+                        
+                        <p style="font-size:0.8em; color:red; margin-top:10px; font-style:italic;">
+                            *Nilai ini merupakan hasil pembulatan dua angka di belakang koma sesuai standar ijazah.
+                        </p>
                     </div>
                 </div>
-            `;
+            `; 
             studentDetailsDiv.style.display = 'block';
         }
     }
