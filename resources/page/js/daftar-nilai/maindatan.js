@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitAccessCodeBtn = document.getElementById('submit-access-code');
     const loginErrorP = document.getElementById('login-error');
     const appContentMain = document.getElementById('app-content');
-    const credentialsUrl = 'https://schoolsmaya.github.io/manajemen-js-css/resources/member/json/credentials.json'; 
+    const credentialsUrl = 'https://sekolah.github.io/json/credentials.json'; 
 
     let MEMBER_CREDENTIALS = {}; 
 
@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 maxSemester: 6, 
                 kogWeight: 0.70, 
                 nusWeight: 0.30, 
-                usePsik: true, // fales: kognitif, true: Kognitif + Psikomotorik
-                calculateAllSubjects: false // fales: ipk hanya mapel yang diujiankan, true: ipk semua mapel
+                usePsik: true, 
+                calculateAllSubjects: false // TRUE = Hitung per mapel (Mikro), FALSE = Hitung dari rata-rata total (Makro)
             },
         };
 
@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // --- FUNGSI PERHITUNGAN ---
 
+        // Hitung Rata-rata satu Mata Pelajaran (Rapor)
         function calculateKogAvgBySubject(studentGrades, subjectName, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             let totalValue = 0, count = 0;
@@ -73,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return count > 0 ? roundAccurate(totalValue / count) : 'N/A';
         }
 
-        // Fungsi ini penting agar displayStudentSubjectGrades tidak error
+        // Hitung Nilai Sekolah per Mata Pelajaran (Rapor + NUS)
         function calculateNilaiSekolahBySubject(avgKog, nus, year) {
             if (avgKog === 'N/A') return 'N/A';
             const config = yearConfigurations[year] || defaultConfiguration;
@@ -83,6 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return roundAccurate(avgKog);
         }
 
+        // Hitung Rata-rata Rapor Seluruh Mapel (Hanya Rapor)
         function calculateKogAvgOverall(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
             const nusGrades = studentGrades.nus || {};
@@ -109,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return totalSubjects > 0 ? roundAccurate(sumOfAverages / totalSubjects) : 'N/A';
         }
 
+        // Hitung Rata-rata NUS Seluruh Mapel
         function calculateNusOverall(nusGrades) {
             if (!nusGrades || typeof nusGrades !== 'object') return 'N/A';
             let totalNus = 0, count = 0;
@@ -122,13 +125,41 @@ document.addEventListener('DOMContentLoaded', () => {
             return count > 0 ? roundAccurate(totalNus / count) : 'N/A';
         }
 
-        function calculateNilaiSekolahOverall(avgKogOverall, nusOverall, year) {
-            if (avgKogOverall === 'N/A') return 'N/A';
+        // LOGIKA IPK AKHIR (Sesuai Permintaan Bapak)
+        function calculateIPKFinal(studentGrades, year) {
             const config = yearConfigurations[year] || defaultConfiguration;
-            if (nusOverall !== 'N/A') {
-                return roundAccurate((avgKogOverall * config.kogWeight) + (nusOverall * config.nusWeight));
+            const nusGrades = studentGrades.nus || {};
+            
+            if (config.calculateAllSubjects) {
+                // LOGIKA TRUE: (NS Mapel Ujian + Rapor Mapel Non-Ujian) / Total Seluruh Mapel
+                const allMapelSet = new Set();
+                for (let i = 1; i <= config.maxSemester; i++) {
+                    if (studentGrades[`s${i}`]) Object.keys(studentGrades[`s${i}`]).forEach(m => allMapelSet.add(m));
+                }
+                const listMapel = Array.from(allMapelSet);
+                
+                let sumOfNS = 0, totalMapel = 0;
+                listMapel.forEach(subject => {
+                    const avgKog = calculateKogAvgBySubject(studentGrades, subject, year);
+                    if (avgKog !== 'N/A') {
+                        const nusVal = (nusGrades[subject] !== undefined) ? nusGrades[subject] : 'N/A';
+                        sumOfNS += calculateNilaiSekolahBySubject(avgKog, nusVal, year);
+                        totalMapel++;
+                    }
+                });
+                return totalMapel > 0 ? roundAccurate(sumOfNS / totalMapel) : 'N/A';
+
+            } else {
+                // LOGIKA FALSE: (Rata-rata Rapor Mapel Ujian * %) + (Rata-rata NUS * %)
+                const avgKogOverall = calculateKogAvgOverall(studentGrades, year); 
+                const nusOverall = calculateNusOverall(nusGrades);
+                
+                if (avgKogOverall === 'N/A' || nusOverall === 'N/A') return 'N/A';
+                
+                return roundAccurate(
+                    (avgKogOverall * config.kogWeight) + (nusOverall * config.nusWeight)
+                );
             }
-            return roundAccurate(avgKogOverall);
         }
 
         // --- EVENT LISTENERS ---
@@ -140,16 +171,14 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('subject-selection').style.display = 'none';
             studentDetailsDiv.style.display = 'none';
             if (val) {
-                try {
-                    const res = await fetch(`https://schoolsmaya.github.io/manajemen-js-css/resources/page/json/daftar-nilai/students_${val}.json`);
-                    currentStudentsData = await res.json();
-                    currentStudentsData.forEach(s => {
-                        const opt = document.createElement('option');
-                        opt.value = s.id; opt.textContent = s.name;
-                        studentSelect.appendChild(opt);
-                    });
-                    document.getElementById('student-selection').style.display = 'block';
-                } catch(err) { console.error(err); }
+                const res = await fetch(`https://sekolah.github.io/json/daftar-nilai/students_${val}.json`);
+                currentStudentsData = await res.json();
+                currentStudentsData.forEach(s => {
+                    const opt = document.createElement('option');
+                    opt.value = s.id; opt.textContent = s.name;
+                    studentSelect.appendChild(opt);
+                });
+                document.getElementById('student-selection').style.display = 'block';
             }
         });
 
@@ -192,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const avgKogOverall = calculateKogAvgOverall(grades, year);
             const nusOverall = calculateNusOverall(grades.nus);
-            const nsOverall = calculateNilaiSekolahOverall(avgKogOverall, nusOverall, year);
+            const nsOverall = calculateIPKFinal(grades, year);
 
             let infoStatusMapel = (nusBySubject !== 'N/A') ? `
                 <div style="background:#e7f3ff; padding:10px; border-left:5px solid #2196F3; margin:10px 0;">
@@ -213,12 +242,11 @@ document.addEventListener('DOMContentLoaded', () => {
             studentDetailsDiv.innerHTML = `
                 <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                     <h3>Laporan Nilai: ${student.name}</h3>
-                    <div class="student-identity">
-                        <div class="identity-item"><span>NIS</span><span>:</span><span>${student.nis}</span></div>
-                        <div class="identity-item"><span>NISN</span><span>:</span><span>${student.nisn}</span></div>
-                        <div class="identity-item"><span>Kelas</span><span>:</span><span>${student.class}</span></div>
-                        <div class="identity-item"><span>Peminatan</span><span>:</span><span>${student.peminatan}</span></div>
-                        <div class="identity-item"><span>Tahun Lulus</span><span>:</span><span>${year}</span></div>
+                    <div class="student-identity" style="margin-bottom:20px; text-align:left;">
+                        <div style="display:flex;"><span style="width:120px;">NIS / NISN</span><span>: ${student.nis} / ${student.nisn}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Kelas</span><span>: ${student.class}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Peminatan</span><span>: ${student.peminatan}</span></div>
+                        <div style="display:flex;"><span style="width:120px;">Tahun Lulus</span><span>: ${year}</span></div>
                     </div>
 
                     <h4 style="background:#333; color:white; padding:10px; margin-bottom:0;">Mata Pelajaran: ${subjectName}</h4>
@@ -251,10 +279,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         <hr style="margin:20px 0;">
                         <h4 style="color:#2c3e50;">Ringkasan IPK Akhir</h4>
                         <p style="font-style:italic; color:#666; margin-bottom:10px;">
-                            *Dihitung berdasarkan: ${config.calculateAllSubjects ? 'Seluruh Mata Pelajaran' : 'Mata Pelajaran Ujian'}.
+                            *Mode: ${config.calculateAllSubjects ? 'Mikro (Hitung per Mapel)' : 'Makro (Rata-rata Global)'}
                         </p>
                         <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-                            <span>Rata-rata Rapor</span>
+                            <span>Rata-rata Rapor (${config.calculateAllSubjects ? 'Semua Mapel' : 'Mapel Ujian'})</span>
                             <strong>${formatIndo(avgKogOverall)}</strong>
                         </div>
                         <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
