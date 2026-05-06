@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 maxSemester: 6, 
                 kogWeight: 0.70, 
                 nusWeight: 0.30, 
-                usePsik: true, 
-                calculateAllSubjects: true 
+                usePsik: true, // fales: kognitif, true: Kognitif + Psikomotorik
+                calculateAllSubjects: false // fales: ipk hanya mapel yang diujiankan, true: ipk semua mapel
             },
         };
 
